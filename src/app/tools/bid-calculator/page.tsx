@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { BidCalculator } from "@/components/tools/BidCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { RelatedReading } from "@/components/sections/RelatedReading";
 import { Target, DollarSign, TrendingUp } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -120,6 +121,11 @@ export default function BidCalculatorPage() {
           </div>
         </div>
       </section>
+
+      <RelatedReading links={[
+        { title: "Job Costing for Contractors: Get It Right", href: "/blog/job-costing-for-contractors", description: "Accurate job costing is the foundation of accurate bids. Learn how to get your numbers right." },
+        { title: "Roofing Piece Rate Guide: Setting Rates That Work", href: "/blog/roofing-piece-rate-guide", description: "Your labor rates drive your bid price. Make sure your piece rates are dialed in." },
+      ]} />
 
       <CTASection />
     </>

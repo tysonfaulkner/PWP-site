@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { CrewProductivityCalculator } from "@/components/tools/CrewProductivityCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { RelatedReading } from "@/components/sections/RelatedReading";
 import { Users, TrendingUp, DollarSign } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -119,6 +120,11 @@ export default function CrewProductivityCalculatorPage() {
           </div>
         </div>
       </section>
+
+      <RelatedReading links={[
+        { title: "Managing a Construction Crew: 15 Years of Lessons", href: "/blog/crew-management-tips", description: "Practical crew management advice that actually works on real job sites." },
+        { title: "How to Track Piece Work: From Paper to Digital", href: "/blog/how-to-track-piece-work", description: "Accurate tracking is the foundation of measuring crew productivity." },
+      ]} />
 
       <CTASection />
     </>

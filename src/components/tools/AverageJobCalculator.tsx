@@ -158,7 +158,7 @@ export function AverageJobCalculator() {
                     Piece Work Pro tracks your jobs in real time &mdash; so you always know your average job size, revenue
                     trends, and which jobs are worth taking.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

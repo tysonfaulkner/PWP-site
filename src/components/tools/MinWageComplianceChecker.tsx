@@ -251,7 +251,7 @@ export function MinWageComplianceChecker() {
                     Piece Work Pro automatically calculates effective hourly rates for every worker and flags when piece rate
                     earnings fall below minimum wage &mdash; so you never get caught off guard.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

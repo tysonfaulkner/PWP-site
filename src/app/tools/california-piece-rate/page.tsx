@@ -6,7 +6,7 @@ import { Shield, AlertTriangle, Scale } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "California Piece Rate Compliance Calculator (AB 1513) — Free Tool",
+  title: "CA Piece Rate Calculator (AB 1513)",
   description:
     "Calculate AB 1513 rest period pay, recovery period pay, and minimum wage compliance for California piece rate workers. Stay compliant with California's strict piece rate laws.",
 };

@@ -3,7 +3,7 @@ import { DM_Serif_Display, DM_Sans, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { OrganizationJsonLd, SoftwareApplicationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
+import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
 
 const dmSerifDisplay = DM_Serif_Display({
   variable: "--font-heading",
@@ -28,10 +28,7 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pieceworkpro.com"),
-  title: {
-    default: "Piece Work Pro — Piece Work Tracking & Payroll Software",
-    template: "%s | Piece Work Pro",
-  },
+  title: "Piece Work Pro — Piece Work Tracking & Payroll Software",
   description:
     "Stop chasing your crew for timesheets. Piece Work Pro lets contractors track piece work, run payroll in minutes, and know exactly what every job costs. Free to start.",
   keywords: [
@@ -92,7 +89,6 @@ export default function RootLayout({
         <link rel="icon" href="/images/favicon-192x192.png" sizes="192x192" type="image/png" />
         <link rel="apple-touch-icon" href="/images/favicon-192x192.png" />
         <OrganizationJsonLd />
-        <SoftwareApplicationJsonLd />
         <WebSiteJsonLd />
       </head>
       <body className="antialiased">

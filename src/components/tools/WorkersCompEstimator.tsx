@@ -229,7 +229,7 @@ export function WorkersCompEstimator() {
                     Workers&apos; comp is one of the biggest hidden costs in construction. Piece Work Pro includes it in
                     your labor burden calculations so your job costs are always accurate.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

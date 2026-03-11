@@ -44,7 +44,7 @@ export default function ConstructionPage() {
           </AnimateIn>
           <AnimateIn delay={0.2}>
             <div className="mt-8">
-              <Button href="https://app.pieceworkpro.com/signin" variant="orange" size="lg" external>
+              <Button href="https://app.pieceworkpro.com/signup" variant="orange" size="lg" external>
                 Get Started Free <ArrowRight className="h-5 w-5" aria-hidden="true" />
               </Button>
             </div>

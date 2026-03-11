@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { RoofingLaborCalculator } from "@/components/tools/RoofingLaborCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { RelatedReading } from "@/components/sections/RelatedReading";
 import { DollarSign, Target, TrendingUp } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -168,6 +169,11 @@ export default function RoofingLaborCalculatorPage() {
           </AnimateIn>
         </div>
       </section>
+
+      <RelatedReading links={[
+        { title: "Roofing Piece Rate Guide: Setting Rates That Work", href: "/blog/roofing-piece-rate-guide", description: "How to set piece rates for your roofing crew that are fair, competitive, and profitable." },
+        { title: "Managing a Construction Crew: 15 Years of Lessons", href: "/blog/crew-management-tips", description: "Practical crew management advice from a roofing contractor with over 15 years of experience." },
+      ]} />
 
       <CTASection />
     </>

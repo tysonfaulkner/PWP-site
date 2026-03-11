@@ -266,7 +266,7 @@ export function JobSiteCostEstimator() {
                     Piece Work Pro tracks your real job costs as they happen &mdash; so you can compare your estimates to
                     actual spending and get more accurate over time.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

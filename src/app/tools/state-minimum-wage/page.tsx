@@ -6,7 +6,7 @@ import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
-  title: "State Minimum Wage Guide for Contractors (2025) — Free Reference",
+  title: "State Minimum Wage Guide for Contractors",
   description:
     "Current minimum wage rates for all 50 states plus D.C. Essential reference for contractors paying piece rate workers who must meet minimum wage requirements.",
 };
@@ -135,7 +135,7 @@ export default function StateMinimumWagePage() {
           </AnimateIn>
 
           <AnimateIn delay={0.15} className="mt-8 text-center">
-            <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="lg" external>
+            <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="lg" external>
               Start Tracking Piece Work <ArrowRight className="h-5 w-5" aria-hidden="true" />
             </Button>
           </AnimateIn>

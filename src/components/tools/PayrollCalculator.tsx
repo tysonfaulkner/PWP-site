@@ -234,7 +234,7 @@ export function PayrollCalculator() {
                     Piece Work Pro tracks every hour and piece, calculates pay automatically, and gives you payroll
                     reports you can run in minutes.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

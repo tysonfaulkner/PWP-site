@@ -151,7 +151,7 @@ export default function PieceRateGuidePage() {
 
           <AnimateIn delay={0.15} className="mt-8 text-center">
             <p className="text-lg text-text-body">Ready to start tracking piece work for your crew?</p>
-            <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="lg" className="mt-4" external>
+            <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="lg" className="mt-4" external>
               Get Started Free <ArrowRight className="h-5 w-5" aria-hidden="true" />
             </Button>
           </AnimateIn>

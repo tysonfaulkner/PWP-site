@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { PieceRateVsHourlyCalculator } from "@/components/tools/PieceRateVsHourlyCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { RelatedReading } from "@/components/sections/RelatedReading";
 import { TrendingUp, Users, DollarSign } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -197,6 +198,11 @@ export default function PieceRateVsHourlyPage() {
           </div>
         </div>
       </section>
+
+      <RelatedReading links={[
+        { title: "What Is Piece Work Pay? A Complete Guide", href: "/blog/what-is-piece-work-pay", description: "Learn what piece rate pay is, how it works, and why contractors are switching from hourly." },
+        { title: "Roofing Piece Rate Guide: Setting Rates That Work", href: "/blog/roofing-piece-rate-guide", description: "Real-world piece rate structures and tips for setting rates that keep your crew motivated." },
+      ]} />
 
       <CTASection />
     </>

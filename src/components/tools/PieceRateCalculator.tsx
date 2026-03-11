@@ -216,7 +216,7 @@ export function PieceRateCalculator() {
                   <p className="mt-1 text-sm text-text-muted">
                     Stop doing this math by hand. Piece Work Pro calculates earnings for your whole crew in real time.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

@@ -60,7 +60,7 @@ export function Header() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border-default bg-white/95 backdrop-blur-sm">
+    <header className="sticky top-0 z-50 border-b border-border-default bg-white">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8" aria-label="Primary">
         {/* Logo */}
         <Link href="/" className="flex shrink-0 items-center gap-2" aria-label="Piece Work Pro home">
@@ -135,7 +135,7 @@ export function Header() {
             Log In
           </Link>
           <Link
-            href="https://app.pieceworkpro.com/signin"
+            href="https://app.pieceworkpro.com/signup"
             className="rounded-lg bg-brand-blue px-5 py-2.5 text-sm font-bold text-white shadow-sm transition-all hover:bg-brand-blue-dark hover:shadow-md"
           >
             Get Started Free
@@ -192,7 +192,7 @@ export function Header() {
                 Log In
               </Link>
               <Link
-                href="https://app.pieceworkpro.com/signin"
+                href="https://app.pieceworkpro.com/signup"
                 className="mt-2 block rounded-lg bg-brand-blue px-4 py-3 text-center text-base font-bold text-white hover:bg-brand-blue-dark"
                 onClick={() => setMobileOpen(false)}
               >
