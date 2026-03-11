@@ -75,7 +75,7 @@ export default function JobCostingPage() {
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">
               Job Costing
             </span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Know If You're Profitable on Every Job
             </h1>
           </AnimateIn>
@@ -135,7 +135,7 @@ export default function JobCostingPage() {
                       />
                     </div>
                     <div>
-                      <h3 className="font-body text-lg font-bold text-text-primary">
+                      <h3 className="font-heading text-2xl text-text-primary">
                         {item.title}
                       </h3>
                       <p className="mt-1 text-sm leading-relaxed text-text-muted">
@@ -154,7 +154,7 @@ export default function JobCostingPage() {
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
               Stop Guessing. Start Knowing.
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
@@ -196,7 +196,7 @@ export default function JobCostingPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <AnimateIn direction="right">
               <div className="space-y-6">
-                <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+                <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
                   Job Costing That Happens Automatically
                 </h2>
                 <p className="text-lg leading-relaxed text-text-body">
@@ -230,7 +230,7 @@ export default function JobCostingPage() {
 
             <AnimateIn direction="left" delay={0.15}>
               <div className="rounded-2xl border border-border-default bg-white p-8 shadow-sm lg:p-10">
-                <h3 className="font-body text-lg font-bold text-text-primary">
+                <h3 className="font-heading text-2xl text-text-primary">
                   Real Numbers from a Real Contractor
                 </h3>
                 <p className="mt-4 text-sm leading-relaxed text-text-muted">

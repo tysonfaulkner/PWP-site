@@ -4,7 +4,7 @@ import { AnimateIn } from "@/components/ui/AnimateIn";
 export const metadata: Metadata = {
   title: "Privacy Policy",
   description:
-    "Privacy policy for Piece Work Pro. Learn how we collect, use, and protect your data.",
+    "Privacy policy for Piece Work Pro. Learn how we collect, use, store, and protect your personal data when you use our piece work tracking and payroll software.",
 };
 
 export default function PrivacyPolicyPage() {

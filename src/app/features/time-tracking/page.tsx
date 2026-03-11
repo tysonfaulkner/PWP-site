@@ -83,7 +83,7 @@ export default function TimeTrackingPage() {
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">
               Time Tracking
             </span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Track Time and Piece Work from Any Device
             </h1>
           </AnimateIn>
@@ -143,7 +143,7 @@ export default function TimeTrackingPage() {
                       />
                     </div>
                     <div>
-                      <h3 className="font-body text-lg font-bold text-text-primary">
+                      <h3 className="font-heading text-2xl text-text-primary">
                         {item.title}
                       </h3>
                       <p className="mt-1 text-sm leading-relaxed text-text-muted">
@@ -165,7 +165,7 @@ export default function TimeTrackingPage() {
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">
               Dead Simple
             </span>
-            <h2 className="mt-3 font-heading text-3xl text-text-primary sm:text-4xl">
+            <h2 className="mt-3 font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
               How Your Crew Uses It
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
@@ -181,7 +181,7 @@ export default function TimeTrackingPage() {
                   <span className="font-mono text-4xl font-bold text-brand-blue/20">
                     {item.step}
                   </span>
-                  <h3 className="mt-3 font-body text-lg font-bold text-text-primary">
+                  <h3 className="mt-3 font-heading text-2xl text-text-primary">
                     {item.title}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-text-muted">
@@ -200,7 +200,7 @@ export default function TimeTrackingPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <AnimateIn direction="right">
               <div className="space-y-6">
-                <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+                <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
                   Stop Losing Money to Bad Time Data
                 </h2>
                 <p className="text-lg leading-relaxed text-text-body">
@@ -241,7 +241,7 @@ export default function TimeTrackingPage() {
                       aria-hidden="true"
                     />
                   </div>
-                  <h3 className="font-body text-lg font-bold text-text-primary">
+                  <h3 className="font-heading text-2xl text-text-primary">
                     Built for Crews, Not Cubicles
                   </h3>
                 </div>

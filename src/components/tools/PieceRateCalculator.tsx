@@ -151,28 +151,27 @@ export function PieceRateCalculator() {
           <AnimateIn delay={0.1}>
             {results ? (
               <div className="space-y-6">
-                {/* Primary result */}
+                {/* Primary result — Weekly Earnings */}
                 <div className="rounded-2xl border-2 border-brand-blue bg-white p-8 shadow-lg">
-                  <p className="text-sm font-bold uppercase tracking-wider text-brand-blue">Weekly Earnings</p>
+                  <p className="text-sm font-bold uppercase tracking-wider text-brand-blue">Worker&apos;s Weekly Earnings</p>
                   <p className="mt-2 font-mono text-3xl font-bold text-text-primary sm:text-4xl lg:text-5xl">
                     {formatCurrency(results.weeklyEarnings)}
                   </p>
                   <p className="mt-2 text-sm text-text-muted">
-                    {formatNumber(results.totalUnitsPerWeek)} units/week at {formatCurrency(parseFloat(pieceRate))}/unit
+                    {formatNumber(results.totalUnitsPerWeek)} units &times; {formatCurrency(parseFloat(pieceRate))}/unit &times; {daysPerWeek} days
+                  </p>
+                </div>
+
+                {/* Daily breakdown callout */}
+                <div className="rounded-xl border-2 border-brand-orange/40 bg-brand-orange-light p-5">
+                  <p className="text-sm font-bold text-text-primary">Daily take-home: {formatCurrency(results.dailyEarnings)}/day</p>
+                  <p className="mt-1 text-sm text-text-body">
+                    That&apos;s an effective rate of {formatCurrency(results.effectiveHourlyRate)}/hour based on a {hoursPerDay}-hour day.
                   </p>
                 </div>
 
                 {/* Secondary results grid */}
                 <div className="grid grid-cols-2 gap-4">
-                  <div className="rounded-xl border border-border-default bg-white p-5">
-                    <div className="flex items-center gap-2">
-                      <DollarSign className="h-4 w-4 text-brand-orange" aria-hidden="true" />
-                      <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Daily</p>
-                    </div>
-                    <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
-                      {formatCurrency(results.dailyEarnings)}
-                    </p>
-                  </div>
                   <div className="rounded-xl border border-border-default bg-white p-5">
                     <div className="flex items-center gap-2">
                       <TrendingUp className="h-4 w-4 text-brand-orange" aria-hidden="true" />
@@ -184,7 +183,7 @@ export function PieceRateCalculator() {
                   </div>
                   <div className="rounded-xl border border-border-default bg-white p-5">
                     <div className="flex items-center gap-2">
-                      <DollarSign className="h-4 w-4 text-brand-blue" aria-hidden="true" />
+                      <DollarSign className="h-4 w-4 text-brand-orange" aria-hidden="true" />
                       <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Yearly</p>
                     </div>
                     <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
@@ -198,6 +197,15 @@ export function PieceRateCalculator() {
                     </div>
                     <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
                       {formatCurrency(results.effectiveHourlyRate)}
+                    </p>
+                  </div>
+                  <div className="rounded-xl border border-border-default bg-white p-5">
+                    <div className="flex items-center gap-2">
+                      <DollarSign className="h-4 w-4 text-brand-blue" aria-hidden="true" />
+                      <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Units/Month</p>
+                    </div>
+                    <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
+                      {formatNumber(results.totalUnitsPerMonth)}
                     </p>
                   </div>
                 </div>

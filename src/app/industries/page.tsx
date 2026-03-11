@@ -42,7 +42,7 @@ export default function IndustriesPage() {
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <AnimateIn>
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">Industries</span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Piece Work Tracking for Every Trade
             </h1>
           </AnimateIn>
@@ -68,7 +68,7 @@ export default function IndustriesPage() {
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-blue/10">
                     <industry.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                   </div>
-                  <h2 className="mt-6 font-heading text-2xl text-text-primary">{industry.title}</h2>
+                  <h2 className="mt-6 font-heading text-3xl text-text-primary">{industry.title}</h2>
                   <p className="mt-3 flex-1 text-sm leading-relaxed text-text-muted">{industry.description}</p>
                   <span className="mt-6 inline-flex items-center gap-1 text-sm font-bold text-brand-blue group-hover:gap-2 transition-all">
                     Learn More <ArrowRight className="h-4 w-4" aria-hidden="true" />

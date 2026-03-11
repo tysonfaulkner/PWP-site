@@ -5,7 +5,7 @@ import { Mail, Phone, MapPin } from "lucide-react";
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Have a question about Piece Work Pro? Get in touch — we respond within 24 hours. Email, phone, or use the contact form.",
+    "Have a question about Piece Work Pro? Get in touch — we respond within 24 hours. Reach us by email, phone, or the contact form below.",
 };
 
 export default function ContactPage() {
@@ -16,7 +16,7 @@ export default function ContactPage() {
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <AnimateIn>
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">Contact</span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">How Can We Help?</h1>
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">How Can We Help?</h1>
           </AnimateIn>
           <AnimateIn delay={0.1}>
             <p className="mt-6 text-lg text-text-on-dark-muted">

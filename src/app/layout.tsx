@@ -29,7 +29,7 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   metadataBase: new URL("https://pieceworkpro.com"),
   title: {
-    default: "Piece Work Pro — Track Piece Work, Run Payroll, Control Job Costs",
+    default: "Piece Work Pro — Piece Work Tracking & Payroll Software",
     template: "%s | Piece Work Pro",
   },
   description:
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://pieceworkpro.com",
     siteName: "Piece Work Pro",
-    title: "Piece Work Pro — Track Piece Work, Run Payroll, Control Job Costs",
+    title: "Piece Work Pro — Piece Work Tracking & Payroll Software",
     description:
       "Stop chasing your crew for timesheets. Track piece work, run payroll in minutes, and know exactly what every job costs.",
     images: [
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Piece Work Pro — Track Piece Work, Run Payroll, Control Job Costs",
+    title: "Piece Work Pro — Piece Work Tracking & Payroll Software",
     description:
       "Stop chasing your crew for timesheets. Track piece work, run payroll in minutes, and know exactly what every job costs.",
   },

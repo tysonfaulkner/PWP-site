@@ -3,6 +3,7 @@ import { AnimateIn } from "@/components/ui/AnimateIn";
 import { JobProfitCalculator } from "@/components/tools/JobProfitCalculator";
 import { CTASection } from "@/components/sections/CTASection";
 import { Target, BarChart3, AlertTriangle } from "lucide-react";
+import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
   title: "Free Job Profit Calculator for Contractors",
@@ -31,18 +32,75 @@ const benefits = [
 export default function JobProfitCalculatorPage() {
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Tools", href: "/tools" },
+          { name: "Job Profit Calculator", href: "/tools/job-profit-calculator" },
+        ]}
+      />
+      <HowToJsonLd
+        name="How to Calculate Job Profit for Contractors"
+        description="Calculate your job profitability by entering your contract price, materials, labor, and overhead to see gross profit, profit margin, and markup percentage."
+        steps={[
+          {
+            name: "Enter the contract price",
+            text: "Enter the total contract price — the amount the customer is paying for the job.",
+          },
+          {
+            name: "Enter material costs",
+            text: "Enter the total cost of materials needed for the job.",
+          },
+          {
+            name: "Enter labor costs",
+            text: "Enter the total labor cost for the job, including wages and labor burden.",
+          },
+          {
+            name: "Enter equipment and overhead costs",
+            text: "Enter any equipment rental costs and your overhead percentage to capture all job expenses.",
+          },
+          {
+            name: "Review your job profitability",
+            text: "Hit calculate to see your gross profit in dollars, profit margin percentage, markup percentage, and break-even revenue — color-coded to show if the job makes or loses money.",
+          },
+        ]}
+      />
       {/* Hero */}
       <section className="bg-bg-dark py-20 lg:py-28">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <AnimateIn>
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">Free Tool</span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">Job Profit Calculator</h1>
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">Job Profit Calculator</h1>
           </AnimateIn>
           <AnimateIn delay={0.1}>
             <p className="mt-6 text-lg text-text-on-dark-muted">
               Enter your contract price and job costs to instantly see your gross profit, profit margin, and markup
               &mdash; so you know if a job&apos;s worth taking before you start.
             </p>
+          </AnimateIn>
+        </div>
+      </section>
+
+      {/* Description */}
+      <section className="bg-white py-12 md:py-16">
+        <div className="mx-auto max-w-3xl px-6 lg:px-8">
+          <AnimateIn delay={0.1}>
+            <h2 className="font-heading text-2xl font-bold text-text-primary md:text-3xl">
+              How This Calculator Works
+            </h2>
+            <div className="mt-6 space-y-4 text-base leading-relaxed text-text-muted md:text-lg">
+              <p>
+                Enter the contract price, then break out your costs: materials, labor, equipment, and overhead
+                percentage. The calculator runs the numbers instantly.
+              </p>
+              <p>
+                You&apos;ll see your gross profit in dollars, profit margin as a percentage, markup percentage, and
+                break-even revenue &mdash; color-coded so you can instantly tell if the job makes or loses money.
+              </p>
+              <p>
+                Know before you start whether a job is worth taking. Stop guessing on margins and start pricing with
+                real numbers so every job you bid is one you can profit from.
+              </p>
+            </div>
           </AnimateIn>
         </div>
       </section>
@@ -54,7 +112,7 @@ export default function JobProfitCalculatorPage() {
       <section className="bg-bg-default">
         <div className="mx-auto max-w-5xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
               Price Every Job for Profit
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
@@ -70,7 +128,7 @@ export default function JobProfitCalculatorPage() {
                   <div className="rounded-xl bg-brand-blue/10 p-3 w-fit">
                     <item.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                   </div>
-                  <h3 className="mt-4 font-heading text-xl text-text-primary">{item.title}</h3>
+                  <h3 className="mt-4 font-heading text-2xl text-text-primary">{item.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-text-muted">{item.desc}</p>
                 </div>
               </AnimateIn>
@@ -83,7 +141,7 @@ export default function JobProfitCalculatorPage() {
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-3xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn>
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
               Margin vs. Markup: The #1 Pricing Mistake
             </h2>
             <p className="mt-4 text-lg text-text-muted">
@@ -95,7 +153,7 @@ export default function JobProfitCalculatorPage() {
           <div className="mt-12 grid gap-6 sm:grid-cols-2">
             <AnimateIn delay={0.05}>
               <div className="rounded-xl border-2 border-brand-blue bg-white p-6">
-                <h3 className="font-body text-lg font-bold text-brand-blue">Profit Margin</h3>
+                <h3 className="font-heading text-2xl text-brand-blue">Profit Margin</h3>
                 <p className="mt-1 text-sm text-text-muted">Profit &divide; Revenue</p>
                 <div className="mt-4 rounded-lg bg-bg-subtle p-4">
                   <p className="font-mono text-sm text-text-body">
@@ -113,7 +171,7 @@ export default function JobProfitCalculatorPage() {
 
             <AnimateIn delay={0.1}>
               <div className="rounded-xl border-2 border-brand-orange bg-white p-6">
-                <h3 className="font-body text-lg font-bold text-brand-orange">Markup</h3>
+                <h3 className="font-heading text-2xl text-brand-orange">Markup</h3>
                 <p className="mt-1 text-sm text-text-muted">Profit &divide; Costs</p>
                 <div className="mt-4 rounded-lg bg-bg-subtle p-4">
                   <p className="font-mono text-sm text-text-body">
@@ -148,7 +206,7 @@ export default function JobProfitCalculatorPage() {
 
           {/* Quick reference table */}
           <AnimateIn delay={0.2} className="mt-12">
-            <h3 className="font-heading text-xl text-text-primary">Quick Reference: Margin to Markup</h3>
+            <h3 className="font-heading text-2xl text-text-primary">Quick Reference: Margin to Markup</h3>
             <div className="mt-4 overflow-hidden rounded-xl border border-border-default">
               <table className="w-full text-sm">
                 <thead className="bg-bg-muted">

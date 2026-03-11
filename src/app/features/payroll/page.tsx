@@ -63,7 +63,7 @@ export default function PayrollPage() {
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">
               Payroll Reports
             </span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Never Spend Hours on Payroll Again
             </h1>
           </AnimateIn>
@@ -104,7 +104,7 @@ export default function PayrollPage() {
           <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
             <AnimateIn direction="right">
               <div className="space-y-6">
-                <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+                <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
                   Sound Familiar?
                 </h2>
                 <p className="text-lg leading-relaxed text-text-body">
@@ -149,7 +149,7 @@ export default function PayrollPage() {
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
               How Piece Work Pro Makes Payroll Easy
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
@@ -169,7 +169,7 @@ export default function PayrollPage() {
                       aria-hidden="true"
                     />
                   </div>
-                  <h3 className="mt-4 font-body text-lg font-bold text-text-primary">
+                  <h3 className="mt-4 font-heading text-2xl text-text-primary">
                     {item.title}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-text-muted">
@@ -198,7 +198,7 @@ export default function PayrollPage() {
 
             <AnimateIn direction="left" delay={0.15}>
               <div className="space-y-6">
-                <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+                <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
                   From Time Card to Paycheck in Three Steps
                 </h2>
                 <ol className="space-y-4">
@@ -224,7 +224,7 @@ export default function PayrollPage() {
                         {item.num}
                       </span>
                       <div>
-                        <h3 className="font-body font-bold text-text-primary">
+                        <h3 className="font-heading text-lg text-text-primary">
                           {item.title}
                         </h3>
                         <p className="mt-1 text-sm leading-relaxed text-text-muted">

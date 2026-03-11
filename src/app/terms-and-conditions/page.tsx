@@ -4,7 +4,7 @@ import { AnimateIn } from "@/components/ui/AnimateIn";
 export const metadata: Metadata = {
   title: "Terms and Conditions",
   description:
-    "Read the terms and conditions for Piece Work Pro. Covers subscriptions, data ownership, acceptable use, and more.",
+    "Terms and conditions for using Piece Work Pro. Covers subscriptions, data ownership, acceptable use, cancellation, and contractor responsibilities.",
 };
 
 export default function TermsPage() {

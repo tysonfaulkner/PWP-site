@@ -18,7 +18,7 @@ export default function RoofingPage() {
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <AnimateIn>
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">Roofing</span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Piece Rate Pay for Roofing Companies
             </h1>
           </AnimateIn>
@@ -43,7 +43,7 @@ export default function RoofingPage() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <div className="mx-auto max-w-3xl">
             <AnimateIn>
-              <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+              <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
                 What's Piece Rate Pay in Roofing?
               </h2>
             </AnimateIn>
@@ -73,7 +73,7 @@ export default function RoofingPage() {
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">Why Roofers Love Piece Work Pro</h2>
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">Why Roofers Love Piece Work Pro</h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
               We built this for one reason: to make your life easier on payday.
             </p>
@@ -101,7 +101,7 @@ export default function RoofingPage() {
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-blue/10">
                     <benefit.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                   </div>
-                  <h3 className="mt-5 font-body text-lg font-bold text-text-primary">{benefit.title}</h3>
+                  <h3 className="mt-5 font-heading text-2xl text-text-primary">{benefit.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-text-muted">{benefit.desc}</p>
                 </div>
               </AnimateIn>
@@ -114,7 +114,7 @@ export default function RoofingPage() {
       <section className="bg-bg-default">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">How It Works for Roofing Crews</h2>
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">How It Works for Roofing Crews</h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
               Four steps. That's all it takes to go from job site to payroll.
             </p>
@@ -147,7 +147,7 @@ export default function RoofingPage() {
                   <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-full bg-brand-blue font-heading text-2xl text-white">
                     {step.step}
                   </div>
-                  <h3 className="mt-5 font-body text-lg font-bold text-text-primary">{step.title}</h3>
+                  <h3 className="mt-5 font-heading text-2xl text-text-primary">{step.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-text-muted">{step.desc}</p>
                 </div>
               </AnimateIn>
@@ -164,7 +164,7 @@ export default function RoofingPage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-blue/10">
                 <BarChart3 className="h-6 w-6 text-brand-blue" aria-hidden="true" />
               </div>
-              <h2 className="mt-6 font-heading text-3xl text-text-primary sm:text-4xl">
+              <h2 className="mt-6 font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
                 Track Job Costs Down to the Penny
               </h2>
             </AnimateIn>

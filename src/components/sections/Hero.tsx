@@ -35,14 +35,14 @@ export function Hero() {
           <AnimateIn>
             <span className="inline-flex items-center gap-2 rounded-full border border-brand-blue/30 bg-brand-blue/10 px-4 py-1.5 text-sm font-medium text-brand-blue-light">
               <span className="h-2 w-2 rounded-full bg-brand-orange" aria-hidden="true" />
-              Over 500 contractors already use Piece Work Pro
+              Built by a contractor, for contractors
             </span>
           </AnimateIn>
 
           <AnimateIn delay={0.1}>
             <h1 className="mt-6 font-heading text-4xl leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl">
-              Stop Chasing Your Crew for{" "}
-              <span className="text-brand-orange">Timesheets</span>
+              Track Piece Work. Run Payroll.{" "}
+              <span className="text-brand-orange">Control Job Costs.</span>
             </h1>
           </AnimateIn>
 

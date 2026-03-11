@@ -88,7 +88,7 @@ export default function FeaturesPage() {
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">
               Features
             </span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Everything You Need to Track Piece Work
             </h1>
           </AnimateIn>
@@ -116,7 +116,7 @@ export default function FeaturesPage() {
                         aria-hidden="true"
                       />
                     </div>
-                    <h3 className="mt-4 font-body text-lg font-bold text-text-primary">
+                    <h3 className="mt-4 font-heading text-2xl text-text-primary">
                       {feature.title}
                     </h3>
                     <p className="mt-2 text-sm leading-relaxed text-text-muted">
@@ -137,7 +137,7 @@ export default function FeaturesPage() {
       <section className="bg-bg-default">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
               Built by a Contractor, for Contractors
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
@@ -150,14 +150,14 @@ export default function FeaturesPage() {
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {[
               {
-                stat: "500+",
-                label: "Contractors",
-                desc: "Trust Piece Work Pro to track their crew and run payroll every week.",
+                stat: "80%",
+                label: "Less Time on Payroll",
+                desc: "What used to take hours every Friday now takes minutes. Pull reports, export, done.",
               },
               {
                 stat: "5 min",
                 label: "Payroll Time",
-                desc: "What used to take hours now takes minutes. Pull reports, export, done.",
+                desc: "Pick a date range, pull the report, export. That's it. Your crew gets paid faster.",
               },
               {
                 stat: "$0",
@@ -170,7 +170,7 @@ export default function FeaturesPage() {
                   <span className="font-mono text-4xl font-bold text-brand-blue">
                     {item.stat}
                   </span>
-                  <h3 className="mt-2 font-body text-lg font-bold text-text-primary">
+                  <h3 className="mt-2 font-heading text-2xl text-text-primary">
                     {item.label}
                   </h3>
                   <p className="mt-2 text-sm leading-relaxed text-text-muted">

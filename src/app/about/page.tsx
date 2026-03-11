@@ -17,7 +17,7 @@ export default function AboutPage() {
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <AnimateIn>
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">Our Story</span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Built on a Roof, Not in a Boardroom
             </h1>
           </AnimateIn>
@@ -60,9 +60,8 @@ export default function AboutPage() {
                   penny. No spreadsheets. No guesswork.
                 </p>
                 <p>
-                  Today, over <strong className="text-text-primary">500 contractors</strong> across roofing,
-                  construction, and manufacturing use Piece Work Pro to save time, reduce errors, and know exactly what
-                  every job costs.
+                  Today, contractors across roofing, construction, and manufacturing use Piece Work Pro to
+                  save time, reduce errors, and know exactly what every job costs.
                 </p>
               </div>
             </AnimateIn>
@@ -74,7 +73,7 @@ export default function AboutPage() {
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">What We Believe</h2>
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">What We Believe</h2>
           </AnimateIn>
           <div className="mt-12 grid gap-8 sm:grid-cols-3">
             {[
@@ -93,7 +92,7 @@ export default function AboutPage() {
             ].map((value, i) => (
               <AnimateIn key={value.title} delay={i * 0.1}>
                 <div className="rounded-2xl border border-border-default bg-white p-8">
-                  <h3 className="font-body text-lg font-bold text-text-primary">{value.title}</h3>
+                  <h3 className="font-heading text-2xl text-text-primary">{value.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-text-muted">{value.desc}</p>
                 </div>
               </AnimateIn>
@@ -106,7 +105,7 @@ export default function AboutPage() {
       <section className="bg-bg-default">
         <div className="mx-auto max-w-3xl px-6 py-20 text-center lg:px-8 lg:py-28">
           <AnimateIn>
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">Get in Touch</h2>
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">Get in Touch</h2>
             <div className="mt-8 space-y-2 text-text-body">
               <p className="font-medium">Piece Work Pro LLC</p>
               <p>2785 W Seltice Way, Ste A</p>

@@ -31,6 +31,23 @@ const navigation = [
       { label: "Piece Rate Calculator", href: "/tools/piece-rate-calculator", desc: "Calculate your piece rate earnings" },
       { label: "Payroll Calculator", href: "/tools/payroll-calculator", desc: "See your true crew payroll costs" },
       { label: "Job Profit Calculator", href: "/tools/job-profit-calculator", desc: "Know if a job is profitable" },
+      { label: "Revenue Calculator", href: "/tools/revenue-calculator", desc: "Project your company's revenue" },
+      { label: "Overtime Calculator", href: "/tools/overtime-calculator", desc: "FLSA piece rate overtime pay" },
+      { label: "Min Wage Checker", href: "/tools/min-wage-calculator", desc: "Check piece rate wage compliance" },
+      { label: "Piece Rate vs Hourly", href: "/tools/piece-rate-vs-hourly", desc: "Compare pay methods side by side" },
+      { label: "1099 vs W-2 Calculator", href: "/tools/1099-vs-w2-calculator", desc: "Compare true worker costs" },
+      { label: "Labor Burden Calculator", href: "/tools/labor-burden-calculator", desc: "Full employer cost breakdown" },
+      { label: "Break-Even Calculator", href: "/tools/break-even-calculator", desc: "Find your break-even point" },
+      { label: "Bid Calculator", href: "/tools/bid-calculator", desc: "Build accurate job estimates" },
+      { label: "Roofing Labor Calculator", href: "/tools/roofing-labor-calculator", desc: "Cost per square for roofing" },
+      { label: "Piece Rate Guide", href: "/tools/piece-rate-guide", desc: "Common rates by trade" },
+      { label: "Crew Productivity", href: "/tools/crew-productivity-calculator", desc: "Measure crew output metrics" },
+      { label: "Workers' Comp Estimator", href: "/tools/workers-comp-estimator", desc: "Estimate your WC premium" },
+      { label: "CA Piece Rate (AB 1513)", href: "/tools/california-piece-rate", desc: "California compliance checker" },
+      { label: "State Min Wage Guide", href: "/tools/state-minimum-wage", desc: "Rates for all 50 states" },
+      { label: "Avg Job Size Calculator", href: "/tools/average-job-calculator", desc: "Find your average job size" },
+      { label: "Job Site Cost Estimator", href: "/tools/job-site-cost-estimator", desc: "Estimate total job site costs" },
+      { label: "Job Duration Estimator", href: "/tools/job-duration-estimator", desc: "Estimate job completion time" },
     ],
   },
   { label: "Pricing", href: "/pricing" },
@@ -81,17 +98,19 @@ export function Header() {
                   <ChevronDown className="h-4 w-4" aria-hidden="true" />
                 </Link>
                 {openDropdown === item.label && (
-                  <div className="absolute left-0 top-full z-50 mt-1 w-72 rounded-xl border border-border-default bg-white p-2 shadow-lg">
-                    {item.children.map((child) => (
-                      <Link
-                        key={child.href}
-                        href={child.href}
-                        className="block rounded-lg px-4 py-3 transition-colors hover:bg-bg-subtle"
-                      >
-                        <span className="block text-sm font-medium text-text-primary">{child.label}</span>
-                        <span className="block text-xs text-text-muted">{child.desc}</span>
-                      </Link>
-                    ))}
+                  <div className={`absolute left-0 top-full z-50 pt-2 ${item.children.length > 6 ? "w-[540px]" : "w-72"}`}>
+                    <div className={`max-h-[70vh] overflow-y-auto rounded-xl border border-border-default bg-white p-2 shadow-lg ${item.children.length > 6 ? "grid grid-cols-2 gap-x-1" : ""}`}>
+                      {item.children.map((child) => (
+                        <Link
+                          key={child.href}
+                          href={child.href}
+                          className="block rounded-lg px-4 py-2.5 transition-colors hover:bg-bg-subtle"
+                        >
+                          <span className="block text-sm font-medium text-text-primary">{child.label}</span>
+                          <span className="block text-xs text-text-muted">{child.desc}</span>
+                        </Link>
+                      ))}
+                    </div>
                   </div>
                 )}
               </div>

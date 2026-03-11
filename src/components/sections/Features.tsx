@@ -65,7 +65,7 @@ export function Features() {
                 <div className="inline-flex rounded-xl bg-brand-blue/10 p-3">
                   <feature.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                 </div>
-                <h3 className="mt-4 font-body text-lg font-bold text-text-primary">{feature.title}</h3>
+                <h3 className="mt-4 font-heading text-2xl text-text-primary">{feature.title}</h3>
                 <p className="mt-2 text-sm leading-relaxed text-text-muted">{feature.description}</p>
               </div>
             </AnimateIn>

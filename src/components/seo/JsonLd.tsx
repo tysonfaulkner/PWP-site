@@ -33,6 +33,7 @@ export function OrganizationJsonLd() {
         contactPoint: {
           "@type": "ContactPoint",
           email: "support@pieceworkpro.com",
+          telephone: "+1-800-956-2880",
           contactType: "customer support",
         },
         founder: {
@@ -103,6 +104,7 @@ interface BlogPostJsonLdProps {
   date: string;
   author: string;
   slug: string;
+  image?: string;
 }
 
 export function BlogPostJsonLd({
@@ -111,6 +113,7 @@ export function BlogPostJsonLd({
   date,
   author,
   slug,
+  image,
 }: BlogPostJsonLdProps) {
   return (
     <JsonLd
@@ -121,6 +124,7 @@ export function BlogPostJsonLd({
         description,
         datePublished: date,
         dateModified: date,
+        image: image || "https://pieceworkpro.com/images/og-image.png",
         author: {
           "@type": "Person",
           name: author,
@@ -129,11 +133,99 @@ export function BlogPostJsonLd({
           "@type": "Organization",
           name: "Piece Work Pro",
           url: "https://pieceworkpro.com",
+          logo: {
+            "@type": "ImageObject",
+            url: "https://pieceworkpro.com/images/Piece_Work_Pro_Logo_Text.jpg",
+          },
         },
         mainEntityOfPage: {
           "@type": "WebPage",
           "@id": `https://pieceworkpro.com/blog/${slug}`,
         },
+      }}
+    />
+  );
+}
+
+interface FAQItem {
+  question: string;
+  answer: string;
+}
+
+interface FAQPageJsonLdProps {
+  faqs: FAQItem[];
+}
+
+export function FAQPageJsonLd({ faqs }: FAQPageJsonLdProps) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        mainEntity: faqs.map((faq) => ({
+          "@type": "Question",
+          name: faq.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: faq.answer,
+          },
+        })),
+      }}
+    />
+  );
+}
+
+interface BreadcrumbItem {
+  name: string;
+  href: string;
+}
+
+interface BreadcrumbJsonLdProps {
+  items: BreadcrumbItem[];
+}
+
+export function BreadcrumbJsonLd({ items }: BreadcrumbJsonLdProps) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        itemListElement: items.map((item, index) => ({
+          "@type": "ListItem",
+          position: index + 1,
+          name: item.name,
+          item: `https://pieceworkpro.com${item.href}`,
+        })),
+      }}
+    />
+  );
+}
+
+interface HowToStep {
+  name: string;
+  text: string;
+}
+
+interface HowToJsonLdProps {
+  name: string;
+  description: string;
+  steps: HowToStep[];
+}
+
+export function HowToJsonLd({ name, description, steps }: HowToJsonLdProps) {
+  return (
+    <JsonLd
+      data={{
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        name,
+        description,
+        step: steps.map((step, index) => ({
+          "@type": "HowToStep",
+          position: index + 1,
+          name: step.name,
+          text: step.text,
+        })),
       }}
     />
   );

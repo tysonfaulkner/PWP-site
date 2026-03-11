@@ -32,7 +32,7 @@ export default function ConstructionPage() {
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <AnimateIn>
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">Construction</span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Piece Work Pay Across Construction Trades
             </h1>
           </AnimateIn>
@@ -57,7 +57,7 @@ export default function ConstructionPage() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <div className="mx-auto max-w-3xl">
             <AnimateIn>
-              <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+              <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
                 How Piece Work Pay Works in Construction
               </h2>
             </AnimateIn>
@@ -87,7 +87,7 @@ export default function ConstructionPage() {
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">Which Trades Use Piece Work?</h2>
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">Which Trades Use Piece Work?</h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
               Almost every construction trade can benefit from piece rate pay. Here are the most common.
             </p>
@@ -130,7 +130,7 @@ export default function ConstructionPage() {
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-blue/10">
                     <trade.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                   </div>
-                  <h3 className="mt-5 font-body text-lg font-bold text-text-primary">{trade.title}</h3>
+                  <h3 className="mt-5 font-heading text-2xl text-text-primary">{trade.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-text-muted">{trade.desc}</p>
                 </div>
               </AnimateIn>
@@ -143,7 +143,7 @@ export default function ConstructionPage() {
       <section className="bg-bg-default">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
               Benefits for Construction Businesses
             </h2>
           </AnimateIn>
@@ -176,7 +176,7 @@ export default function ConstructionPage() {
                     <benefit.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                   </div>
                   <div>
-                    <h3 className="font-body text-lg font-bold text-text-primary">{benefit.title}</h3>
+                    <h3 className="font-heading text-2xl text-text-primary">{benefit.title}</h3>
                     <p className="mt-3 text-sm leading-relaxed text-text-muted">{benefit.desc}</p>
                   </div>
                 </div>
@@ -191,7 +191,7 @@ export default function ConstructionPage() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <div className="mx-auto max-w-3xl">
             <AnimateIn>
-              <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+              <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
                 Getting Started with Piece Work Pro
               </h2>
             </AnimateIn>
@@ -227,7 +227,7 @@ export default function ConstructionPage() {
                       <step.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                     </div>
                     <div>
-                      <h3 className="font-body text-lg font-bold text-text-primary">{step.title}</h3>
+                      <h3 className="font-heading text-2xl text-text-primary">{step.title}</h3>
                       <p className="mt-3 text-sm leading-relaxed text-text-muted">{step.desc}</p>
                     </div>
                   </div>

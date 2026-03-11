@@ -30,7 +30,7 @@ export default function ManufacturingPage() {
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <AnimateIn>
             <span className="text-sm font-bold uppercase tracking-wider text-brand-orange">Manufacturing</span>
-            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl">
+            <h1 className="mt-3 font-heading text-4xl text-white sm:text-5xl lg:text-6xl">
               Piece Work Tracking for Manufacturing
             </h1>
           </AnimateIn>
@@ -55,7 +55,7 @@ export default function ManufacturingPage() {
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <div className="mx-auto max-w-3xl">
             <AnimateIn>
-              <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">Piece Work in Manufacturing</h2>
+              <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">Piece Work in Manufacturing</h2>
             </AnimateIn>
             <AnimateIn delay={0.1}>
               <div className="mt-8 space-y-5 text-lg leading-relaxed text-text-body">
@@ -85,7 +85,7 @@ export default function ManufacturingPage() {
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">
               Benefits of Piece Rate Pay for Factories
             </h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
@@ -115,7 +115,7 @@ export default function ManufacturingPage() {
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-blue/10">
                     <benefit.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                   </div>
-                  <h3 className="mt-5 font-body text-lg font-bold text-text-primary">{benefit.title}</h3>
+                  <h3 className="mt-5 font-heading text-2xl text-text-primary">{benefit.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-text-muted">{benefit.desc}</p>
                 </div>
               </AnimateIn>
@@ -128,7 +128,7 @@ export default function ManufacturingPage() {
       <section className="bg-bg-default">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn className="text-center">
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">Common Challenges and Solutions</h2>
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">Common Challenges and Solutions</h2>
             <p className="mx-auto mt-4 max-w-2xl text-lg text-text-muted">
               Piece rate pay is powerful, but it comes with real challenges. Here's how to handle them.
             </p>
@@ -156,7 +156,7 @@ export default function ManufacturingPage() {
                   <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-orange/10">
                     <challenge.icon className="h-6 w-6 text-brand-orange" aria-hidden="true" />
                   </div>
-                  <h3 className="mt-5 font-body text-lg font-bold text-text-primary">{challenge.title}</h3>
+                  <h3 className="mt-5 font-heading text-2xl text-text-primary">{challenge.title}</h3>
                   <p className="mt-3 text-sm leading-relaxed text-text-muted">{challenge.desc}</p>
                 </div>
               </AnimateIn>
@@ -169,7 +169,7 @@ export default function ManufacturingPage() {
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
           <AnimateIn>
-            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">How Piece Work Pro Helps</h2>
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl lg:text-5xl">How Piece Work Pro Helps</h2>
             <p className="mt-4 max-w-2xl text-lg text-text-muted">
               We built Piece Work Pro to take the pain out of piece rate management. Here's what you get.
             </p>
@@ -198,7 +198,7 @@ export default function ManufacturingPage() {
                     <feature.icon className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                   </div>
                   <div>
-                    <h3 className="font-body text-lg font-bold text-text-primary">{feature.title}</h3>
+                    <h3 className="font-heading text-2xl text-text-primary">{feature.title}</h3>
                     <p className="mt-3 text-sm leading-relaxed text-text-muted">{feature.desc}</p>
                   </div>
                 </div>
