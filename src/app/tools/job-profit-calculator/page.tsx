@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { JobProfitCalculator } from "@/components/tools/JobProfitCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { RelatedReading } from "@/components/sections/RelatedReading";
 import { Target, BarChart3, AlertTriangle } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -237,6 +238,11 @@ export default function JobProfitCalculatorPage() {
           </AnimateIn>
         </div>
       </section>
+
+      <RelatedReading links={[
+        { title: "Job Costing for Contractors: Get It Right", href: "/blog/job-costing-for-contractors", description: "Most contractors don't know what their jobs actually cost until it's too late. Here's how to fix that." },
+        { title: "Roofing Piece Rate Guide: Setting Rates That Work", href: "/blog/roofing-piece-rate-guide", description: "Setting the right piece rates directly impacts your job profit margins." },
+      ]} />
 
       <CTASection />
     </>

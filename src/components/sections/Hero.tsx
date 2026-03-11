@@ -55,7 +55,7 @@ export function Hero() {
 
           <AnimateIn delay={0.3}>
             <div className="mt-8 flex flex-col gap-4 sm:flex-row">
-              <Button href="https://app.pieceworkpro.com/signin" size="lg" variant="orange" external>
+              <Button href="https://app.pieceworkpro.com/signup" size="lg" variant="orange" external>
                 Get Started Free <ArrowRight className="h-5 w-5" aria-hidden="true" />
               </Button>
               <Button href="#how-it-works" variant="secondary" size="lg">

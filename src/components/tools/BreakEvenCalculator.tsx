@@ -234,7 +234,7 @@ export function BreakEvenCalculator() {
                     Piece Work Pro shows you exactly what every job costs as it happens &mdash; so you always know
                     where you stand against your break-even point.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

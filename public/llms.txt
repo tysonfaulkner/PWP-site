@@ -1,0 +1,62 @@
+# Piece Work Pro
+
+> Piece work tracking and payroll software for contractors. Track piece work, run payroll in minutes, and know what every job costs.
+
+## About
+
+Piece Work Pro is a SaaS application built for contractors who pay their crews by the piece. It replaces spreadsheets and paper timesheets with a simple app that tracks piece work, calculates pay instantly, and generates job cost reports. Founded by Tyson Faulkner, a roofing contractor in Post Falls, Idaho.
+
+## Key Pages
+
+- [Home](https://pieceworkpro.com/)
+- [Features](https://pieceworkpro.com/features)
+- [Time Tracking](https://pieceworkpro.com/features/time-tracking)
+- [Payroll Reports](https://pieceworkpro.com/features/payroll)
+- [Job Costing](https://pieceworkpro.com/features/job-costing)
+- [Pricing](https://pieceworkpro.com/pricing)
+- [About](https://pieceworkpro.com/about)
+- [Contact](https://pieceworkpro.com/contact)
+- [Blog](https://pieceworkpro.com/blog)
+
+## Industries
+
+- [Roofing](https://pieceworkpro.com/industries/roofing)
+- [Construction](https://pieceworkpro.com/industries/construction)
+- [Manufacturing](https://pieceworkpro.com/industries/manufacturing)
+
+## Free Tools
+
+- [Piece Rate Calculator](https://pieceworkpro.com/tools/piece-rate-calculator)
+- [Payroll Calculator](https://pieceworkpro.com/tools/payroll-calculator)
+- [Job Profit Calculator](https://pieceworkpro.com/tools/job-profit-calculator)
+- [Revenue Calculator](https://pieceworkpro.com/tools/revenue-calculator)
+- [Overtime Calculator](https://pieceworkpro.com/tools/overtime-calculator)
+- [Min Wage Checker](https://pieceworkpro.com/tools/min-wage-calculator)
+- [Piece Rate vs Hourly](https://pieceworkpro.com/tools/piece-rate-vs-hourly)
+- [1099 vs W-2 Calculator](https://pieceworkpro.com/tools/1099-vs-w2-calculator)
+- [Labor Burden Calculator](https://pieceworkpro.com/tools/labor-burden-calculator)
+- [Break-Even Calculator](https://pieceworkpro.com/tools/break-even-calculator)
+- [Bid Calculator](https://pieceworkpro.com/tools/bid-calculator)
+- [Roofing Labor Calculator](https://pieceworkpro.com/tools/roofing-labor-calculator)
+- [Piece Rate Guide](https://pieceworkpro.com/tools/piece-rate-guide)
+- [Crew Productivity Calculator](https://pieceworkpro.com/tools/crew-productivity-calculator)
+- [Workers' Comp Estimator](https://pieceworkpro.com/tools/workers-comp-estimator)
+- [CA Piece Rate (AB 1513)](https://pieceworkpro.com/tools/california-piece-rate)
+- [State Minimum Wage Guide](https://pieceworkpro.com/tools/state-minimum-wage)
+- [Average Job Size Calculator](https://pieceworkpro.com/tools/average-job-calculator)
+- [Job Site Cost Estimator](https://pieceworkpro.com/tools/job-site-cost-estimator)
+- [Job Duration Estimator](https://pieceworkpro.com/tools/job-duration-estimator)
+
+## Blog
+
+- [What Is Piece Work Pay?](https://pieceworkpro.com/blog/what-is-piece-work-pay)
+- [How to Track Piece Work](https://pieceworkpro.com/blog/how-to-track-piece-work)
+- [Roofing Piece Rate Guide](https://pieceworkpro.com/blog/roofing-piece-rate-guide)
+- [Job Costing for Contractors](https://pieceworkpro.com/blog/job-costing-for-contractors)
+- [Construction Payroll Tips](https://pieceworkpro.com/blog/construction-payroll-tips)
+- [Crew Management Tips](https://pieceworkpro.com/blog/crew-management-tips)
+
+## Contact
+
+- Email: support@pieceworkpro.com
+- Location: Post Falls, ID 83854

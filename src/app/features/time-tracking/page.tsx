@@ -97,7 +97,7 @@ export default function TimeTrackingPage() {
           <AnimateIn delay={0.2}>
             <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <Button
-                href="https://app.pieceworkpro.com/signin"
+                href="https://app.pieceworkpro.com/signup"
                 variant="orange"
                 size="lg"
                 external

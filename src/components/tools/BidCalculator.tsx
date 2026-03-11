@@ -284,7 +284,7 @@ export function BidCalculator() {
                     Piece Work Pro tracks your real labor costs against your estimates in real time &mdash; so you know
                     if you&apos;re on budget before the job is done.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

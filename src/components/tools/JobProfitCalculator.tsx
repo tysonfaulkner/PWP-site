@@ -261,7 +261,7 @@ export function JobProfitCalculator() {
                     Piece Work Pro tracks labor costs in real time so you can see if a job is profitable while it&apos;s
                     still in progress &mdash; not after the invoice goes out.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

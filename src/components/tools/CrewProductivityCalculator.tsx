@@ -246,7 +246,7 @@ export function CrewProductivityCalculator() {
                     Piece Work Pro tracks units completed per worker, per job, per day &mdash; so you always know who&apos;s
                     producing and which crews are most efficient.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

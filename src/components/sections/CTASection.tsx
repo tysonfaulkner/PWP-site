@@ -33,7 +33,7 @@ export function CTASection() {
         </AnimateIn>
         <AnimateIn delay={0.2}>
           <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
-            <Button href="https://app.pieceworkpro.com/signin" variant="orange" size="lg" external>
+            <Button href="https://app.pieceworkpro.com/signup" variant="orange" size="lg" external>
               Get Started Free <ArrowRight className="h-5 w-5" aria-hidden="true" />
             </Button>
             <Button href="/pricing" variant="ghost" size="lg" className="text-white hover:bg-white/10 hover:text-white">

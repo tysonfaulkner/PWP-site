@@ -224,7 +224,7 @@ export function RevenueCalculator() {
                     Piece Work Pro tracks labor costs in real time so you can see exactly how much of that revenue turns into
                     profit — job by job.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

@@ -6,7 +6,7 @@ import { DollarSign, Shield, AlertTriangle } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
 export const metadata: Metadata = {
-  title: "1099 vs W-2 True Cost Calculator for Contractors — Free Tool",
+  title: "1099 vs W-2 Cost Calculator for Contractors",
   description:
     "Compare the true cost of a W-2 employee vs 1099 contractor. Includes payroll taxes, workers' comp, benefits, and more for contractors.",
 };

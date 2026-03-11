@@ -219,7 +219,7 @@ export function JobDurationEstimator() {
                     Piece Work Pro tracks your crew&apos;s output daily &mdash; so you always know if a job is on schedule
                     or falling behind.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

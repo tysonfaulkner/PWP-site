@@ -297,7 +297,7 @@ export function W2Vs1099Calculator() {
                     Whether you have W-2 employees or piece rate workers, Piece Work Pro tracks production and calculates
                     payroll &mdash; so you always know your true labor costs.
                   </p>
-                  <Button href="https://app.pieceworkpro.com/signin" variant="primary" size="sm" className="mt-4" external>
+                  <Button href="https://app.pieceworkpro.com/signup" variant="primary" size="sm" className="mt-4" external>
                     Try It Free <ArrowRight className="h-4 w-4" aria-hidden="true" />
                   </Button>
                 </div>

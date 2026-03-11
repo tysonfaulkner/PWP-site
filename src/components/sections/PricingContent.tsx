@@ -163,7 +163,7 @@ export function PricingContent() {
                     <span className="text-sm text-text-muted">{plan.period}</span>
                   </div>
                   <Button
-                    href="https://app.pieceworkpro.com/signin"
+                    href="https://app.pieceworkpro.com/signup"
                     variant={plan.ctaVariant}
                     size="lg"
                     className="mt-8 w-full"

@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { OvertimeCalculator } from "@/components/tools/OvertimeCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { RelatedReading } from "@/components/sections/RelatedReading";
 import { ShieldCheck, DollarSign, AlertTriangle } from "lucide-react";
 import { FAQPageJsonLd, BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -284,6 +285,11 @@ export default function OvertimeCalculatorPage() {
           </div>
         </div>
       </section>
+
+      <RelatedReading links={[
+        { title: "What Is Piece Work Pay? A Complete Guide", href: "/blog/what-is-piece-work-pay", description: "Understand how piece rate pay works and the overtime rules that apply under the FLSA." },
+        { title: "5 Construction Payroll Mistakes to Avoid", href: "/blog/construction-payroll-tips", description: "Overtime miscalculations are one of the most common payroll mistakes in construction." },
+      ]} />
 
       <CTASection />
     </>

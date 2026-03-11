@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getAllPosts, getPostBySlug } from "@/lib/blog";
+import { getAllPosts, getPostBySlug, getRelatedPosts } from "@/lib/blog";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { Clock, ArrowLeft, User, Calendar } from "lucide-react";
 import { MDXContent } from "@/components/blog/MDXContent";
@@ -42,6 +42,8 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
   if (!post) {
     notFound();
   }
+
+  const relatedPosts = getRelatedPosts(slug, 3);
 
   return (
     <>
@@ -111,20 +113,55 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
         </div>
       </article>
 
-      {/* Back to Blog CTA */}
-      <section className="border-t border-border-default bg-bg-subtle">
-        <div className="mx-auto max-w-3xl px-6 py-12 text-center lg:px-8">
-          <AnimateIn>
-            <Link
-              href="/blog"
-              className="inline-flex items-center gap-2 font-body text-sm font-bold text-brand-blue transition-colors hover:text-brand-blue-dark"
-            >
-              <ArrowLeft className="h-4 w-4" aria-hidden="true" />
-              Back to all posts
-            </Link>
-          </AnimateIn>
-        </div>
-      </section>
+      {/* Related Posts */}
+      {relatedPosts.length > 0 && (
+        <section className="border-t border-border-default bg-bg-subtle">
+          <div className="mx-auto max-w-5xl px-6 py-16 lg:px-8 lg:py-24">
+            <AnimateIn>
+              <h2 className="font-heading text-2xl text-text-primary sm:text-3xl">
+                Keep Reading
+              </h2>
+              <p className="mt-2 text-text-muted">More articles for contractors</p>
+            </AnimateIn>
+            <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+              {relatedPosts.map((related, i) => (
+                <AnimateIn key={related.slug} delay={0.1 * (i + 1)}>
+                  <Link
+                    href={`/blog/${related.slug}`}
+                    className="group block rounded-xl border border-border-default bg-white p-6 transition-all hover:border-brand-blue/30 hover:shadow-md"
+                  >
+                    {related.category && (
+                      <span className="text-xs font-bold uppercase tracking-wider text-brand-orange">
+                        {related.category}
+                      </span>
+                    )}
+                    <h3 className="mt-2 font-heading text-lg text-text-primary transition-colors group-hover:text-brand-blue">
+                      {related.title}
+                    </h3>
+                    <p className="mt-2 line-clamp-2 text-sm text-text-muted">
+                      {related.description}
+                    </p>
+                    <span className="mt-4 inline-flex items-center gap-1 text-sm font-bold text-brand-blue">
+                      Read article <ArrowLeft className="h-3 w-3 rotate-180" aria-hidden="true" />
+                    </span>
+                  </Link>
+                </AnimateIn>
+              ))}
+            </div>
+            <AnimateIn delay={0.4}>
+              <div className="mt-12 text-center">
+                <Link
+                  href="/blog"
+                  className="inline-flex items-center gap-2 font-body text-sm font-bold text-brand-blue transition-colors hover:text-brand-blue-dark"
+                >
+                  <ArrowLeft className="h-4 w-4" aria-hidden="true" />
+                  Back to all posts
+                </Link>
+              </div>
+            </AnimateIn>
+          </div>
+        </section>
+      )}
     </>
   );
 }
