@@ -1,5 +1,5 @@
 import { MetadataRoute } from "next";
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, getAllCategories, categoryToSlug } from "@/lib/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://pieceworkpro.com";
@@ -10,6 +10,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     lastModified: new Date(post.date),
     changeFrequency: "monthly" as const,
     priority: 0.6,
+  }));
+
+  const categories = getAllCategories();
+  const categoryUrls = categories.map((cat) => ({
+    url: `${baseUrl}/blog/category/${categoryToSlug(cat)}`,
+    lastModified: new Date(),
+    changeFrequency: "weekly" as const,
+    priority: 0.7,
   }));
 
   return [
@@ -218,6 +226,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     ...blogUrls,
+    ...categoryUrls,
     {
       url: `${baseUrl}/privacy-policy`,
       lastModified: new Date(),

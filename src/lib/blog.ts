@@ -55,7 +55,20 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
 export function getAllCategories(): string[] {
   const posts = getAllPosts();
   const categories = new Set(posts.map((p) => p.category).filter(Boolean) as string[]);
-  return Array.from(categories);
+  return Array.from(categories).sort();
+}
+
+export function categoryToSlug(category: string): string {
+  return category.toLowerCase().replace(/\s+/g, "-");
+}
+
+export function slugToCategory(slug: string): string | undefined {
+  const categories = getAllCategories();
+  return categories.find((c) => categoryToSlug(c) === slug);
+}
+
+export function getPostsByCategory(category: string): BlogPost[] {
+  return getAllPosts().filter((p) => p.category === category);
 }
 
 export function getRelatedPosts(slug: string, limit = 3): BlogPost[] {
