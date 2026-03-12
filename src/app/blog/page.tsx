@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import { getAllPosts } from "@/lib/blog";
+import { getAllPosts, getAllCategories, categoryToSlug } from "@/lib/blog";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { Clock } from "lucide-react";
 import { CTASection } from "@/components/sections/CTASection";
@@ -13,6 +13,7 @@ export const metadata: Metadata = {
 
 export default function BlogPage() {
   const posts = getAllPosts();
+  const categories = getAllCategories();
 
   return (
     <>
@@ -30,6 +31,26 @@ export default function BlogPage() {
         </div>
       </section>
 
+      {/* Category Tabs */}
+      <section className="border-b border-border-default bg-white">
+        <div className="mx-auto max-w-7xl px-6 lg:px-8">
+          <nav className="flex gap-1 overflow-x-auto py-4" aria-label="Blog categories">
+            <span className="shrink-0 rounded-lg bg-brand-blue px-4 py-2 text-sm font-medium text-white">
+              All Posts
+            </span>
+            {categories.map((cat) => (
+              <Link
+                key={cat}
+                href={`/blog/category/${categoryToSlug(cat)}`}
+                className="shrink-0 rounded-lg px-4 py-2 text-sm font-medium text-text-body transition-colors hover:bg-bg-subtle hover:text-text-primary"
+              >
+                {cat}
+              </Link>
+            ))}
+          </nav>
+        </div>
+      </section>
+
       {/* Posts */}
       <section className="bg-bg-subtle">
         <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
@@ -41,12 +62,15 @@ export default function BlogPage() {
             <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
               {posts.map((post, index) => (
                 <AnimateIn key={post.slug} delay={index * 0.05}>
-                  <article className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border-default bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+                  <article className="group relative flex h-full flex-col overflow-hidden rounded-2xl border border-border-default bg-white shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
                     <div className="flex flex-1 flex-col p-6">
                       {post.category && (
-                        <span className="mb-3 text-xs font-bold uppercase tracking-wider text-brand-orange">
+                        <Link
+                          href={`/blog/category/${categoryToSlug(post.category)}`}
+                          className="relative z-10 mb-3 self-start text-xs font-bold uppercase tracking-wider text-brand-orange transition-colors hover:text-brand-orange-dark"
+                        >
                           {post.category}
-                        </span>
+                        </Link>
                       )}
                       <h2 className="font-heading text-xl text-text-primary transition-colors group-hover:text-brand-blue">
                         <Link href={`/blog/${post.slug}`} className="after:absolute after:inset-0">
