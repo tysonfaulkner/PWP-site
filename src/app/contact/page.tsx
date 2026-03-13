@@ -3,7 +3,7 @@ import { AnimateIn } from "@/components/ui/AnimateIn";
 import { Mail, Phone, MapPin, HelpCircle, CreditCard, Bug, Lightbulb } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Contact Us",
+  title: "Contact Us — Get Support Within 24 Hours",
   description:
     "Have a question about Piece Work Pro? Get in touch — we respond within 24 hours. Reach us by email, phone, or the contact form below.",
 };
