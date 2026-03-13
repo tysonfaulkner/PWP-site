@@ -28,7 +28,10 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://pieceworkpro.com"),
-  title: "Piece Work Pro — Piece Work Tracking & Payroll Software",
+  title: {
+    template: "%s | Piece Work Pro",
+    default: "Piece Work Pro — Piece Work Tracking & Payroll Software",
+  },
   description:
     "Stop chasing your crew for timesheets. Piece Work Pro lets contractors track piece work, run payroll in minutes, and know exactly what every job costs. Free to start.",
   keywords: [

@@ -30,11 +30,11 @@ export function Footer() {
           <div className="lg:col-span-2">
             <Link href="/" aria-label="Piece Work Pro home">
               <Image
-                src="/images/Piece_Work_Pro_Logo_Text.jpg"
+                src="/images/Piece_Work_Pro_Logo_Text_White.png"
                 alt="Piece Work Pro"
                 width={180}
                 height={54}
-                className="h-10 w-auto brightness-0 invert"
+                className="h-10 w-auto"
               />
             </Link>
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-text-on-dark-muted">

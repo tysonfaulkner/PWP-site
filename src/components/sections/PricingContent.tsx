@@ -196,6 +196,48 @@ export function PricingContent() {
           </AnimateIn>
         </div>
       </section>
+
+      {/* FAQ */}
+      <section className="bg-bg-default">
+        <div className="mx-auto max-w-3xl px-6 py-20 lg:px-8 lg:py-28">
+          <AnimateIn>
+            <h2 className="text-center font-heading text-3xl text-text-primary sm:text-4xl">
+              Common Questions
+            </h2>
+          </AnimateIn>
+          <div className="mt-12 space-y-8">
+            {[
+              {
+                q: "Is there really a free plan?",
+                a: "Yes. The Solo plan is free forever for one user. You get unlimited projects, piece work tracking, time tracking, and payroll reports. No credit card required to start.",
+              },
+              {
+                q: "What happens when I add team members?",
+                a: "When you add your first team member, you move to the Team plan at $10 per user per month, or $8 per user per month on yearly billing. You are only charged for the users you add.",
+              },
+              {
+                q: "Can I cancel anytime?",
+                a: "Yes. No contracts. No cancellation fees. If you cancel, you keep access through the end of your billing period. Your data stays available if you decide to come back later.",
+              },
+              {
+                q: "Do my crew members need to pay?",
+                a: "No. You pay per user on your account. Your crew members download the app and log in with the accounts you create for them. They do not pay anything.",
+              },
+              {
+                q: "Is there a free trial for the Team plan?",
+                a: "Yes. You get a full free trial of the Team plan so you can try every feature with your crew before you are charged. Set up your team, track some piece work, and run a payroll report — all before paying a dime.",
+              },
+            ].map((item, i) => (
+              <AnimateIn key={i} delay={i * 0.05}>
+                <div>
+                  <h3 className="font-heading text-xl text-text-primary">{item.q}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-text-muted">{item.a}</p>
+                </div>
+              </AnimateIn>
+            ))}
+          </div>
+        </div>
+      </section>
     </>
   );
 }
