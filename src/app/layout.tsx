@@ -4,6 +4,7 @@ import "./globals.css";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { OrganizationJsonLd, WebSiteJsonLd } from "@/components/seo/JsonLd";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 const dmSerifDisplay = DM_Serif_Display({
   variable: "--font-heading",
@@ -91,6 +92,7 @@ export default function RootLayout({
         <link rel="icon" href="/favicon.ico" sizes="32x32" />
         <link rel="icon" href="/images/favicon-192x192.png" sizes="192x192" type="image/png" />
         <link rel="apple-touch-icon" href="/images/favicon-192x192.png" />
+        <GoogleAnalytics gaId="G-4Q979EMJ3P" />
         <OrganizationJsonLd />
         <WebSiteJsonLd />
       </head>
