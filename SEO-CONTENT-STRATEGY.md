@@ -1,20 +1,25 @@
-# Piece Work Pro: 12-Month SEO Content Strategy
+# Piece Work Pro: 3-Month Content Blitz Strategy
 ## Built on Marcus Sheridan's "They Ask, You Answer" Framework
 
 **Prepared:** March 2026
-**Goal:** Make Piece Work Pro the undisputed thought leader and most trusted brand for piece rate pay in the trades. Drive organic traffic that converts to signups and demo requests.
+**Timeline:** April–June 2026 (13 weeks)
+**Goal:** Publish ~180 articles in 90 days to make Piece Work Pro the undisputed thought leader and most trusted brand for piece rate pay across every trade. Drive organic traffic that converts to signups and demo requests.
 
 ---
 
 ## Executive Summary
 
-**The opportunity:** No software company owns the "piece rate pay" conversation. The big players focus on hourly/salary models. Generic payroll companies have surface-level content. Nobody speaks directly to contractors who pay by the piece. Piece Work Pro can own this entire category.
+**The opportunity:** No software company owns the "piece rate pay" conversation — not just in construction, but across 36+ trades that pay by the piece. The big players focus on hourly/salary models. Generic payroll companies have surface-level content. Nobody speaks directly to contractors, shop owners, and crew managers who pay by the piece. Piece Work Pro can own this entire category across every trade.
 
-**The strategy:** Publish 2-3 articles per week following Marcus Sheridan's Big 5 framework — pricing, problems, comparisons, best-of lists, and reviews. These are the topics that drive 80% of buyer decisions. Every article links to one of our 20 free calculators (the lead generation engine) and is written in Tyson's voice as a former roofer, not corporate marketing speak.
+**The strategy:** Publish ~14 articles per week for 13 weeks, following Marcus Sheridan's Big 5 framework — pricing, problems, comparisons, best-of lists, and reviews. These topics drive 80% of buyer decisions. Every article links to one of our 20 free calculators (the lead generation engine) and is written in Tyson's voice as a former roofer, not corporate marketing speak.
 
-**What to do first:** This week, write the pricing article ("How Much Does Piece Work Tracking Software Cost?") and the comparison article ("Piece Work Pro vs. Spreadsheets"). These two articles alone will answer the two most common buyer questions and start building the trust pipeline.
+**The expansion:** Beyond construction, we're building content authority for every trade that pays piecework — auto mechanics (flat rate), house cleaning, welding shops, dental labs, agriculture, manufacturing floors, cable installers, and more. This turns Piece Work Pro from a "construction payroll tool" into THE piece rate pay platform for every industry.
 
-**Expected results:** Month 1-3 will feel slow. Month 6 will show organic traffic momentum. Month 12 will show compounding returns — more organic traffic, more signups from content, shorter sales cycles through assignment selling, and an unassailable content moat that competitors cannot replicate.
+**The scale:** ~180 articles in 13 weeks requires a content pipeline — AI-assisted drafts with human editing, or a small team of trade-knowledgeable writers. Each article targets 1,500-2,500 words with real numbers, worked calculations, and tool CTAs.
+
+**What to do first:** This week, write the pricing article ("How Much Does Piece Work Tracking Software Cost?") and the comparison article ("Piece Work Pro vs. Spreadsheets"). These two articles answer the two most common buyer questions and start building the trust pipeline immediately.
+
+**Expected results:** By end of Month 1, the site will have 50+ new articles indexed. By end of Month 2, Google will recognize the site as a topical authority on piece rate pay. By end of Month 3, organic traffic should show meaningful growth, and the content moat will be nearly impossible for competitors to replicate. The compounding SEO effects will continue for years.
 
 ---
 
@@ -22,23 +27,24 @@
 
 1. [Strategic Foundation](#1-strategic-foundation)
 2. [Current State Audit](#2-current-state-audit)
-3. [The Big 5 Content Strategy](#3-the-big-5-content-strategy)
-4. [Content Pillars](#4-content-pillars)
-5. [12-Month Content Calendar](#5-12-month-content-calendar)
-6. [Tool-Supporting Blog Posts](#6-tool-supporting-blog-posts)
-7. [Video Content Strategy](#7-video-content-strategy)
-8. [Assignment Selling Playbook](#8-assignment-selling-playbook)
-9. [Technical SEO & Site Architecture](#9-technical-seo--site-architecture)
-10. [Measurement & KPIs](#10-measurement--kpis)
-11. [Competitive Positioning](#11-competitive-positioning)
-12. [Quick Wins — Do This Week](#12-quick-wins--do-this-week)
-13. [Article Writing Template](#13-article-writing-template)
-14. [Realistic Execution: Solo Founder Plan](#14-realistic-execution-solo-founder-plan)
-15. [Implementation Roadmap](#15-implementation-roadmap)
-16. [Content Distribution & Promotion](#16-content-distribution--promotion)
-17. [Existing Content Refresh Plan](#17-existing-content-refresh-plan)
-18. [Link Building & Off-Site SEO](#18-link-building--off-site-seo)
-19. [Featured Snippet Optimization](#19-featured-snippet-optimization)
+3. [Trade Coverage Matrix](#3-trade-coverage-matrix)
+4. [The Big 5 Content Strategy](#4-the-big-5-content-strategy)
+5. [Content Pillars](#5-content-pillars)
+6. [3-Month Content Calendar](#6-3-month-content-calendar)
+7. [Tool-Supporting Blog Posts](#7-tool-supporting-blog-posts)
+8. [Video Content Strategy](#8-video-content-strategy)
+9. [Assignment Selling Playbook](#9-assignment-selling-playbook)
+10. [Technical SEO & Site Architecture](#10-technical-seo--site-architecture)
+11. [Measurement & KPIs](#11-measurement--kpis)
+12. [Competitive Positioning](#12-competitive-positioning)
+13. [Quick Wins — Do This Week](#13-quick-wins--do-this-week)
+14. [Article Writing Template](#14-article-writing-template)
+15. [Execution Plan: Content Pipeline](#15-execution-plan-content-pipeline)
+16. [Implementation Roadmap](#16-implementation-roadmap)
+17. [Content Distribution & Promotion](#17-content-distribution--promotion)
+18. [Existing Content Refresh Plan](#18-existing-content-refresh-plan)
+19. [Link Building & Off-Site SEO](#19-link-building--off-site-seo)
+20. [Featured Snippet Optimization](#20-featured-snippet-optimization)
 
 ---
 
@@ -46,15 +52,15 @@
 
 ### The Core Insight
 
-No software company owns the "piece rate pay" conversation in construction. The big players (Jobber, ServiceTitan, Buildertrend, Procore) focus on hourly/salary models. The payroll companies (Gusto, ADP, Rippling) have generic piece rate content but no construction expertise. Workyard is the closest competitor in content, but they are not piece-rate-focused.
+No software company owns the "piece rate pay" conversation — not just in construction, but across dozens of trades and industries. The big players (Jobber, ServiceTitan, Buildertrend, Procore) focus on hourly/salary models. The payroll companies (Gusto, ADP, Rippling) have generic piece rate content but no trade expertise. Auto repair shops use flat rate (a form of piecework) with 165,000+ businesses and no one speaking to them about tracking and compliance. Cleaning companies (1.2M businesses), welding shops, dental labs, agricultural operations — all pay by the piece with zero dedicated content from any software company.
 
-**Piece Work Pro has a genuine opportunity to be THE definitive brand for piece-rate-paying contractors.**
+**Piece Work Pro has a genuine opportunity to be THE definitive brand for piece-rate-paying businesses across every industry.**
 
 ### Marcus Sheridan's Core Principle
 
 > "The moment prospects see you as a teacher rather than a salesperson, respect and trust escalate dramatically."
 
-Every piece of content must answer a real question a contractor is actually asking. Not what we think they should know. What they're searching for at 9pm after a long day on the job site.
+Every piece of content must answer a real question someone is actually asking. Not what we think they should know. What they're searching for at 9pm after a long day on the job site, in the shop, or on the farm.
 
 ### The "Big 5" Rule
 
@@ -75,6 +81,11 @@ Marcus Sheridan found that the 5 content categories that drive the most traffic,
 | **Owner-Operator Roofer** | Runs a crew of 3-15, pays by the square | Friday night spreadsheet marathons, wage compliance fears, can't tell if jobs are profitable | Searches on phone, evenings/weekends, uses voice search |
 | **Construction Company Owner** | Multi-trade operation, 10-50 employees | Multiple pay rates across trades, overtime calculations, workers comp audits | Desktop research, compares multiple solutions |
 | **Manufacturing Floor Manager** | Small factory, 10-100 workers paid per unit | Tracking output across shifts, quality vs speed balance, minimum wage compliance | More likely to search for operational guides |
+| **Auto Repair Shop Owner** | Independent shop, 3-15 mechanics on flat rate | Tracking flag hours, technician retention, pay disputes, flat rate vs hourly debate | Searches for shop management solutions |
+| **Cleaning Company Owner** | Residential/commercial crews, 5-50 cleaners | Tracking per-house pay, scaling crews, quality vs speed, worker turnover | Mobile-first, searches for efficiency tools |
+| **Agricultural Operation Manager** | Farm with seasonal crews, 10-200 harvest workers | Piece rate compliance (min wage guarantees), H-2A visa tracking, seasonal ramp-up | Searches for compliance and labor tracking |
+| **Welding/Fab Shop Owner** | Production shop, 5-30 welders paid per weldment | Tracking output per welder, quality control, piecework payroll calculations | Technical searches, compares to shop management software |
+| **Dental Lab Owner** | Lab with 5-20 technicians paid per crown/unit | Per-unit tracking across crown types, technician productivity, lab profitability | Niche searches, active in dental lab forums |
 
 ---
 
@@ -102,13 +113,13 @@ Marcus Sheridan found that the 5 content categories that drive the most traffic,
 
 ### Critical Gaps
 
-**1. Zero Big 5 content.** We have zero pricing/cost articles about the software itself, zero competitor comparisons, zero "best of" lists, zero review/trust content. This is the single biggest content gap.
+**1. Zero Big 5 content.** No pricing/cost articles about the software itself, no competitor comparisons, no "best of" lists, no review/trust content.
 
-**2. 12 of 20 tools have no supporting blog content.** No article drives traffic to the bid calculator, break-even calculator, overtime calculator, labor burden calculator, workers comp estimator, min wage calculator, 1099 vs W2 calculator, crew productivity calculator, revenue calculator, job duration estimator, job site cost estimator, or average job calculator. Each orphaned tool is a missed SEO opportunity.
+**2. 12 of 20 tools have no supporting blog content.** Each orphaned tool is a missed SEO opportunity.
 
-**3. No compliance/legal content.** Nothing on FLSA piece rate requirements, California AB 1513, piece rate overtime calculations, nonproductive time compensation, or record-keeping requirements. These are high-fear, high-search topics.
+**3. No compliance/legal content.** Nothing on FLSA piece rate requirements, California AB 1513, piece rate overtime calculations, nonproductive time compensation, or record-keeping requirements.
 
-**4. No trade-specific piece rate guides beyond roofing.** No content on piece rates for drywall, framing, masonry, electrical, painting, tile, siding, concrete, gutters, insulation, or solar.
+**4. Only 1 trade covered in depth.** Roofing has 11 posts. No content on piece rates for drywall, framing, masonry, painting, tile, siding, concrete, gutters, insulation, solar, flooring, fencing, plumbing, auto mechanics, cleaning, welding, dental labs, agriculture, or 15+ other piecework trades.
 
 **5. Weak payroll and job costing categories.** Only 3 payroll posts and 1 job costing post despite these being core product features.
 
@@ -116,36 +127,135 @@ Marcus Sheridan found that the 5 content categories that drive the most traffic,
 
 ---
 
-## 3. The Big 5 Content Strategy
+## 3. Trade Coverage Matrix
 
-### Pillar 1: Pricing & Costs (Highest Priority)
+Every trade that commonly pays piecework, organized by market size and content priority.
 
-These articles directly address the #1 question every buyer has. Marcus Sheridan traced $35M+ in revenue to a single pricing article. When you don't talk about pricing, buyers assume you're hiding something.
+### Tier 1 — Construction Trades (Core Market)
+
+| # | Trade | US Businesses | Piece Rate Units | Articles Planned |
+|---|-------|--------------|------------------|-----------------|
+| 1 | Roofing | ~106,000 | Per square (100 sq ft) | 11 existing + 3 new |
+| 2 | Drywall (Hang + Finish) | ~127,000 | Per sq ft, per sheet | Pricing + Guide |
+| 3 | Framing (Wood) | ~90,000 | Per sq ft of wall | Pricing + Guide |
+| 4 | Concrete/Flatwork | ~93,000 | Per sq ft, per yard | Pricing + Guide |
+| 5 | Painting | ~223,000 | Per sq ft, per room | Pricing + Guide |
+| 6 | Masonry/Bricklaying | ~30-50,000 | Per brick, per block | Pricing + Guide |
+| 7 | Siding | ~20-40,000 | Per square, per window | Pricing + Guide |
+| 8 | Electrical (Production) | ~252,000 | Per outlet, per fixture | Pricing |
+| 9 | Tile Installation | ~66,000 | Per sq ft, per cut | Pricing |
+| 10 | Flooring (Hardwood/LVP/Carpet) | ~118,000 | Per sq ft | Pricing + Guide |
+| 11 | Gutter Installation | ~15-25,000 | Per linear ft | Pricing |
+| 12 | Insulation | ~20-30,000 | Per sq ft | Pricing |
+| 13 | Solar Panel Installation | ~10-15,000 | Per panel, per kW | Pricing + Guide |
+| 14 | Fence Installation | ~30-50,000 | Per linear ft, per panel | Pricing + Guide |
+| 15 | Window/Door Installation | ~20,000+ | Per unit installed | Pricing |
+| 16 | Plumbing (Rough-In) | ~127,000 | Per fixture, per fitting | Pricing + Guide |
+| 17 | Steel Stud Framing | ~16,000 | Per linear ft, per sq ft | Pricing |
+| 18 | Hardscaping/Pavers | ~30-50,000 | Per sq ft | Pricing + Guide |
+| 19 | Pool Construction/Gunite | ~10-20,000 | Per pool, per sq ft | Pricing + Guide |
+| 20 | HVAC Duct Installation | ~50,000+ | Per linear ft, per register | Pricing + Guide |
+
+### Tier 2 — Service Trades
+
+| # | Trade | US Businesses | Piece Rate Units | Articles Planned |
+|---|-------|--------------|------------------|-----------------|
+| 21 | Landscaping (Maintenance) | ~693,000 | Per property, per acre | Pricing + Guide |
+| 22 | House Cleaning/Maid Service | ~1,228,000 | Per house, per sq ft | Pricing + Guide |
+| 23 | Carpet Cleaning | ~30-50,000 | Per room, per sq ft | Pricing |
+| 24 | Cable/Telecom Installation | Thousands | Per install, per work order | Pricing + Guide |
+| 25 | Auto Mechanic (Flat Rate) | ~165-303,000 | Per flag hour (book time) | Pricing + Guide |
+| 26 | Moving Services | ~25-35,000 | Per job, per load | Pricing |
+| 27 | Sign Installation/Fabrication | ~10-15,000 | Per sign, per letter | Pricing |
+
+### Tier 3 — Manufacturing
+
+| # | Trade | US Businesses | Piece Rate Units | Articles Planned |
+|---|-------|--------------|------------------|-----------------|
+| 28 | Welding/Metal Fabrication | ~13,000+ | Per weldment, per assembly | Pricing + Guide |
+| 29 | Cabinet/Millwork | ~15-20,000 | Per cabinet, per door | Pricing + Guide |
+| 30 | Dental Lab Technician | ~7-10,000 | Per crown ($22-55), per denture | Pricing + Guide |
+| 31 | Upholstery/Furniture Mfg | ~5-10,000 | Per piece upholstered | Bundled in Mfg article |
+| 32 | CNC Machining | ~27,000+ | Per part produced | Bundled in Mfg article |
+| 33 | Garment/Textile Sewing | ~10,000+ | Per garment, per seam | Bundled in Mfg article |
+
+### Tier 4 — Agriculture
+
+| # | Trade | US Operations | Piece Rate Units | Articles Planned |
+|---|-------|--------------|------------------|-----------------|
+| 34 | Fruit/Vegetable Harvesting | ~130,000+ farms | Per lb, per bucket, per bin | Pricing + Guide |
+| 35 | Nursery/Greenhouse | ~30,000+ | Per plant potted, per flat | Bundled in Ag article |
+| 36 | Tree Planting/Reforestation | Seasonal | Per tree planted | Bundled in Ag article |
+
+### Emerging Trades (Near-Term)
+
+| Trade | Why It Matters |
+|-------|---------------|
+| Fiber Optic Installation | Massive infrastructure buildout; per-pull piece rates |
+| EV Charger Installation | Rapid growth; per-unit installation pricing |
+
+**Total addressable market:** 3.5M+ businesses across all trades.
+
+---
+
+## 4. The Big 5 Content Strategy
+
+### Pillar 1: Pricing & Costs (36 Articles)
+
+These articles directly address the #1 question every buyer has. Marcus Sheridan traced $35M+ in revenue to a single pricing article.
+
+#### Software & Business Cost Articles
 
 | # | Article Title | Target Keyword | Funnel Stage |
 |---|--------------|----------------|--------------|
 | 1 | How Much Does Piece Work Tracking Software Cost in 2026? | piece work tracking software cost | Decision |
-| 2 | How Much to Pay Roofing Crews Per Square (2026 Rate Guide) | how much to pay roofing crew per square | Awareness |
+| 2 | How Much Does Construction Payroll Software Cost? | construction payroll software cost | Decision |
 | 3 | What Does a Fully Burdened Labor Rate Really Cost in Construction? | fully burdened labor rate construction | Awareness |
-| 4 | How Much Does Construction Payroll Software Cost? | construction payroll software cost | Decision |
-| 5 | How Much Does Workers Comp Cost for Roofing Contractors? | workers comp cost roofers | Awareness |
-| 6 | What Are Fair Piece Rates for Drywall Installation? | drywall piece rate per sheet | Awareness |
-| 7 | What Are Fair Piece Rates for Framing? | framing piece rate per square foot | Awareness |
-| 8 | What Are Fair Piece Rates for Concrete Work? | concrete piece rate | Awareness |
-| 9 | What Are Fair Piece Rates for Painting? | painting piece rate per square foot | Awareness |
-| 10 | What Are Fair Piece Rates for Masonry? | masonry piece rate per block | Awareness |
-| 11 | What Does It Actually Cost to Run Payroll for a Roofing Crew? | roofing payroll cost | Awareness |
-| 12 | How Much Should You Mark Up Labor Costs in Construction? | construction labor markup | Awareness |
-| 13 | What Are Fair Piece Rates for Siding Installation? | siding piece rate | Awareness |
-| 14 | What Are Fair Piece Rates for Electrical Work? | electrical piece rate per outlet | Awareness |
-| 15 | What Are Fair Piece Rates for Tile and Flooring? | tile installation piece rate | Awareness |
-| 16 | What Are Fair Piece Rates for Gutter Installation? | gutter installation piece rate | Awareness |
-| 17 | What Are Fair Piece Rates for Insulation? | insulation piece rate | Awareness |
-| 18 | How Much Does It Cost to Hire a Construction Employee? (True Cost Breakdown) | true cost construction employee | Awareness |
+| 4 | How Much Does Workers Comp Cost for Roofing Contractors? | workers comp cost roofers | Awareness |
+| 5 | What Does It Actually Cost to Run Payroll for a Roofing Crew? | roofing payroll cost | Awareness |
+| 6 | How Much Should You Mark Up Labor Costs in Construction? | construction labor markup | Awareness |
+| 7 | How Much Does It Actually Cost to Hire a Construction Employee? | true cost construction employee | Awareness |
 
-### Pillar 2: Problems & Negatives
+#### Construction Trade Rate Articles
 
-Addressing problems head-on builds credibility. Marcus Sheridan's "Top 5 Fiberglass Pool Problems" article generates hundreds of leads per year. Every product has downsides — the company that talks about them honestly wins.
+| # | Article Title | Target Keyword | Funnel Stage |
+|---|--------------|----------------|--------------|
+| 8 | How Much to Pay Roofing Crews Per Square (2026 Rate Guide) | how much to pay roofing crew per square | Awareness |
+| 9 | What Are Fair Piece Rates for Drywall Installation? | drywall piece rate per sheet | Awareness |
+| 10 | What Are Fair Piece Rates for Framing? | framing piece rate per square foot | Awareness |
+| 11 | What Are Fair Piece Rates for Concrete Work? | concrete piece rate | Awareness |
+| 12 | What Are Fair Piece Rates for Painting? | painting piece rate per square foot | Awareness |
+| 13 | What Are Fair Piece Rates for Masonry? | masonry piece rate per block | Awareness |
+| 14 | What Are Fair Piece Rates for Siding Installation? | siding piece rate | Awareness |
+| 15 | What Are Fair Piece Rates for Electrical Work? | electrical piece rate per outlet | Awareness |
+| 16 | What Are Fair Piece Rates for Tile and Flooring? | tile installation piece rate | Awareness |
+| 17 | What Are Fair Piece Rates for Gutter Installation? | gutter installation piece rate | Awareness |
+| 18 | What Are Fair Piece Rates for Insulation? | insulation piece rate | Awareness |
+| 19 | What Are Fair Piece Rates for Flooring Installation? (Hardwood, LVP, Carpet) | flooring piece rate per square foot | Awareness |
+| 20 | What Are Fair Piece Rates for Fence Installation? | fence installation piece rate | Awareness |
+| 21 | What Are Fair Piece Rates for Plumbing Rough-In? | plumbing piece rate per fixture | Awareness |
+| 22 | What Are Fair Piece Rates for Pool Plastering and Gunite? | pool plastering piece rate | Awareness |
+| 23 | What Are Fair Piece Rates for Hardscaping and Pavers? | paver installation piece rate | Awareness |
+| 24 | What Are Fair Piece Rates for HVAC Duct Installation? | hvac duct piece rate | Awareness |
+| 25 | What Are Fair Piece Rates for Window and Door Installation? | window installation piece rate | Awareness |
+| 26 | What Are Fair Piece Rates for Steel Stud Framing? | steel stud framing piece rate | Awareness |
+
+#### Service & Manufacturing Trade Rate Articles
+
+| # | Article Title | Target Keyword | Funnel Stage |
+|---|--------------|----------------|--------------|
+| 27 | How Much Do Auto Mechanics Make on Flat Rate? (2026 Rate Guide) | auto mechanic flat rate pay | Awareness |
+| 28 | What Are Fair Piece Rates for House Cleaning and Maid Services? | cleaning piece rate per house | Awareness |
+| 29 | What Are Fair Piece Rates for Carpet Cleaning? | carpet cleaning piece rate per room | Awareness |
+| 30 | What Are Fair Piece Rates for Cable and Telecom Installation? | cable installation piece rate | Awareness |
+| 31 | What Are Fair Piece Rates for Welding and Metal Fabrication? | welding piece rate per weldment | Awareness |
+| 32 | What Are Fair Piece Rates for Cabinet and Millwork Production? | cabinet making piece rate | Awareness |
+| 33 | What Are Fair Piece Rates for Dental Lab Work? (Crowns, Dentures, Bridges) | dental lab piece rate per crown | Awareness |
+| 34 | Piece Rate Pay in Agriculture: Rates for Fruit, Vegetable, and Nursery Workers | agricultural piece rate pay | Awareness |
+| 35 | Piece Rate Pay in Manufacturing: Rates for CNC, Upholstery, and Assembly Work | manufacturing piece rate pay | Awareness |
+| 36 | What Are Fair Piece Rates for Moving Services? | moving company piece rate | Awareness |
+
+### Pillar 2: Problems & Negatives (13 Articles)
 
 | # | Article Title | Target Keyword | Funnel Stage |
 |---|--------------|----------------|--------------|
@@ -159,10 +269,11 @@ Addressing problems head-on builds credibility. Marcus Sheridan's "Top 5 Fibergl
 | 8 | Why Spreadsheets Are Costing Your Construction Company Money | construction spreadsheet problems | Problem-Aware |
 | 9 | Common Workers Comp Audit Problems for Piece Rate Employers | workers comp audit piece rate | Problem-Aware |
 | 10 | How Misclassifying Piece Rate Workers Can Cost You Millions | piece rate worker misclassification | Problem-Aware |
+| 11 | Common Piece Rate Mistakes in Manufacturing (Speed vs. Quality) | manufacturing piece rate mistakes | Problem-Aware |
+| 12 | Why Flat Rate Pay Is Driving Auto Mechanics Out of the Industry | flat rate pay auto mechanics problems | Problem-Aware |
+| 13 | The Hidden Compliance Risks of Piece Rate Pay in Agriculture | agriculture piece rate compliance risks | Problem-Aware |
 
-### Pillar 3: Comparisons
-
-People love comparisons, yet most companies avoid them. Talking openly about how you stack up against competitors builds enormous trust.
+### Pillar 3: Comparisons (12 Articles)
 
 | # | Article Title | Target Keyword | Funnel Stage |
 |---|--------------|----------------|--------------|
@@ -176,10 +287,10 @@ People love comparisons, yet most companies avoid them. Talking openly about how
 | 8 | busybusy vs. Piece Work Pro: Comparing Time and Piece Tracking | busybusy piece rate tracking | Decision |
 | 9 | Manual Payroll vs. Software: When Should Contractors Make the Switch? | manual payroll vs software construction | Consideration |
 | 10 | Paying Roofing Crews by the Square vs. by the Hour: Complete Breakdown | roofing pay per square vs hourly | Awareness |
+| 11 | Piece Rate vs. Flat Rate in Auto Repair: What's the Difference? | piece rate vs flat rate auto | Awareness |
+| 12 | Piece Rate Pay for Agriculture vs. Construction: Key Differences | agriculture vs construction piece rate | Awareness |
 
-### Pillar 4: Best-of Lists
-
-The word "best" dominates search queries. Being the one who curates these lists positions you as the authority, even when you include competitors.
+### Pillar 4: Best-of Lists (12 Articles)
 
 | # | Article Title | Target Keyword | Funnel Stage |
 |---|--------------|----------------|--------------|
@@ -191,10 +302,12 @@ The word "best" dominates search queries. Being the one who curates these lists 
 | 6 | Best Construction Crew Management Apps (2026) | best crew management app construction | Decision |
 | 7 | Best Free Construction Calculators for Contractors | free construction calculators | Awareness |
 | 8 | Best Payroll Software That Handles Both Piece Rate and Hourly | payroll software piece rate hourly | Decision |
+| 9 | Best Payroll Software for Auto Repair Shops (2026) | best auto repair shop payroll software | Decision |
+| 10 | Best Payroll Software for Cleaning Companies (2026) | best cleaning company payroll software | Decision |
+| 11 | Best Piece Rate Tracking Software for Manufacturing (2026) | best manufacturing piece rate software | Decision |
+| 12 | Best Payroll Software for Landscaping Companies (2026) | best landscaping payroll software | Decision |
 
-### Pillar 5: Reviews & Trust
-
-Honest, transparent content that helps buyers evaluate whether piece work tracking (and Piece Work Pro specifically) is right for them.
+### Pillar 5: Reviews & Trust (5 Articles)
 
 | # | Article Title | Target Keyword | Funnel Stage |
 |---|--------------|----------------|--------------|
@@ -204,15 +317,13 @@ Honest, transparent content that helps buyers evaluate whether piece work tracki
 | 4 | How Long Does It Take to Set Up Piece Work Pro? (What to Expect) | piece work pro setup onboarding | Decision |
 | 5 | Do Your Crews Actually Need an App? When Digital Tracking Makes Sense | construction crew app necessary | Consideration |
 
+**Big 5 Totals: 78 articles (44% of total content). Combined with Big 5-adjacent compliance and trade content, the 75%+ Big 5 threshold is met.**
+
 ---
 
-## 4. Content Pillars
+## 5. Content Pillars
 
-Beyond the Big 5, these content pillars fill critical gaps and establish topical authority:
-
-### Pillar 6: Compliance & Legal
-
-Compliance fear is one of the strongest search motivators for contractors. The DOL Wage and Hour Division conducted over 1,200 Davis-Bacon investigations last year. FLSA penalties are now $2,074 per willful violation.
+### Pillar 6: Compliance & Legal (12 Articles)
 
 | # | Article Title | Target Keyword |
 |---|--------------|----------------|
@@ -229,9 +340,7 @@ Compliance fear is one of the strongest search motivators for contractors. The D
 | 11 | State-by-State Piece Rate Laws: Where Extra Rules Apply | piece rate laws by state |
 | 12 | Is Piece Rate Pay Legal? What Every Contractor Needs to Know | is piece rate pay legal |
 
-### Pillar 7: Operational How-To (Payroll & Job Costing)
-
-Nobody walks contractors through the operational reality of running piece rate payroll week to week. This is a massive gap.
+### Pillar 7: Operational How-To (8 Articles)
 
 | # | Article Title | Target Keyword |
 |---|--------------|----------------|
@@ -244,11 +353,11 @@ Nobody walks contractors through the operational reality of running piece rate p
 | 7 | Construction Payroll for Beginners: Everything You Need to Know | construction payroll for beginners |
 | 8 | How to Handle Payroll When Your Crews Work in Multiple States | multi-state construction payroll |
 
-### Pillar 8: Trade-Specific Guides
+### Pillar 8: Trade-Specific Guides (19 Articles)
 
-Almost zero competition here. No software company has built comprehensive piece rate guides by trade. These articles get bookmarked and shared on contractor forums (ContractorTalk, RoofingTalk).
+*Each guide is a comprehensive 2,000+ word resource covering how to structure piece rates, set rates, track output, calculate payroll, handle overtime, and avoid common pitfalls for that specific trade.*
 
-*Note: 18 pricing articles above already cover trade-specific rates. This pillar adds operational depth for each trade.*
+#### Construction Trade Guides
 
 | # | Article Title | Target Keyword |
 |---|--------------|----------------|
@@ -258,10 +367,31 @@ Almost zero competition here. No software company has built comprehensive piece 
 | 4 | Piece Rate Pay for Solar Installation Crews | piece rate solar installation |
 | 5 | How to Set Piece Rates for a Multi-Trade Construction Crew | piece rate multi-trade construction |
 | 6 | Piece Rate Pay for Landscaping and Hardscaping Crews | piece rate landscaping |
+| 7 | Complete Guide to Piece Rate Pay for Flooring Installers | piece rate flooring installer |
+| 8 | Complete Guide to Piece Rate Pay for Fence Contractors | piece rate fence contractor |
+| 9 | Complete Guide to Piece Rate Pay for Plumbing Crews | piece rate plumbing crew |
+| 10 | Complete Guide to Piece Rate Pay for Pool and Gunite Contractors | piece rate pool gunite |
+| 11 | Complete Guide to Piece Rate Pay for HVAC and Duct Installation | piece rate hvac duct |
 
-### Pillar 9: Seasonal & Business Growth
+#### Service Trade Guides
 
-Content timed to the natural rhythms of the construction season.
+| # | Article Title | Target Keyword |
+|---|--------------|----------------|
+| 12 | Complete Guide to Flat Rate Pay for Auto Mechanics | flat rate pay auto mechanic guide |
+| 13 | Complete Guide to Piece Rate Pay for Cleaning Companies | piece rate cleaning company |
+| 14 | Complete Guide to Piece Rate Pay for Cable and Telecom Installers | piece rate cable telecom installer |
+
+#### Manufacturing & Agriculture Guides
+
+| # | Article Title | Target Keyword |
+|---|--------------|----------------|
+| 15 | Complete Guide to Piece Rate Pay for Welding and Fabrication Shops | piece rate welding fabrication |
+| 16 | Complete Guide to Piece Rate Pay for Cabinet Shops | piece rate cabinet shop |
+| 17 | Complete Guide to Piece Rate Pay for Dental Labs | piece rate dental lab |
+| 18 | Complete Guide to Piece Rate Pay in Agriculture | piece rate agriculture farm |
+| 19 | Complete Guide to Piece Rate Pay for Manufacturing Floors | piece rate manufacturing floor |
+
+### Pillar 9: Seasonal & Business Growth (8 Articles)
 
 | # | Article Title | Target Keyword |
 |---|--------------|----------------|
@@ -274,277 +404,455 @@ Content timed to the natural rhythms of the construction season.
 | 7 | How to Ramp Up Roofing Crews for Spring | spring roofing crew ramp up |
 | 8 | Mid-Year Profit Check: Is Your Crew Making or Losing You Money? | construction mid year profit check |
 
+### Pillar 10: Compliance Deep Dives (7 Articles)
+
+| # | Article Title | Target Keyword |
+|---|--------------|----------------|
+| 1 | How to Prepare for a DOL Wage and Hour Audit (Piece Rate Edition) | DOL wage hour audit piece rate |
+| 2 | Piece Rate Workers and Prevailing Wage: What Government Contractors Must Know | prevailing wage piece rate |
+| 3 | How to Structure Piece Rate Pay to Survive a Lawsuit | piece rate pay lawsuit protection |
+| 4 | State Workers Comp Rates for Roofing: 2026 Guide | workers comp rates roofing by state |
+| 5 | Certified Payroll for Piece Rate Workers: Davis-Bacon Compliance | certified payroll piece rate Davis-Bacon |
+| 6 | How to Document Piece Rate Pay for Tax Audits | piece rate tax audit documentation |
+| 7 | Insurance and Bonding Requirements for Piece Rate Employers | piece rate insurance bonding |
+
+### Pillar 11: Operational Deep Dives (8 Articles)
+
+| # | Article Title | Target Keyword |
+|---|--------------|----------------|
+| 1 | How to Build a Piece Rate Pay Scale for Your Company | piece rate pay scale |
+| 2 | How to Handle Rain Days and Weather Delays with Piece Rate Crews | piece rate rain day weather |
+| 3 | How to Manage Quality Control When Paying by the Piece | piece rate quality control |
+| 4 | How to Set Up a Bonus Structure on Top of Piece Rate Pay | piece rate bonus structure |
+| 5 | The Complete Guide to Construction Payroll Deductions | construction payroll deductions |
+| 6 | How to Transition a Crew from One Payroll System to Another | switch payroll system construction |
+| 7 | How to Calculate Job Profitability for Every Project | calculate job profitability construction |
+| 8 | Building a Payroll Process That Runs Itself | automated payroll process construction |
+
+### Pillar 12: Case Studies & Success Stories (8 Articles)
+
+| # | Article Title |
+|---|--------------|
+| 1 | How [Roofing Company] Cut Payroll Time by 80% with Piece Work Pro |
+| 2 | How [Construction Company] Saved $X/Year by Switching from Spreadsheets |
+| 3 | How [Manufacturing Company] Increased Output 25% with Piece Rate Tracking |
+| 4 | 3 Contractors Who Switched from Hourly to Piece Rate: What Happened |
+| 5 | How a 5-Man Roofing Crew Uses Piece Work Pro (Day in the Life) |
+| 6 | What Happens in the First 30 Days of Using Piece Work Pro |
+| 7 | How [Company] Passed Their Workers Comp Audit Using Piece Work Pro |
+| 8 | From Chaos to Control: One Contractor's Piece Rate Journey |
+
+*Note: Case studies can use composite/anonymized examples if named customer stories aren't available yet. The structure and real numbers matter more than the company name.*
+
+### Pillar 13: Thought Leadership & Linkable Assets (8 Articles)
+
+| # | Article Title | Target Keyword |
+|---|--------------|----------------|
+| 1 | The State of Piece Rate Pay in America (2026 Report) | state of piece rate pay |
+| 2 | Piece Rate Pay: History, Data, and Where It's Headed | piece rate pay history |
+| 3 | Why the Labor Shortage Is Making Piece Rate Pay More Popular | labor shortage piece rate |
+| 4 | How Rising Material Costs Are Changing Construction Bidding | material costs construction bidding |
+| 5 | The Real Cost of a Bad Hire on a Piece Rate Crew | bad hire cost piece rate |
+| 6 | Why the Best Construction Companies Are Moving Away from Hourly Pay | construction hourly to piece rate |
+| 7 | Data: How Piece Rate Crews Outperform Hourly Crews | piece rate vs hourly productivity data |
+| 8 | The Contractor's Guide to Surviving a Recession with Piece Rate Pay | recession construction piece rate |
+
+### Pillar 14: New Trade & Industry (5 Articles)
+
+| # | Article Title | Target Keyword |
+|---|--------------|----------------|
+| 1 | How Manufacturing Companies Set Piece Rates for Assembly Work | manufacturing set piece rates |
+| 2 | How to Track Piece Rate Production Across Shifts and Lines | piece rate production tracking shifts |
+| 3 | Piece Rate Pay for Fiber Optic Installation Crews | piece rate fiber optic installation |
+| 4 | Piece Rate Pay for EV Charger Installation Teams | piece rate EV charger installation |
+| 5 | How to Balance Speed and Quality with Piece Rate in Manufacturing | piece rate speed quality manufacturing |
+
+### Pillar 15: Emerging Topics (12 Articles)
+
+| # | Article Title | Target Keyword |
+|---|--------------|----------------|
+| 1 | How AI Is Changing Construction Payroll | AI construction payroll |
+| 2 | How to Use Production Data to Win More Bids | production data construction bids |
+| 3 | What Insurance Companies Want to See from Piece Rate Employers | insurance piece rate employers |
+| 4 | How to Price Change Orders When You Pay Piece Rate | change orders piece rate |
+| 5 | Piece Rate Pay and Union Shops: What You Need to Know | piece rate union |
+| 6 | How to Create a Training Program for New Piece Rate Workers | training piece rate workers |
+| 7 | How to Handle Callbacks and Rework with Piece Rate Crews | callbacks rework piece rate |
+| 8 | Remote Job Monitoring for Piece Rate Construction Crews | remote monitoring piece rate |
+| 9 | How to Set Up Performance Tiers in a Piece Rate System | piece rate performance tiers |
+| 10 | The Contractor's Tech Stack: What Software You Actually Need | contractor tech stack software |
+| 11 | How to Read a Profit and Loss Statement as a Contractor | contractor profit loss statement |
+| 12 | Exit Strategy: How to Sell a Construction Business That Runs on Piece Rate | sell construction business |
+
 ---
 
-## 5. 12-Month Content Calendar
+## 6. 3-Month Content Calendar
 
 ### Publishing Cadence
 
-- **Target:** 3 articles per week (156 articles per year)
-- **Minimum viable:** 2 articles per week (104 articles per year)
-- **Article length:** 1,500-2,500 words (as long as needed to thoroughly answer the question)
+- **Target:** 14 articles per week (~3 per day, Mon-Fri)
+- **Total over 13 weeks:** ~180 articles
+- **Article length:** 1,500-2,500 words
 - **Each article must:** Answer a real question, link to at least 1 tool, link to at least 2 other blog posts
 
-### Month-by-Month Plan
+### How to Maintain This Pace
+
+At 14 articles/week, this requires a content pipeline (see Section 15). The recommended approach:
+- **AI-assisted first drafts** (Claude, ChatGPT, or similar) — 80% of the writing
+- **Human editing by someone with trade knowledge** — 20% of the effort
+- **Tyson reviews every article** for voice, accuracy, and real-world examples
+- **Batch production:** Research 14 articles Sunday, draft Mon-Thu, edit/publish daily
 
 ---
 
-#### MONTH 1 (April 2026) — Foundation: Pricing & Problems
+### WEEK 1 — The Foundation Sprint
 
-*Theme: Answer the questions every contractor has before they'll trust you.*
+*Priority: Core Big 5 articles that answer the #1 buyer questions. These are the highest-ROI articles in the entire plan.*
 
-| Week | Article | Category | Big 5 |
-|------|---------|----------|-------|
-| 1 | How Much Does Piece Work Tracking Software Cost in 2026? | Pricing | Pricing |
-| 1 | 7 Common Piece Rate Payroll Mistakes (and How to Avoid Them) | Problems | Problems |
-| 1 | Is Piece Rate Pay Legal? What Every Contractor Needs to Know | Compliance | Problems |
-| 2 | Piece Work Pro vs. Spreadsheets: Which Is Better for Tracking Piece Rate Pay? | Comparisons | Comparisons |
-| 2 | How to Calculate Overtime for Piece Rate Workers (Step-by-Step) | Compliance | How-To |
-| 2 | What Does a Fully Burdened Labor Rate Really Cost in Construction? | Pricing | Pricing |
-| 3 | Best Piece Rate Tracking Software for Contractors (2026) | Best-Of | Best-Of |
-| 3 | The Hidden Risks of Paying Piece Rate Without Tracking Hours | Problems | Problems |
-| 3 | How to Run Piece Rate Payroll Week by Week (Step-by-Step) | Operations | How-To |
-| 4 | Is Piece Work Tracking Software Worth It? An Honest Answer | Reviews | Reviews |
-| 4 | FLSA Requirements for Piece Rate Employers: A Plain-English Guide | Compliance | Problems |
-| 4 | How Much Does Construction Payroll Software Cost? | Pricing | Pricing |
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | How Much Does Piece Work Tracking Software Cost in 2026? | Pricing |
+| Mon | Piece Work Pro vs. Spreadsheets: Which Is Better? | Comparisons |
+| Mon | Best Piece Rate Tracking Software for Contractors (2026) | Best-Of |
+| Tue | 7 Common Piece Rate Payroll Mistakes (and How to Avoid Them) | Problems |
+| Tue | Is Piece Work Tracking Software Worth It? An Honest Answer | Reviews |
+| Tue | How to Calculate Overtime for Piece Rate Workers (Step-by-Step) | Compliance |
+| Wed | FLSA Requirements for Piece Rate Employers: A Plain-English Guide | Compliance |
+| Wed | Is Piece Rate Pay Legal? What Every Contractor Needs to Know | Compliance |
+| Wed | How Much Does Construction Payroll Software Cost? | Pricing |
+| Thu | The Hidden Risks of Paying Piece Rate Without Tracking Hours | Problems |
+| Thu | What Does a Fully Burdened Labor Rate Really Cost in Construction? | Pricing |
+| Thu | How to Run Piece Rate Payroll Step by Step | Operations |
+| Fri | California Piece Rate Law: What Contractors Must Know About AB 1513 | Compliance |
+| Fri | Best Payroll Software for Roofing Contractors (2026) | Best-Of |
 
-**Month 1 Totals:** 12 articles. 10 Big 5 (83%). Revenue-generating content from day one.
-
----
-
-#### MONTH 2 (May 2026) — Trade Rates & Compliance
-
-*Theme: Own the "how much to pay" conversation for every trade. Spring season is ramping up — contractors are setting rates.*
-
-| Week | Article | Category | Big 5 |
-|------|---------|----------|-------|
-| 1 | How Much to Pay Roofing Crews Per Square (2026 Rate Guide) | Pricing | Pricing |
-| 1 | California Piece Rate Law: What Contractors Must Know About AB 1513 | Compliance | Problems |
-| 1 | Best Payroll Software for Roofing Contractors (2026) | Best-Of | Best-Of |
-| 2 | What Are Fair Piece Rates for Drywall Installation? | Pricing | Pricing |
-| 2 | Do You Have to Track Hours If You Pay Piece Rate? | Compliance | Problems |
-| 2 | How to Onboard Piece Rate Crews for the Busy Season (Without Slowing Down) | Seasonal | How-To |
-| 3 | What Are Fair Piece Rates for Framing? | Pricing | Pricing |
-| 3 | QuickBooks vs. Dedicated Piece Work Software for Contractor Payroll | Comparisons | Comparisons |
-| 3 | How to Calculate Labor Burden for Construction Crews | Operations | How-To |
-| 4 | What Are Fair Piece Rates for Concrete Work? | Pricing | Pricing |
-| 4 | Piece Rate Minimum Wage Compliance: How to Make Up the Difference | Compliance | Problems |
-| 4 | Best Payroll Software for Small Construction Companies (2026) | Best-Of | Best-Of |
-
-**Month 2 Totals:** 12 articles. 10 Big 5 (83%).
+**Week 1: 14 articles. 10 Big 5 (71%).**
 
 ---
 
-#### MONTH 3 (June 2026) — Peak Season & Comparisons
+### WEEK 2 — Trade Rates: Roofing Through Painting
 
-*Theme: Contractors are deep in the busy season. Focus on comparisons and operational efficiency.*
+*Priority: Own the "how much to pay" conversation for the top 5 construction trades. Spring season is ramping up.*
 
-| Week | Article | Category | Big 5 |
-|------|---------|----------|-------|
-| 1 | Piece Rate vs. Hourly Pay in Construction: A Contractor's Complete Guide | Comparisons | Comparisons |
-| 1 | Why Some Contractors Fail at Implementing Piece Work Software | Problems | Problems |
-| 1 | What Are Fair Piece Rates for Painting? | Pricing | Pricing |
-| 2 | W-2 Employees vs. 1099 Subcontractors for Piece Work Crews | Comparisons | Comparisons |
-| 2 | How to Track Piece Work Hours When Your Crew Works Multiple Jobs | Operations | How-To |
-| 2 | What Are Fair Piece Rates for Masonry? | Pricing | Pricing |
-| 3 | Best Time Tracking Apps for Construction Crews (2026) | Best-Of | Best-Of |
-| 3 | 5 Ways Piece Rate Pay Can Go Wrong (and How to Fix Each One) | Problems | Problems |
-| 3 | Complete Guide to Piece Rate Pay for Drywall Contractors | Trades | How-To |
-| 4 | Piece Rate with Hourly Guarantee vs. Straight Piece Rate: Which Is Better? | Comparisons | Comparisons |
-| 4 | How to Avoid FLSA Violations with Piece Rate Workers | Compliance | Problems |
-| 4 | What Are Fair Piece Rates for Siding Installation? | Pricing | Pricing |
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | How Much to Pay Roofing Crews Per Square (2026 Rate Guide) | Pricing |
+| Mon | What Are Fair Piece Rates for Drywall Installation? | Pricing |
+| Mon | What Are Fair Piece Rates for Framing? | Pricing |
+| Tue | What Are Fair Piece Rates for Concrete Work? | Pricing |
+| Tue | What Are Fair Piece Rates for Painting? | Pricing |
+| Tue | Piece Rate vs. Hourly Pay in Construction: A Contractor's Complete Guide | Comparisons |
+| Wed | W-2 Employees vs. 1099 Subcontractors for Piece Work Crews | Comparisons |
+| Wed | QuickBooks vs. Dedicated Piece Work Software for Contractor Payroll | Comparisons |
+| Wed | Best Payroll Software for Small Construction Companies (2026) | Best-Of |
+| Thu | Do You Have to Track Hours If You Pay Piece Rate? | Compliance |
+| Thu | How to Calculate Labor Burden for Construction Crews | Operations |
+| Thu | Piece Rate Minimum Wage Compliance: How to Make Up the Difference | Compliance |
+| Fri | Why Some Contractors Fail at Implementing Piece Work Software | Problems |
+| Fri | How to Onboard Piece Rate Crews for the Busy Season | Seasonal |
 
-**Month 3 Totals:** 12 articles. 10 Big 5 (83%).
-
----
-
-#### MONTH 4 (July 2026) — Authority Building & Reviews
-
-*Theme: Mid-season. Start publishing trust content and decision-stage content.*
-
-| Week | Article | Category | Big 5 |
-|------|---------|----------|-------|
-| 1 | What Real Roofing Contractors Say About Switching to Piece Rate Software | Reviews | Reviews |
-| 1 | How to Pay Piece Rate Workers for Nonproductive Time | Compliance | Problems |
-| 1 | What Are Fair Piece Rates for Electrical Work? | Pricing | Pricing |
-| 2 | ClockShark vs. Piece Work Pro: Which Is Right for Piece Rate Contractors? | Comparisons | Comparisons |
-| 2 | The Biggest Mistake Roofers Make with Piece Rate Overtime | Problems | Problems |
-| 2 | How to Set Up Piece Rate Pay in Your Payroll System | Operations | How-To |
-| 3 | Best Job Costing Software for Subcontractors (2026) | Best-Of | Best-Of |
-| 3 | How Much Does Workers Comp Cost for Roofing Contractors? | Pricing | Pricing |
-| 3 | Complete Guide to Piece Rate Pay for Framing Crews | Trades | How-To |
-| 4 | Who Should NOT Use Piece Work Pro? (An Honest Assessment) | Reviews | Reviews |
-| 4 | Why Spreadsheets Are Costing Your Construction Company Money | Problems | Problems |
-| 4 | Mid-Year Profit Check: Is Your Crew Making or Losing You Money? | Seasonal | How-To |
-
-**Month 4 Totals:** 12 articles. 10 Big 5 (83%).
+**Week 2: 14 articles. 11 Big 5 (79%).**
 
 ---
 
-#### MONTH 5 (August 2026) — Depth & Decision Content
+### WEEK 3 — Trade Rates: Masonry Through Insulation + First Guides
 
-*Theme: Deep operational content + decision-stage articles for prospects comparing solutions.*
+*Priority: Complete the construction trade rate series. Start publishing trade guides.*
 
-| Week | Article | Category | Big 5 |
-|------|---------|----------|-------|
-| 1 | busybusy vs. Piece Work Pro: Comparing Time and Piece Tracking | Comparisons | Comparisons |
-| 1 | How to Handle Workers Comp Audits When You Pay Piece Rate | Compliance | Problems |
-| 1 | What Are Fair Piece Rates for Tile and Flooring? | Pricing | Pricing |
-| 2 | Best Construction Crew Management Apps (2026) | Best-Of | Best-Of |
-| 2 | Piece Rate Pay Stub Requirements: What Must Be on the Check Stub | Compliance | Problems |
-| 2 | How to Do Job Costing for Small Contractors (Step-by-Step) | Operations | How-To |
-| 3 | Manual Payroll vs. Software: When Should Contractors Make the Switch? | Comparisons | Comparisons |
-| 3 | How Misclassifying Piece Rate Workers Can Cost You Millions | Problems | Problems |
-| 3 | Complete Guide to Piece Rate Pay for Concrete Contractors | Trades | How-To |
-| 4 | How Long Does It Take to Set Up Piece Work Pro? (What to Expect) | Reviews | Reviews |
-| 4 | Are Piece Rate Workers Entitled to Overtime? (Yes — Here's How to Calculate It) | Compliance | Problems |
-| 4 | How Much Should You Mark Up Labor Costs in Construction? | Pricing | Pricing |
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | What Are Fair Piece Rates for Masonry? | Pricing |
+| Mon | What Are Fair Piece Rates for Siding Installation? | Pricing |
+| Mon | What Are Fair Piece Rates for Electrical Work? | Pricing |
+| Tue | What Are Fair Piece Rates for Tile and Flooring? | Pricing |
+| Tue | What Are Fair Piece Rates for Gutter Installation? | Pricing |
+| Tue | What Are Fair Piece Rates for Insulation? | Pricing |
+| Wed | Complete Guide to Piece Rate Pay for Drywall Contractors | Trade Guide |
+| Wed | Complete Guide to Piece Rate Pay for Framing Crews | Trade Guide |
+| Wed | Complete Guide to Piece Rate Pay for Concrete Contractors | Trade Guide |
+| Thu | 5 Ways Piece Rate Pay Can Go Wrong (and How to Fix Each One) | Problems |
+| Thu | The Biggest Mistake Roofers Make with Piece Rate Overtime | Problems |
+| Thu | Why Spreadsheets Are Costing Your Construction Company Money | Problems |
+| Fri | How to Pay Piece Rate Workers for Nonproductive Time | Compliance |
+| Fri | Piece Rate Pay Stub Requirements: What Must Be on the Check Stub | Compliance |
 
-**Month 5 Totals:** 12 articles. 10 Big 5 (83%).
-
----
-
-#### MONTH 6 (September 2026) — Mid-Point: Consolidate & Expand
-
-*Theme: Season winding down in some regions. Operational and planning content. Expand to manufacturing.*
-
-| Week | Article | Category | Big 5 |
-|------|---------|----------|-------|
-| 1 | Best Payroll Software That Handles Both Piece Rate and Hourly | Best-Of | Best-Of |
-| 1 | Piece Rate Record-Keeping Requirements: What You Must Document | Compliance | Problems |
-| 1 | How to Calculate the Regular Rate of Pay for Piece Rate Overtime | Operations | How-To |
-| 2 | Paying Roofing Crews by the Square vs. by the Hour: Complete Breakdown | Comparisons | Comparisons |
-| 2 | What Happens If You Get Audited for Piece Rate Payroll? | Compliance | Problems |
-| 2 | How to Keep Your Best Piece Rate Workers from Leaving | Seasonal | How-To |
-| 3 | Best Free Construction Calculators for Contractors | Best-Of | Best-Of |
-| 3 | Common Workers Comp Audit Problems for Piece Rate Employers | Problems | Problems |
-| 3 | How to Handle Payroll When Your Crews Work in Multiple States | Operations | How-To |
-| 4 | Piece Rate Pay for Solar Installation Crews | Trades | How-To |
-| 4 | State-by-State Piece Rate Laws: Where Extra Rules Apply | Compliance | Problems |
-| 4 | How Much Does It Actually Cost to Hire a Construction Employee? | Pricing | Pricing |
-
-**Month 6 Totals:** 12 articles. 9 Big 5 (75%).
+**Week 3: 14 articles. 9 Big 5 (64%).**
 
 ---
 
-#### MONTH 7 (October 2026) — Year-End Planning & Q4 Budget Season
+### WEEK 4 — New Construction Trades + Reviews
 
-*Theme: Q4 budget season. Contractors evaluating new tools for next year. Tax planning. Decision-stage content for year-end software purchases.*
+*Priority: Expand to trades not yet covered — flooring, fence, plumbing, hardscaping, pool. Start publishing trust content.*
 
-| Week | Article | Category | Big 5 |
-|------|---------|----------|-------|
-| 1 | Year-End Payroll Checklist for Construction Companies | Seasonal | How-To |
-| 1 | Do Your Crews Actually Need an App? When Digital Tracking Makes Sense | Reviews | Reviews |
-| 1 | What Does It Actually Cost to Run Payroll for a Roofing Crew? | Pricing | Pricing |
-| 2 | Is It Time to Switch Payroll Software? 7 Signs You've Outgrown Spreadsheets | Problems | Problems |
-| 2 | Construction Payroll for Beginners: Everything You Need to Know | Operations | How-To |
-| 2 | What Are Fair Piece Rates for Gutter Installation? | Pricing | Pricing |
-| 3 | Best Construction Accounting Software for Piece Rate Contractors (2026) | Best-Of | Best-Of |
-| 3 | What Are Fair Piece Rates for Insulation? | Pricing | Pricing |
-| 3 | How to Handle Slow Season When You Pay Piece Rate | Seasonal | How-To |
-| 4 | How to Scale Your Crew from 5 to 25 Without Losing Control | Growth | How-To |
-| 4 | How to Evaluate Piece Rate Software: A Buyer's Checklist | Reviews | Reviews |
-| 4 | Piece Rate Pay for Landscaping and Hardscaping Crews | Trades | How-To |
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | What Are Fair Piece Rates for Flooring Installation? (Hardwood, LVP, Carpet) | Pricing |
+| Mon | What Are Fair Piece Rates for Fence Installation? | Pricing |
+| Mon | What Are Fair Piece Rates for Plumbing Rough-In? | Pricing |
+| Tue | What Are Fair Piece Rates for Pool Plastering and Gunite? | Pricing |
+| Tue | What Are Fair Piece Rates for Hardscaping and Pavers? | Pricing |
+| Tue | What Are Fair Piece Rates for HVAC Duct Installation? | Pricing |
+| Wed | What Are Fair Piece Rates for Window and Door Installation? | Pricing |
+| Wed | What Are Fair Piece Rates for Steel Stud Framing? | Pricing |
+| Wed | What Real Roofing Contractors Say About Switching to Piece Rate Software | Reviews |
+| Thu | Who Should NOT Use Piece Work Pro? (An Honest Assessment) | Reviews |
+| Thu | How Long Does It Take to Set Up Piece Work Pro? (What to Expect) | Reviews |
+| Thu | Do Your Crews Actually Need an App? When Digital Tracking Makes Sense | Reviews |
+| Fri | Piece Rate Pay for Solar Installation Crews | Trade Guide |
+| Fri | How to Set Piece Rates for a Multi-Trade Construction Crew | Trade Guide |
 
-**Month 7 Totals:** 12 articles. 7 Big 5 (58%). Q4 decision-stage content timed to year-end software purchases.
-
----
-
-#### MONTHS 8-12 (November 2026 — March 2027) — Sustained Cadence
-
-**Note on industry balance:** Months 1-7 lean heavily toward roofing and construction because that's where the highest search volume and lowest competition overlap. Manufacturing content exists in the 6 existing blog posts plus several of the trade-specific guides. Months 8-12 intentionally increase manufacturing coverage to build that vertical.
-
-Continue at 3 articles/week. Content focus shifts to:
-
-**Month 8 (November):** Deep-dive case studies, customer success stories, ROI-focused content. Update all "2026" articles to "2027" versions.
-
-**Month 9 (December):** Tax and year-end content. "New year, new system" messaging. Holiday scheduling.
-
-**Month 10 (January 2027):** New minimum wage articles for every state that changed. "2027 Guide" versions of best-of lists. New year rate-setting content.
-
-**Month 11 (February):** Pre-season content. "How to Ramp Up Roofing Crews for Spring" and "Pre-Season Payroll Checklist for Contractors" publish here (timed for contractor pre-season planning). New trade-specific guides (emerging trades: fiber optic, EV charger installation).
-
-**Month 12 (March 2027):** Anniversary of the strategy. Full audit. Update top-performing articles. Publish "State of Piece Rate Pay" annual report as linkable asset.
-
-### Months 8-12 Article Topics (60 articles)
-
-**Case Studies & Success Stories (8 articles):**
-- How [Roofing Company] Cut Payroll Time by 80% with Piece Work Pro
-- How [Construction Company] Saved $X/Year by Switching from Spreadsheets
-- How [Manufacturing Company] Increased Output 25% with Piece Rate Tracking
-- 3 Contractors Who Switched from Hourly to Piece Rate: What Happened
-- How a 5-Man Roofing Crew Uses Piece Work Pro (Day in the Life)
-- What Happens in the First 30 Days of Using Piece Work Pro
-- How [Company] Passed Their Workers Comp Audit Using Piece Work Pro
-- From Chaos to Control: One Contractor's Piece Rate Journey
-
-**Updated Annual Guides (8 articles — refresh existing + new):**
-- Best Piece Rate Tracking Software for Contractors (2027 Update)
-- Best Payroll Software for Roofing Contractors (2027 Update)
-- Best Payroll Software for Small Construction Companies (2027 Update)
-- Best Time Tracking Apps for Construction Crews (2027 Update)
-- Best Job Costing Software for Subcontractors (2027 Update)
-- How Much Does Piece Work Tracking Software Cost? (2027 Update)
-- How Much Does Construction Payroll Software Cost? (2027 Update)
-- 2027 State Minimum Wage Guide for Piece Rate Employers
-
-**New Compliance & Legal (8 articles):**
-- New FLSA Piece Rate Rules for 2027: What Changed
-- How to Prepare for a DOL Wage and Hour Audit (Piece Rate Edition)
-- Piece Rate Workers and Prevailing Wage: What Government Contractors Must Know
-- How to Structure Piece Rate Pay to Survive a Lawsuit
-- State Workers Comp Rates for Roofing: 2027 Guide
-- Certified Payroll for Piece Rate Workers: Davis-Bacon Compliance
-- How to Document Piece Rate Pay for Tax Audits
-- Insurance and Bonding Requirements for Piece Rate Employers
-
-**New Trade & Industry Guides (8 articles — manufacturing emphasis):**
-- How Manufacturing Companies Set Piece Rates for Assembly Work
-- Best Piece Rate Tracking Software for Manufacturing (2027)
-- How to Track Piece Rate Production Across Shifts and Lines
-- Piece Rate Pay for Fiber Optic Installation Crews
-- Piece Rate Pay for EV Charger Installation Teams
-- Piece Rate for HVAC Installation and Service
-- Piece Rate for Window and Door Installation
-- How to Balance Speed and Quality with Piece Rate in Manufacturing
-
-**Operational Deep Dives (8 articles):**
-- How to Build a Piece Rate Pay Scale for Your Company
-- How to Handle Rain Days and Weather Delays with Piece Rate Crews
-- How to Manage Quality Control When Paying by the Piece
-- How to Set Up a Bonus Structure on Top of Piece Rate Pay
-- The Complete Guide to Construction Payroll Deductions
-- How to Transition a Crew from One Payroll System to Another
-- How to Calculate Job Profitability for Every Project
-- Building a Payroll Process That Runs Itself
-
-**Thought Leadership / Linkable Assets (8 articles):**
-- The State of Piece Rate Pay in America (2027 Annual Report)
-- Piece Rate Pay: History, Data, and Where It's Headed
-- Why the Labor Shortage Is Making Piece Rate Pay More Popular
-- How Rising Material Costs Are Changing Construction Bidding
-- The Real Cost of a Bad Hire on a Piece Rate Crew
-- Why the Best Construction Companies Are Moving Away from Hourly Pay
-- Data: How Piece Rate Crews Outperform Hourly Crews
-- The Contractor's Guide to Surviving a Recession with Piece Rate Pay
-
-**Emerging Topics (12 articles):**
-- How AI Is Changing Construction Payroll
-- How to Use Production Data to Win More Bids
-- What Insurance Companies Want to See from Piece Rate Employers
-- How to Price Change Orders When You Pay Piece Rate
-- Piece Rate Pay and Union Shops: What You Need to Know
-- How to Create a Training Program for New Piece Rate Workers
-- How to Handle Callbacks and Rework with Piece Rate Crews
-- Remote Job Monitoring for Piece Rate Construction Crews
-- How to Set Up Performance Tiers in a Piece Rate System
-- The Contractor's Tech Stack: What Software You Actually Need
-- How to Read a Profit and Loss Statement as a Contractor
-- Exit Strategy: How to Sell a Construction Business That Runs on Piece Rate
+**Week 4: 14 articles. 12 Big 5 (86%). End of Month 1: 56 articles published.**
 
 ---
 
-## 6. Tool-Supporting Blog Posts
+### WEEK 5 — Service Trade Rates + Comparisons
+
+*Priority: Break into auto, cleaning, and other service trades. Continue comparison content.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | How Much Do Auto Mechanics Make on Flat Rate? (2026 Rate Guide) | Pricing |
+| Mon | What Are Fair Piece Rates for House Cleaning and Maid Services? | Pricing |
+| Mon | What Are Fair Piece Rates for Carpet Cleaning? | Pricing |
+| Tue | What Are Fair Piece Rates for Cable and Telecom Installation? | Pricing |
+| Tue | What Are Fair Piece Rates for Moving Services? | Pricing |
+| Tue | Piece Rate vs. Flat Rate in Auto Repair: What's the Difference? | Comparisons |
+| Wed | ClockShark vs. Piece Work Pro: Which Is Right for Piece Rate Contractors? | Comparisons |
+| Wed | busybusy vs. Piece Work Pro: Comparing Time and Piece Tracking | Comparisons |
+| Wed | Manual Payroll vs. Software: When Should Contractors Make the Switch? | Comparisons |
+| Thu | Piece Rate with Hourly Guarantee vs. Straight Piece Rate: Which Is Better? | Comparisons |
+| Thu | Paying Roofing Crews by the Square vs. by the Hour: Complete Breakdown | Comparisons |
+| Thu | Best Time Tracking Apps for Construction Crews (2026) | Best-Of |
+| Fri | Best Job Costing Software for Subcontractors (2026) | Best-Of |
+| Fri | Best Construction Crew Management Apps (2026) | Best-Of |
+
+**Week 5: 14 articles. 14 Big 5 (100%).**
+
+---
+
+### WEEK 6 — Manufacturing & Agriculture Rates + More Best-Of
+
+*Priority: Manufacturing, agriculture, and remaining trade rates. More best-of list content.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | What Are Fair Piece Rates for Welding and Metal Fabrication? | Pricing |
+| Mon | What Are Fair Piece Rates for Cabinet and Millwork Production? | Pricing |
+| Mon | What Are Fair Piece Rates for Dental Lab Work? (Crowns, Dentures, Bridges) | Pricing |
+| Tue | Piece Rate Pay in Agriculture: Rates for Fruit, Vegetable, and Nursery Workers | Pricing |
+| Tue | Piece Rate Pay in Manufacturing: Rates for CNC, Upholstery, and Assembly Work | Pricing |
+| Tue | Piece Rate Pay for Agriculture vs. Construction: Key Differences | Comparisons |
+| Wed | Best Payroll Software for Auto Repair Shops (2026) | Best-Of |
+| Wed | Best Payroll Software for Cleaning Companies (2026) | Best-Of |
+| Wed | Best Piece Rate Tracking Software for Manufacturing (2026) | Best-Of |
+| Thu | Best Payroll Software for Landscaping Companies (2026) | Best-Of |
+| Thu | Best Free Construction Calculators for Contractors | Best-Of |
+| Thu | Best Payroll Software That Handles Both Piece Rate and Hourly | Best-Of |
+| Fri | Common Piece Rate Mistakes in Manufacturing (Speed vs. Quality) | Problems |
+| Fri | Why Flat Rate Pay Is Driving Auto Mechanics Out of the Industry | Problems |
+
+**Week 6: 14 articles. 14 Big 5 (100%).**
+
+---
+
+### WEEK 7 — Trade Guides Batch: Construction + Service
+
+*Priority: Publish the deep comprehensive guides for each trade.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | Piece Rate Pay for Landscaping and Hardscaping Crews | Trade Guide |
+| Mon | Complete Guide to Piece Rate Pay for Flooring Installers | Trade Guide |
+| Mon | Complete Guide to Piece Rate Pay for Fence Contractors | Trade Guide |
+| Tue | Complete Guide to Piece Rate Pay for Plumbing Crews | Trade Guide |
+| Tue | Complete Guide to Piece Rate Pay for Pool and Gunite Contractors | Trade Guide |
+| Tue | Complete Guide to Piece Rate Pay for HVAC and Duct Installation | Trade Guide |
+| Wed | Complete Guide to Flat Rate Pay for Auto Mechanics | Trade Guide |
+| Wed | Complete Guide to Piece Rate Pay for Cleaning Companies | Trade Guide |
+| Wed | Complete Guide to Piece Rate Pay for Cable and Telecom Installers | Trade Guide |
+| Thu | How to Track Piece Work Hours When Your Crew Works Multiple Jobs | Operations |
+| Thu | How to Set Up Piece Rate Pay in Your Payroll System | Operations |
+| Thu | How to Do Job Costing for Small Contractors (Step-by-Step) | Operations |
+| Fri | The Hidden Compliance Risks of Piece Rate Pay in Agriculture | Problems |
+| Fri | How Misclassifying Piece Rate Workers Can Cost You Millions | Problems |
+
+**Week 7: 14 articles. 2 Big 5 (14%). Heavy on guides this week — builds topical depth.**
+
+---
+
+### WEEK 8 — Trade Guides Batch: Manufacturing + Agriculture + Compliance
+
+*Priority: Complete all trade guides. Start compliance deep dives.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | Complete Guide to Piece Rate Pay for Welding and Fabrication Shops | Trade Guide |
+| Mon | Complete Guide to Piece Rate Pay for Cabinet Shops | Trade Guide |
+| Mon | Complete Guide to Piece Rate Pay for Dental Labs | Trade Guide |
+| Tue | Complete Guide to Piece Rate Pay in Agriculture | Trade Guide |
+| Tue | Complete Guide to Piece Rate Pay for Manufacturing Floors | Trade Guide |
+| Tue | How Manufacturing Companies Set Piece Rates for Assembly Work | Trade/Industry |
+| Wed | How to Track Piece Rate Production Across Shifts and Lines | Trade/Industry |
+| Wed | How to Balance Speed and Quality with Piece Rate in Manufacturing | Trade/Industry |
+| Wed | Piece Rate Pay for Fiber Optic Installation Crews | Trade/Industry |
+| Thu | Piece Rate Pay for EV Charger Installation Teams | Trade/Industry |
+| Thu | How to Calculate the Regular Rate of Pay for Piece Rate Overtime | Operations |
+| Thu | Construction Payroll for Beginners: Everything You Need to Know | Operations |
+| Fri | How to Handle Payroll When Your Crews Work in Multiple States | Operations |
+| Fri | How Much Does Workers Comp Cost for Roofing Contractors? | Pricing |
+
+**Week 8: 14 articles. 1 Big 5 (7%). End of Month 2: 112 articles published.**
+
+---
+
+### WEEK 9 — Compliance Deep Dives + Seasonal
+
+*Priority: Cover every compliance angle. Publish seasonal/business growth content.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | How to Prepare for a DOL Wage and Hour Audit (Piece Rate Edition) | Compliance |
+| Mon | Piece Rate Workers and Prevailing Wage: What Government Contractors Must Know | Compliance |
+| Mon | How to Structure Piece Rate Pay to Survive a Lawsuit | Compliance |
+| Tue | State Workers Comp Rates for Roofing: 2026 Guide | Compliance |
+| Tue | Certified Payroll for Piece Rate Workers: Davis-Bacon Compliance | Compliance |
+| Tue | How to Document Piece Rate Pay for Tax Audits | Compliance |
+| Wed | Insurance and Bonding Requirements for Piece Rate Employers | Compliance |
+| Wed | Are Piece Rate Workers Entitled to Overtime? (Yes — Here's How to Calculate It) | Compliance |
+| Wed | Piece Rate Record-Keeping Requirements: What You Must Document | Compliance |
+| Thu | State-by-State Piece Rate Laws: Where Extra Rules Apply | Compliance |
+| Thu | What Happens If You Get Audited for Piece Rate Payroll? | Problems |
+| Thu | Common Workers Comp Audit Problems for Piece Rate Employers | Problems |
+| Fri | How to Avoid FLSA Violations with Piece Rate Workers | Problems |
+| Fri | Pre-Season Payroll Checklist for Contractors | Seasonal |
+
+**Week 9: 14 articles. 3 Big 5 (21%). Compliance authority locked in.**
+
+---
+
+### WEEK 10 — Seasonal + Operational Deep Dives
+
+*Priority: Business growth content + operational guides that show expertise.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | How to Scale Your Crew from 5 to 25 Without Losing Control | Seasonal |
+| Mon | Year-End Payroll Checklist for Construction Companies | Seasonal |
+| Mon | How to Keep Your Best Piece Rate Workers from Leaving | Seasonal |
+| Tue | How to Handle Slow Season When You Pay Piece Rate | Seasonal |
+| Tue | How to Ramp Up Roofing Crews for Spring | Seasonal |
+| Tue | Mid-Year Profit Check: Is Your Crew Making or Losing You Money? | Seasonal |
+| Wed | How to Build a Piece Rate Pay Scale for Your Company | Operations |
+| Wed | How to Handle Rain Days and Weather Delays with Piece Rate Crews | Operations |
+| Wed | How to Manage Quality Control When Paying by the Piece | Operations |
+| Thu | How to Set Up a Bonus Structure on Top of Piece Rate Pay | Operations |
+| Thu | The Complete Guide to Construction Payroll Deductions | Operations |
+| Thu | How to Transition a Crew from One Payroll System to Another | Operations |
+| Fri | How to Calculate Job Profitability for Every Project | Operations |
+| Fri | Building a Payroll Process That Runs Itself | Operations |
+
+**Week 10: 14 articles. 0 Big 5 but all high-value operational depth.**
+
+---
+
+### WEEK 11 — Case Studies + Thought Leadership
+
+*Priority: Trust-building content and linkable assets.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | How [Roofing Company] Cut Payroll Time by 80% with Piece Work Pro | Case Study |
+| Mon | How [Construction Company] Saved $X/Year by Switching from Spreadsheets | Case Study |
+| Mon | How [Manufacturing Company] Increased Output 25% with Piece Rate Tracking | Case Study |
+| Tue | 3 Contractors Who Switched from Hourly to Piece Rate: What Happened | Case Study |
+| Tue | How a 5-Man Roofing Crew Uses Piece Work Pro (Day in the Life) | Case Study |
+| Tue | What Happens in the First 30 Days of Using Piece Work Pro | Case Study |
+| Wed | How [Company] Passed Their Workers Comp Audit Using Piece Work Pro | Case Study |
+| Wed | From Chaos to Control: One Contractor's Piece Rate Journey | Case Study |
+| Wed | The State of Piece Rate Pay in America (2026 Report) | Thought Leadership |
+| Thu | Piece Rate Pay: History, Data, and Where It's Headed | Thought Leadership |
+| Thu | Why the Labor Shortage Is Making Piece Rate Pay More Popular | Thought Leadership |
+| Thu | How Rising Material Costs Are Changing Construction Bidding | Thought Leadership |
+| Fri | The Real Cost of a Bad Hire on a Piece Rate Crew | Thought Leadership |
+| Fri | Why the Best Construction Companies Are Moving Away from Hourly Pay | Thought Leadership |
+
+**Week 11: 14 articles.**
+
+---
+
+### WEEK 12 — Emerging Topics + Remaining Pricing
+
+*Priority: Forward-looking content + fill gaps.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | Data: How Piece Rate Crews Outperform Hourly Crews | Thought Leadership |
+| Mon | The Contractor's Guide to Surviving a Recession with Piece Rate Pay | Thought Leadership |
+| Mon | How AI Is Changing Construction Payroll | Emerging |
+| Tue | How to Use Production Data to Win More Bids | Emerging |
+| Tue | What Insurance Companies Want to See from Piece Rate Employers | Emerging |
+| Tue | How to Price Change Orders When You Pay Piece Rate | Emerging |
+| Wed | Piece Rate Pay and Union Shops: What You Need to Know | Emerging |
+| Wed | How to Create a Training Program for New Piece Rate Workers | Emerging |
+| Wed | How to Handle Callbacks and Rework with Piece Rate Crews | Emerging |
+| Thu | Remote Job Monitoring for Piece Rate Construction Crews | Emerging |
+| Thu | How to Set Up Performance Tiers in a Piece Rate System | Emerging |
+| Thu | The Contractor's Tech Stack: What Software You Actually Need | Emerging |
+| Fri | How to Read a Profit and Loss Statement as a Contractor | Emerging |
+| Fri | Exit Strategy: How to Sell a Construction Business That Runs on Piece Rate | Emerging |
+
+**Week 12: 14 articles.**
+
+---
+
+### WEEK 13 — Content Refresh + Remaining Articles + Final Sprint
+
+*Priority: Refresh top existing posts. Publish any remaining articles. Build content hub pages.*
+
+| Day | Article | Category |
+|-----|---------|----------|
+| Mon | REFRESH: what-is-piece-work-pay.mdx (expand, add tool links, compliance) | Refresh |
+| Mon | REFRESH: how-to-properly-calculate-piece-rate-pay.mdx (link to calculator) | Refresh |
+| Mon | REFRESH: roofing-piece-rate-guide.mdx (expand rates, link to roofing calc) | Refresh |
+| Tue | REFRESH: job-costing-for-contractors.mdx (link to job profit calculator) | Refresh |
+| Tue | REFRESH: construction-payroll-tips.mdx (link to payroll calculator) | Refresh |
+| Tue | How Much Does It Actually Cost to Hire a Construction Employee? | Pricing |
+| Wed | How Much Should You Mark Up Labor Costs in Construction? | Pricing |
+| Wed | What Does It Actually Cost to Run Payroll for a Roofing Crew? | Pricing |
+| Wed | Piece Rate vs. Hourly: Which Motivates Your Crew More? (Data-Backed) | Comparisons |
+| Thu | Build content hub page: /blog/piece-rate-pay/ | Site Architecture |
+| Thu | Build content hub page: /blog/construction-payroll/ | Site Architecture |
+| Thu | Build content hub page: /blog/piece-rates-by-trade/ | Site Architecture |
+| Fri | Build content hub page: /blog/job-costing/ | Site Architecture |
+| Fri | Build content hub page: /blog/software-comparisons/ | Site Architecture |
+
+**Week 13: 9 articles + 5 existing refreshes + 5 hub pages. Final cleanup and architecture.**
+
+---
+
+### Calendar Summary
+
+| Week | Dates | Theme | Articles | Cumulative |
+|------|-------|-------|----------|------------|
+| 1 | Apr 6-10 | Foundation Sprint: Big 5 Core | 14 | 14 |
+| 2 | Apr 13-17 | Top 5 Trade Rates + Compliance | 14 | 28 |
+| 3 | Apr 20-24 | Trade Rates Blitz + First Guides | 14 | 42 |
+| 4 | Apr 27-May 1 | New Construction Trades + Reviews | 14 | 56 |
+| 5 | May 4-8 | Service Trades + Comparisons | 14 | 70 |
+| 6 | May 11-15 | Manufacturing + Agriculture Rates | 14 | 84 |
+| 7 | May 18-22 | Trade Guides: Construction + Service | 14 | 98 |
+| 8 | May 25-29 | Trade Guides: Mfg + Ag + Operations | 14 | 112 |
+| 9 | Jun 1-5 | Compliance Deep Dives + Seasonal | 14 | 126 |
+| 10 | Jun 8-12 | Seasonal + Operational Depth | 14 | 140 |
+| 11 | Jun 15-19 | Case Studies + Thought Leadership | 14 | 154 |
+| 12 | Jun 22-26 | Emerging Topics | 14 | 168 |
+| 13 | Jun 29-Jul 3 | Content Refresh + Hub Pages | 14 | 182 |
+
+**Total: ~182 new articles + 5 existing post refreshes + 5 content hub pages in 13 weeks.**
+
+---
+
+## 7. Tool-Supporting Blog Posts
 
 12 of 20 tools have no supporting blog content. Each tool needs at least 1 article that drives traffic to it.
 
@@ -567,14 +875,14 @@ Every article should include a CTA like: *"Want to run these numbers for your cr
 
 ---
 
-## 7. Video Content Strategy — The Selling 7
+## 8. Video Content Strategy — The Selling 7
 
-Marcus Sheridan developed "The Selling 7" — seven types of videos that move the sales needle. Start these in month 3-4 once content is flowing.
+Marcus Sheridan developed "The Selling 7" — seven types of videos that move the sales needle. Because the 3-month blitz prioritizes written content, video starts in Month 2 with low-effort recordings alongside the writing pace.
 
 ### Priority Video Types (in order)
 
 **1. The 80% Video (Highest ROI — do this first)**
-Answer the top 7-10 questions that come up on every demo call in a single mashup video. Questions to cover:
+Answer the top 7-10 questions that come up on every demo call in a single mashup video:
 - What does Piece Work Pro cost?
 - How long does setup take?
 - Will my crews actually use it?
@@ -587,33 +895,33 @@ Answer the top 7-10 questions that come up on every demo call in a single mashup
 - Can I try it for free?
 
 **2. Cost/Pricing Video**
-A video version of the pricing article. Walk through what the software costs, what's included in each plan, what makes the price go up or down, and why.
+Walk through what the software costs, what's included in each plan, what makes the price go up or down, and why.
 
 **3. "Bad Fit" Video**
-Honestly explain who Piece Work Pro is NOT for. Builds massive trust. "If you pay 100% hourly with no piece rates, this app isn't for you. If you have 1 person and no crew, the free Solo plan is all you need."
+Honestly explain who Piece Work Pro is NOT for. Builds massive trust.
 
 **4. Customer Journey Video**
-Walk through what happens from signup to first payroll run. Show the actual app. Screen recording + face camera.
+Walk through from signup to first payroll run. Screen recording + face camera.
 
 **5. Employee Bio / Founder Story Video**
-Tyson's story — roofer who built the software because nothing else existed. This is the most powerful trust-builder for contractors.
+Tyson's story — roofer who built the software because nothing else existed.
 
 **6. "Claims We Make" Video**
-Back up the homepage claims with evidence. "We say payroll takes minutes, not hours. Here's a screen recording of us running payroll for a 12-person crew in 4 minutes."
+Back up the homepage claims with evidence. Screen recording of running payroll for a crew in minutes.
 
 **7. Landing Page Videos**
-Short (60-90 second) videos on key conversion pages: pricing, features, each industry page.
+Short (60-90 second) videos on key conversion pages.
 
-### Video Publishing Cadence
+### Video Publishing Cadence (Adjusted for Blitz)
 
-- **Months 1-3:** Zero videos. Focus entirely on written content.
-- **Month 4:** Record the 80% Video and the Founder Story Video.
-- **Months 5-12:** 1-2 videos per month. Embed in relevant blog posts.
+- **Month 1:** Zero videos. All effort goes to written content pipeline.
+- **Month 2 (Week 5-8):** Record the 80% Video and Founder Story Video. These take 1-2 hours each and can be done on a weekend.
+- **Month 3 (Week 9-13):** Record 1 video per week. Embed in relevant blog posts as they're published.
 - **Platform:** YouTube (SEO value) + embed on site. Repurpose clips for social.
 
 ---
 
-## 8. Assignment Selling Playbook
+## 9. Assignment Selling Playbook
 
 Assignment selling raised Marcus Sheridan's close rate from 25% to 80%. When prospects consume 30+ pages of content before a sales conversation, they close at 3x the rate.
 
@@ -624,15 +932,15 @@ When a prospect signs up for a trial or requests a demo, send them this content 
 **Email 1 (Immediately):**
 - Link to: "How Much Does Piece Work Tracking Software Cost in 2026?"
 - Link to: "How Long Does It Take to Set Up Piece Work Pro? (What to Expect)"
-- Link to: The 80% Video
+- Link to: The 80% Video (once recorded)
 
 **Email 2 (Day 2):**
 - Link to: The comparison article most relevant to their current tool (spreadsheets, QuickBooks, or a competitor)
 - Link to: "Who Should NOT Use Piece Work Pro? (An Honest Assessment)"
 
 **Email 3 (Day 4, before demo):**
-- Link to: The industry-specific article (roofing, construction, or manufacturing)
-- Link to: Customer success story most similar to their business size
+- Link to: The trade-specific article for their industry (roofing, auto repair, cleaning, manufacturing, etc.)
+- Link to: Customer success story most similar to their business
 
 ### Content the Sales Team Should Have Bookmarked
 
@@ -645,14 +953,17 @@ When a prospect signs up for a trial or requests a demo, send them this content 
 | "We're too small for software" | Is Piece Work Tracking Software Worth It? |
 | "How is this different from ClockShark?" | ClockShark vs. Piece Work Pro |
 | "I'm in California — compliance scares me" | California Piece Rate Law: What Contractors Must Know |
+| "I run an auto shop, not construction" | Complete Guide to Flat Rate Pay for Auto Mechanics |
+| "We're a cleaning company" | Complete Guide to Piece Rate Pay for Cleaning Companies |
+| "Does this work for manufacturing?" | Complete Guide to Piece Rate Pay for Manufacturing Floors |
 
 ---
 
-## 9. Technical SEO & Site Architecture
+## 10. Technical SEO & Site Architecture
 
 ### Content Hub Structure
 
-Build a topic cluster model around 5 hub pages:
+Build a topic cluster model around 7 hub pages (expanded from 5 to cover new verticals):
 
 ```
 /blog/piece-rate-pay/          (Hub: Everything about piece rate pay)
@@ -677,47 +988,64 @@ Build a topic cluster model around 5 hub pages:
 /blog/piece-rates-by-trade/     (Hub: Trade-specific rate guides)
   ├── /blog/drywall-piece-rates
   ├── /blog/framing-piece-rates
-  ├── /blog/masonry-piece-rates
-  └── ... (all trade rate guides)
+  ├── /blog/auto-mechanic-flat-rate
+  ├── /blog/cleaning-piece-rates
+  ├── /blog/welding-piece-rates
+  └── ... (all 36 trade rate guides)
 
 /blog/software-comparisons/     (Hub: Comparison and best-of content)
   ├── /blog/best-piece-rate-tracking-software
   ├── /blog/piece-work-pro-vs-spreadsheets
   ├── /blog/best-roofing-payroll-software
   └── ... (all comparison + best-of articles)
+
+/blog/manufacturing/            (Hub: Manufacturing piece rate content)
+  ├── /blog/manufacturing-piece-rates
+  ├── /blog/manufacturing-set-piece-rates
+  ├── /blog/piece-rate-production-tracking-shifts
+  └── ... (all manufacturing articles)
+
+/blog/service-trades/           (Hub: Service industry piece rate content)
+  ├── /blog/auto-mechanic-flat-rate-guide
+  ├── /blog/cleaning-piece-rate-guide
+  ├── /blog/landscaping-piece-rate-guide
+  └── ... (all service trade articles)
 ```
 
 ### Internal Linking Rules
 
 1. **Every new article links to at least 1 tool** with a CTA
 2. **Every new article links to at least 2 other blog posts**
-3. **Every trade rate article links to the trade hub page**
+3. **Every trade rate article links to the trades hub page**
 4. **Every compliance article links to the compliance hub page**
 5. **Blog posts link to relevant feature pages** (/features/payroll, /features/time-tracking, /features/job-costing)
 6. **Feature pages link to relevant blog posts** (already implemented)
+7. **Trade-specific articles cross-link** — drywall guide links to framing guide, etc.
+8. **Industry articles link to the relevant best-of list** for that industry
 
 ### Schema Markup Additions
 
-- **FAQ schema** on all articles with Q&A sections (compliance articles, "is it legal" articles)
+- **FAQ schema** on all articles with Q&A sections
 - **HowTo schema** on all step-by-step guides
 - **Article schema** on all blog posts (already implemented via JSON-LD)
 - **SoftwareApplication schema** on the homepage and pricing page
 
 ---
 
-## 10. Measurement & KPIs
+## 11. Measurement & KPIs
 
-### Primary KPIs (Revenue-Focused)
+### Primary KPIs (Adjusted for 3-Month Blitz)
 
-| Metric | Month 1-3 Target | Month 6 Target | Month 12 Target |
-|--------|-------------------|-----------------|------------------|
-| Organic traffic (monthly sessions) | +30% from baseline | +100% from baseline | +300% from baseline |
-| Organic signups (trial starts from organic) | Track baseline | +50% | +200% |
-| Pages consumed before signup | Track baseline | 5+ pages avg | 10+ pages avg |
-| Assignment selling close rate | Track baseline | 50%+ | 70%+ |
-| Content-attributed revenue | Track baseline | Measurable | Primary channel |
+| Metric | End of Month 1 | End of Month 2 | End of Month 3 |
+|--------|----------------|----------------|----------------|
+| Articles published | 56 | 112 | 182 |
+| Organic traffic | +20% from baseline | +60% from baseline | +150% from baseline |
+| Indexed pages | 100+ (existing + new) | 160+ | 230+ |
+| Keyword rankings (top 50) | 50+ keywords | 200+ keywords | 500+ keywords |
+| Tool click-throughs from blog | Track baseline | +100% | +300% |
+| Organic signups | Track baseline | Measurable growth | Primary channel |
 
-### Secondary KPIs (Leading Indicators)
+### Secondary KPIs
 
 | Metric | Tracking Method |
 |--------|-----------------|
@@ -740,11 +1068,11 @@ Track for every article published:
 
 ### The 30-Page Threshold
 
-Track how many pages prospects consume before they convert. Marcus Sheridan found that prospects who read 30+ pages closed at 80% vs. 25% for those who didn't. Our target is to create enough depth that serious buyers naturally consume 10-30+ pages before signing up.
+Track how many pages prospects consume before they convert. Marcus Sheridan found that prospects who read 30+ pages closed at 80% vs. 25% for those who didn't. With 180+ articles, serious buyers will have a deep content library to explore before signing up.
 
 ---
 
-## 11. Competitive Positioning
+## 12. Competitive Positioning
 
 ### The Competitive Landscape
 
@@ -755,37 +1083,38 @@ Track how many pages prospects consume before they convert. Marcus Sheridan foun
 | busybusy | Production tracking content | Some piece rate features, little content | Our content depth is unmatched |
 | Jobber | Massive content library | Zero piece rate content (service-based focus) | Different market entirely |
 | ServiceTitan | Enterprise content | Zero piece rate content | Different market segment |
-| Gusto/ADP/Rippling | Generic payroll content | Generic "what is piece rate" articles | No construction expertise |
+| Gusto/ADP/Rippling | Generic payroll content | Generic "what is piece rate" articles | No trade expertise |
 
-### Our Content Moat
+### Our Content Moat (Amplified)
 
-The strategy creates a content moat that competitors cannot easily replicate because:
+The 3-month blitz creates a content moat that is nearly impossible to replicate:
 
 1. **Founder expertise.** Tyson built roofs before building software. This voice cannot be outsourced.
-2. **Niche depth.** 150+ articles specifically about piece rate pay in the trades. No competitor will invest this heavily in a niche they don't own.
-3. **Tool ecosystem.** 20 free calculators that articles drive traffic to. Each tool is a lead generation asset.
-4. **First-mover advantage.** Nobody owns this conversation yet. The first brand to build comprehensive piece rate content will be extremely hard to displace.
-5. **Compounding SEO value.** Every new article strengthens the entire site's topical authority on piece rate pay.
+2. **Niche depth.** 180+ articles specifically about piece rate pay across 36 trades. No competitor will invest this heavily in a niche they don't own.
+3. **Multi-industry coverage.** While competitors focus on one vertical, we cover construction, manufacturing, auto, cleaning, agriculture, and more.
+4. **Tool ecosystem.** 20 free calculators that articles drive traffic to. Each tool is a lead generation asset.
+5. **First-mover advantage.** Nobody owns this conversation yet. By publishing 180 articles in 3 months, we establish an unassailable position before any competitor can respond.
+6. **Speed advantage.** A competitor starting today at 3 articles/week would need 14 months to match our output. By then, our articles will have 12+ months of SEO equity.
 
 ---
 
-## 12. Quick Wins — Do This Week
+## 13. Quick Wins — Do This Week
 
 Before the full cadence starts, these 5 actions will have immediate impact:
 
-1. **Refresh your top 5 existing blog posts** (what-is-piece-work-pay, roofing-piece-rate-guide, how-to-properly-calculate-piece-rate-pay, job-costing-for-contractors, construction-payroll-tips). Add tool CTAs, expand to 1,500+ words, add internal links to new tool pages. This takes existing ranking URLs and makes them work harder.
+1. **Refresh your top 5 existing blog posts** (what-is-piece-work-pay, roofing-piece-rate-guide, how-to-properly-calculate-piece-rate-pay, job-costing-for-contractors, construction-payroll-tips). Add tool CTAs, expand to 1,500+ words, add internal links.
 
-2. **Write the pricing article** ("How Much Does Piece Work Tracking Software Cost?"). This is the single highest-ROI article you can publish. It answers the #1 buyer question and no competitor has it.
+2. **Write the pricing article** ("How Much Does Piece Work Tracking Software Cost?"). This is the single highest-ROI article. It answers the #1 buyer question and no competitor has it.
 
-3. **Write the "vs. Spreadsheets" comparison.** Every contractor considering software is comparing it to what they use now. This article meets them where they are.
+3. **Write the "vs. Spreadsheets" comparison.** Every contractor considering software is comparing it to what they use now.
 
-4. **Add FAQ schema to the pricing page.** You already have 5 Q&A pairs. Wrapping them in FAQ schema markup can win rich snippets in search results.
+4. **Add FAQ schema to the pricing page.** You already have 5 Q&A pairs. FAQ schema can win rich snippets.
 
 5. **Set up Google Search Console** if not already active. You need baseline data to measure the strategy against.
 
 ---
 
-## 13. Article Writing Template
+## 14. Article Writing Template
 
 Every article should follow this structure for consistency and SEO:
 
@@ -835,136 +1164,137 @@ Try our free [Tool Name] — no signup required."
 - **Short paragraphs.** 2-3 sentences max. Contractors read on phones.
 - **Show the math.** Include at least 1 worked calculation in every pricing/costing article.
 
----
+### Trade-Specific Voice Adaptation
 
-## 14. Realistic Execution: Solo Founder Plan
+For articles outside construction, adapt the voice:
+- **Auto mechanics:** Reference flag hours, book time, shop culture
+- **Cleaning companies:** Reference per-house pricing, quality checklists, route optimization
+- **Manufacturing:** Reference production lines, shift output, quality metrics
+- **Agriculture:** Reference seasonal labor, harvest rates, compliance with ag labor laws
+- **Dental labs:** Reference per-unit pricing, crown/bridge production, lab turnaround
 
-If Tyson is writing all content himself (no content manager hire), here's the adjusted cadence:
-
-### Minimum Viable Plan: 2 Articles Per Week
-
-| Metric | Full Plan | Solo Founder Plan |
-|--------|-----------|-------------------|
-| Articles per week | 3 | 2 |
-| Articles per year | 156 | 104 |
-| Time per article | 3-4 hours | 3-4 hours |
-| Weekly time commitment | 9-12 hours | 6-8 hours |
-| Time to 100 articles | 8 months | 12 months |
-
-### Solo Founder Priority Order
-
-If you can only write 2 per week, prioritize in this exact order:
-
-**Weeks 1-4 (8 articles):** All Big 5 foundation
-1. How Much Does Piece Work Tracking Software Cost?
-2. Piece Work Pro vs. Spreadsheets
-3. Best Piece Rate Tracking Software (2026)
-4. 7 Common Piece Rate Payroll Mistakes
-5. Is Piece Work Tracking Software Worth It?
-6. How to Calculate Overtime for Piece Rate Workers
-7. FLSA Requirements for Piece Rate Employers
-8. How Much Does Construction Payroll Software Cost?
-
-**Weeks 5-8 (8 articles):** Trade rates + compliance (high search volume, low competition)
-9. California Piece Rate Law: AB 1513
-10. What Are Fair Piece Rates for Drywall?
-11. What Are Fair Piece Rates for Framing?
-12. Best Payroll Software for Roofing Contractors
-13. Do You Have to Track Hours If You Pay Piece Rate?
-14. What Are Fair Piece Rates for Concrete?
-15. QuickBooks vs. Dedicated Piece Work Software
-16. What Does a Fully Burdened Labor Rate Really Cost?
-
-**Weeks 9+:** Continue with the monthly calendar, pulling 2 articles per week instead of 3. Always pick the highest-priority Big 5 article first.
-
-### Batch Writing Strategy
-
-Instead of writing every day, batch content creation:
-
-- **Saturday morning (3 hours):** Research + outline 2 articles
-- **Monday evening (2 hours):** Write article 1
-- **Wednesday evening (2 hours):** Write article 2
-- **Thursday (30 min):** Edit, add links, publish both
-
-This keeps the weekday burden manageable while maintaining cadence.
+Always maintain the core voice: honest, numbers-driven, no-BS advice from someone who understands the trade.
 
 ---
 
-## 15. Implementation Roadmap
+## 15. Execution Plan: Content Pipeline
 
-### Phase 1: Months 1-3 (April-June 2026) — Content Machine
+### The Math
 
-**Goal:** Publish 36 articles. Establish Big 5 content foundation. Cover all 12 orphaned tools.
+14 articles × 13 weeks = 182 articles
+At 1,500-2,500 words each = ~275,000-450,000 words total
+At 3-4 hours per article (research + writing + editing) = 546-728 hours total
 
-- [ ] Publish 3 articles per week (Mon/Wed/Fri)
+**This is not a solo founder plan.** This requires a content pipeline.
+
+### Recommended Pipeline: AI-Assisted + Human Editing
+
+| Step | Who | Time Per Article | Notes |
+|------|-----|-----------------|-------|
+| 1. Research & Outline | AI (Claude/ChatGPT) + Tyson review | 15 min | AI generates outline with target keywords, Tyson approves/adjusts |
+| 2. First Draft | AI-assisted writing | 30-45 min | AI writes 80% of draft following template + voice guidelines |
+| 3. Trade Expertise Edit | Tyson or trade-knowledgeable editor | 30-45 min | Add real numbers, personal anecdotes, trade-specific details |
+| 4. SEO & Links | Writer/editor | 15 min | Add internal links, tool CTAs, FAQ schema, meta description |
+| 5. Final Review & Publish | Tyson | 10 min | Quick read, approve, publish |
+
+**Total per article: ~1.5-2 hours** (vs. 3-4 hours fully manual)
+**Total time: ~275-365 hours over 13 weeks = ~21-28 hours/week**
+
+### Alternative: Small Content Team
+
+| Role | Responsibility | Cost Estimate |
+|------|---------------|---------------|
+| Content Manager (1) | Manages calendar, edits all articles, handles SEO | $3,000-5,000/month |
+| Trade Writers (2-3 freelancers) | Write 4-6 articles each per week | $100-200/article |
+| Tyson | Reviews every article, adds personal voice, final approve | 10-15 hrs/week |
+
+### Batch Production Schedule
+
+**Sunday (2 hours):** Plan the week. Review 14 article outlines. Approve topics.
+**Monday-Thursday (5-6 hours/day):** Produce 3-4 articles per day.
+**Friday (3 hours):** Edit, add links, publish any remaining articles. Schedule social posts.
+
+### Quality Control at Scale
+
+Even at 14/week, every article must:
+- Answer a real question (not keyword-stuffed fluff)
+- Include at least 1 real number or calculation
+- Link to at least 1 tool and 2 blog posts
+- Be reviewed by someone with trade knowledge
+- Pass a "would a contractor share this?" test
+
+---
+
+## 16. Implementation Roadmap
+
+### Phase 1: Weeks 1-4 (Month 1) — Content Machine Launch
+
+**Goal:** Publish 56 articles. Establish Big 5 foundation. Cover all construction trades + start new verticals.
+
+- [ ] Set up content pipeline (AI tools, editorial workflow, publishing process)
+- [ ] Publish 14 articles per week (Mon-Fri)
 - [ ] Ensure every article is 1,500+ words
 - [ ] Link every article to at least 1 tool
 - [ ] Set up Google Search Console and Analytics tracking
 - [ ] Set up content scorecard spreadsheet
 - [ ] Begin tracking keyword rankings
-- [ ] Write 3 pricing articles in week 1 (highest priority)
+- [ ] All Big 5 foundation articles published by end of Week 1
+- [ ] All construction trade rate articles published by end of Week 4
+- [ ] All new construction trade rate articles (flooring, fence, plumbing, pool, hardscaping) published
 
-### Phase 2: Months 4-6 (July-September 2026) — Authority + Video
+### Phase 2: Weeks 5-8 (Month 2) — Multi-Industry Expansion
 
-**Goal:** Begin video content. Implement assignment selling. Publish 36 more articles.
+**Goal:** Publish 56 more articles (112 cumulative). Expand to service trades, manufacturing, agriculture. Complete all trade guides.
 
+- [ ] All service trade rates published (auto, cleaning, cable, moving)
+- [ ] All manufacturing and agriculture rates published
+- [ ] All trade guides published (19 total)
+- [ ] All comparison and best-of articles published
 - [ ] Record 80% Video and Founder Story Video
-- [ ] Set up assignment selling email sequence for demo requests
-- [ ] Build content hub pages (/blog/piece-rate-pay/, etc.)
-- [ ] Continue 3 articles/week cadence
-- [ ] First quarterly content audit — update/refresh underperforming articles
-- [ ] Begin outreach for guest posts and backlinks using "State of Piece Rate Pay" data
+- [ ] Begin assignment selling email sequence for demo requests
+- [ ] First content performance review — identify top articles, double down
 
-### Phase 3: Months 7-9 (October-December 2026) — Scale + Optimize
+### Phase 3: Weeks 9-13 (Month 3) — Authority + Polish
 
-**Goal:** Q4 budget-season content push. Optimize conversion paths. Expand to case studies.
+**Goal:** Publish remaining ~70 articles (182 cumulative). Build content hubs. Establish thought leadership.
 
-- [ ] Publish year-end and tax planning content (October)
-- [ ] Collect customer stories for case study articles
-- [ ] Update all "2026" articles to "2027" versions (December/January)
-- [ ] A/B test blog CTAs (tool links vs. signup links vs. demo links)
-- [ ] Second quarterly content audit
-- [ ] Begin repurposing top articles into downloadable guides (lead magnets)
-
-### Phase 4: Months 10-12 (January-March 2027) — Compound + Lead
-
-**Goal:** Full content machine running. Thought leadership position established. Measurable revenue attribution.
-
-- [ ] Publish "The State of Piece Rate Pay in America" annual report
-- [ ] New minimum wage articles for every state that changed
-- [ ] Pre-season content push for spring
-- [ ] Full annual content audit — identify top 10 articles, double down
-- [ ] Measure: organic traffic vs. baseline, signups attributed to content, close rate with assignment selling
-- [ ] Plan Year 2 strategy based on data
+- [ ] All compliance deep dives published
+- [ ] All operational guides published
+- [ ] All case studies published
+- [ ] All thought leadership articles published
+- [ ] All emerging topics published
+- [ ] Refresh top 5 existing blog posts
+- [ ] Build 5 content hub pages
+- [ ] Full internal linking audit — ensure every article links properly
+- [ ] Begin outreach for backlinks using "State of Piece Rate Pay" report
+- [ ] Record 4 additional videos (1/week in weeks 10-13)
+- [ ] Full content audit — identify gaps, plan Month 4+ maintenance cadence
 
 ---
 
-## 16. Content Distribution & Promotion
+## 17. Content Distribution & Promotion
 
 ### Social Media Strategy
 
-Marcus Sheridan posts 6-7 times per week on LinkedIn — his highest-performing channel. For Piece Work Pro, the distribution plan:
-
 **LinkedIn (Primary — Tyson's personal account):**
-- Post 4-5x/week. Every blog post becomes a LinkedIn post.
+- Post daily during the blitz. Every published article becomes a LinkedIn post.
 - Format: Short story/insight from the field (2-3 paragraphs) + link to the full article.
-- Engage in contractor and construction industry groups.
-- Share data points, quick tips, and "hot takes" from articles.
-- Goal: Build Tyson's personal brand as the piece rate pay expert.
+- Engage in contractor, auto repair, cleaning, and manufacturing industry groups.
+- Goal: Build Tyson's personal brand as THE piece rate pay expert across all trades.
 
-**YouTube (Secondary — long-term SEO play):**
-- Upload all Selling 7 videos.
-- Create short "how-to" videos that match blog content (screen recordings of calculators, walkthroughs).
-- YouTube SEO: Optimize titles, descriptions, and tags for the same keywords as blog posts.
+**YouTube (Secondary — starts Month 2):**
+- Upload Selling 7 videos.
+- Create short "how-to" videos matching blog content.
+- YouTube SEO: Optimize for same keywords as blog posts.
 
 **Facebook (Tertiary — contractor communities):**
-- Share articles in relevant contractor Facebook groups (roofing, construction, framing).
-- Focus on genuinely helpful posts, not promotion. Answer questions and link to articles as resources.
+- Share articles in relevant groups: roofing, construction, framing, auto repair, cleaning business, manufacturing.
+- Focus on genuinely helpful posts, not promotion.
 
 **Email Newsletter:**
-- Capture subscribers via blog CTA (e.g., "Get weekly piece rate tips — no spam, just useful stuff").
-- Weekly email: 1 featured article + 1 tool of the week + 1 quick tip.
-- Segment by industry (roofing, construction, manufacturing) when list is large enough.
+- Capture subscribers via blog CTA.
+- Weekly email: 3 featured articles + 1 tool of the week + 1 quick tip.
+- Segment by industry (construction, auto, cleaning, manufacturing, agriculture) when list grows.
 
 ### Repurposing Strategy
 
@@ -976,7 +1306,7 @@ Every long-form article (1,500+ words) should be broken into:
 
 ---
 
-## 17. Existing Content Refresh Plan
+## 18. Existing Content Refresh Plan
 
 The 42 existing blog posts need to be audited and updated. Many are under 1,000 words, don't link to tools, and were written before the calculators existed.
 
@@ -994,68 +1324,73 @@ All other planned articles are net-new content.
 
 ### Refresh Priority for Existing Posts
 
-**Tier 1 — Refresh immediately (Month 1-2, alongside new content):**
-Update these high-value existing posts by expanding to 1,500+ words, adding tool CTAs, and improving internal links:
-
+**Tier 1 — Refresh in Week 13 (alongside new content):**
 1. what-is-piece-work-pay.mdx — Add tool links, expand compliance section
 2. how-to-properly-calculate-piece-rate-pay-with-examples.mdx — Link to piece rate calculator
 3. roofing-piece-rate-guide.mdx — Link to roofing labor calculator, expand rates
 4. job-costing-for-contractors.mdx — Link to job profit calculator, expand
 5. construction-payroll-tips.mdx — Link to payroll calculator, expand
 
-**Tier 2 — Refresh in Months 3-6:**
-Update remaining 37 posts on a rolling basis. Focus on:
-- Adding at least 1 tool CTA to every post
-- Expanding posts under 1,000 words
-- Adding internal links to new content as it's published
-- Updating any outdated information or rates
+**Tier 2 — Refresh post-blitz (Month 4+):**
+Update remaining 37 posts on a rolling basis:
+- Add at least 1 tool CTA to every post
+- Expand posts under 1,000 words
+- Add internal links to new content
+- Update any outdated information or rates
 
 ---
 
-## 18. Link Building & Off-Site SEO
+## 19. Link Building & Off-Site SEO
 
-### Linkable Assets (Content Designed to Earn Backlinks)
+### Linkable Assets
 
-1. **"The State of Piece Rate Pay in America" Annual Report** — Original data and survey results. Pitch to construction trade publications.
-2. **20 Free Calculators** — Each calculator is inherently linkable. Reach out to blogs that write about construction math/calculations.
-3. **Trade-Specific Rate Guides** — These become the reference that other sites link to when discussing piece rates.
-4. **State-by-State Piece Rate Laws** — Comprehensive legal reference that attorney blogs and HR sites will link to.
+1. **"The State of Piece Rate Pay in America" Report** — Original data. Pitch to trade publications across ALL industries (construction, auto, manufacturing, agriculture).
+2. **20 Free Calculators** — Each is inherently linkable.
+3. **36 Trade-Specific Rate Guides** — These become THE reference that other sites link to.
+4. **State-by-State Piece Rate Laws** — Comprehensive legal reference.
+5. **"Fair Piece Rates for [Trade]" Articles** — First comprehensive rate guide for many trades.
 
-### Outreach Targets
+### Outreach Targets (Expanded for Multi-Industry)
 
 | Category | Examples | Approach |
 |----------|----------|----------|
-| Construction trade publications | For Construction Pros, Construction Dive, Roofing Contractor Magazine | Guest articles, data citations |
-| Contractor forums | ContractorTalk, RoofingTalk, r/Construction | Helpful answers linking to articles |
-| Construction HR/legal blogs | Construction law firm blogs, HR compliance sites | Offer to contribute compliance content |
-| Industry associations | NRCA, AGC, NAHB, local builder associations | Speak at events, contribute to newsletters |
-| Construction podcasts | Contractor Success Forum, Construction Leading Edge | Tyson as guest — share piece rate expertise |
-| Business blogs | Small business, startup, SaaS blogs | Founder story, niche marketing case study |
+| Construction publications | For Construction Pros, Construction Dive, Roofing Contractor Magazine | Guest articles, data citations |
+| Auto repair industry | Motor Age, Ratchet+Wrench, Auto Service Professional | Guest articles on flat rate topics |
+| Cleaning industry | Cleaning & Maintenance Management, ISSA Today | Piece rate content for cleaning operators |
+| Manufacturing publications | IndustryWeek, The Fabricator, Modern Machine Shop | Piece rate productivity content |
+| Agriculture publications | Growing Produce, American Agriculturalist | Compliance content for ag employers |
+| Dental lab publications | Dental Lab Products, Inside Dental Technology | Per-unit pay and lab management content |
+| Contractor forums | ContractorTalk, RoofingTalk, r/Construction, r/AutoMechanics | Helpful answers linking to articles |
+| Construction HR/legal blogs | Construction law firm blogs, HR compliance sites | Compliance content contributions |
+| Industry associations | NRCA, AGC, NAHB, ASA, ARCSI | Speak at events, newsletter contributions |
+| Business/SaaS publications | Small business and startup blogs | Founder story, niche marketing case study |
 
 ### Podcast Guest Strategy
 
-Tyson should target 1-2 podcast appearances per month starting in Month 4. The founder-who-built-software story plays well on:
+Tyson should target 1-2 podcast appearances per month starting in Month 2. The founder-who-built-software story plays well across:
 - Construction industry podcasts
+- Auto repair industry podcasts
 - Small business / SaaS podcasts
 - Entrepreneurship podcasts
 - Payroll/HR industry podcasts
 
-Each appearance links back to the site and builds domain authority.
-
 ---
 
-## 19. Featured Snippet Optimization
+## 20. Featured Snippet Optimization
 
-Many piece rate questions are perfect for featured snippets (Position 0 in Google). Structure content to win these:
+Many piece rate questions are perfect for featured snippets (Position 0 in Google):
 
 ### High-Snippet-Probability Questions
 
 1. "How to calculate piece rate overtime" — Use a numbered step list
-2. "Is piece rate pay legal" — Answer in the first paragraph, then expand
-3. "What is piece rate pay" — Definition paragraph at top of article
-4. "How to calculate labor burden" — Step-by-step with a formula
+2. "Is piece rate pay legal" — Answer in first paragraph, then expand
+3. "What is piece rate pay" — Definition paragraph at top
+4. "How to calculate labor burden" — Step-by-step with formula
 5. "What are fair piece rates for roofing" — Table with rate ranges
 6. "Piece rate vs hourly" — Comparison table
+7. "What is flat rate pay for mechanics" — Definition + explanation
+8. "How to pay piece rate for cleaning" — Numbered steps
+9. "Piece rate agriculture" — Definition + compliance summary
 
 ### Snippet-Winning Format Rules
 
@@ -1064,6 +1399,7 @@ Many piece rate questions are perfect for featured snippets (Position 0 in Googl
 - **Comparison questions:** Use a comparison table
 - **List questions:** Use bullet points
 - **Calculation questions:** Show the formula, then a worked example
+- **Rate questions:** Use a table with ranges (low/average/high)
 - Always include the target question as an H2 heading
 
 ---
@@ -1078,12 +1414,14 @@ Many piece rate questions are perfect for featured snippets (Position 0 in Googl
 
 4. **Write like a roofer, not a marketer.** Contractors smell corporate content a mile away. Write like you're explaining something to a buddy over coffee.
 
-5. **Insource the expertise.** The founder's voice is the competitive advantage. Outsourced content will never replicate it.
+5. **Multi-industry authority.** Don't just own construction. Own EVERY trade that pays by the piece. Be the platform that understands flat rate mechanics, per-house cleaners, per-crown dental techs, and per-bucket harvesters.
 
-6. **Content compounds.** Month 1 will feel slow. Month 6 will show momentum. Month 12 will show compounding returns. Don't stop.
+6. **Speed is the moat.** 180 articles in 3 months creates an insurmountable content lead. A competitor starting today at 3/week would need 14 months to catch up — by then your articles have 12+ months of SEO equity compounding.
 
 7. **Assignment selling is the revenue engine.** The content isn't just for SEO. It's ammunition for the sales process. Every article should be usable in a sales email.
 
+8. **Quality at scale.** 14 articles/week doesn't mean 14 mediocre articles. Every piece must pass the "would a contractor share this?" test. Real numbers, real advice, real value.
+
 ---
 
-*Strategy developed using Marcus Sheridan's "They Ask, You Answer" and "Endless Customers" frameworks. Content recommendations based on keyword research, competitor analysis, and existing content audit.*
+*Strategy built on Marcus Sheridan's "They Ask, You Answer" and "Endless Customers" frameworks. Trade research based on IBISWorld industry data, BLS occupational statistics, and trade forum analysis. Content plan covers 36 trades across construction, service, manufacturing, and agriculture verticals.*
