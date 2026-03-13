@@ -1340,7 +1340,143 @@ Update remaining 37 posts on a rolling basis:
 
 ---
 
-## 19. Link Building & Off-Site SEO
+## 19. Technical SEO & Search Console Setup
+
+**Priority: Do this BEFORE the content blitz starts.** Every new article needs to be indexed quickly.
+
+### Google Search Console (Week 0 — Immediate)
+
+- [ ] Verify domain ownership in Google Search Console (DNS TXT record or HTML file)
+- [ ] Submit sitemap: `https://pieceworkpro.com/sitemap.xml`
+- [ ] Request indexing for all existing tool pages (20 calculators)
+- [ ] Request indexing for all existing blog posts (42 posts)
+- [ ] Set preferred domain (www vs non-www)
+- [ ] Check for crawl errors, mobile usability issues, and Core Web Vitals
+- [ ] Set up email alerts for indexing issues and manual actions
+- [ ] During content blitz: submit each new article URL for indexing within 24 hours of publishing
+
+### Bing Webmaster Tools (Week 0 — Immediate)
+
+- [ ] Create Bing Webmaster Tools account
+- [ ] Import settings from Google Search Console (Bing offers a one-click import)
+- [ ] Submit sitemap
+- [ ] Bing handles ~6% of US search traffic — free traffic most competitors ignore
+
+### Core Web Vitals
+
+- [ ] Run Lighthouse audit on homepage, pricing page, and 3 tool pages
+- [ ] Ensure LCP < 2.5s, FID < 100ms, CLS < 0.1
+- [ ] Fix any flagged issues before the content blitz (new pages inherit site-wide performance signals)
+
+---
+
+## 20. Business Citations & Local SEO
+
+**Priority: Set up in Week 1.** Citations build domain authority, drive direct referral traffic, and establish trust signals Google uses for ranking.
+
+### Google Business Profile (Week 1)
+
+- [ ] Create or claim Google Business Profile for "Piece Work Pro LLC"
+- [ ] Category: "Software Company" (primary), "Payroll Service" (secondary)
+- [ ] Address: Post Falls, ID 83854
+- [ ] Phone: 1-800-956-2880
+- [ ] Website: https://pieceworkpro.com
+- [ ] Add business description (750 chars max — use keywords naturally)
+- [ ] Upload logo, screenshots of the app, and team photos
+- [ ] Add products: Solo Plan (free), Team Plan ($10/user/mo)
+- [ ] Post weekly updates during content blitz (link to new articles)
+- [ ] Goal: Appear in knowledge panel when someone searches "Piece Work Pro"
+
+### NAP Consistency
+
+**Name:** Piece Work Pro LLC
+**Address:** Post Falls, ID 83854
+**Phone:** 1-800-956-2880
+**Website:** https://pieceworkpro.com
+
+Use this EXACT format on every listing. Inconsistent NAP (different phone numbers, abbreviations, missing suite numbers) hurts local SEO signals.
+
+### SaaS & Software Directories (Weeks 1-2)
+
+These are high-DA sites that pass authority and drive direct signups:
+
+| Directory | DA | Priority | Cost | Notes |
+|-----------|-----|----------|------|-------|
+| G2 | 92 | High | Free listing | Claim profile, add screenshots. Reviews are critical. |
+| Capterra | 93 | High | Free listing | Same as G2 — get listed, solicit reviews |
+| GetApp | 90 | High | Free listing | Auto-syncs with Capterra (same parent company) |
+| Software Advice | 91 | High | Free listing | Same network as Capterra/GetApp |
+| Product Hunt | 91 | High | Free | Launch as a new product. Time it with a feature release for maximum visibility. |
+| AlternativeTo | 74 | Medium | Free | List as alternative to QuickBooks Payroll, Gusto, ADP |
+| Crunchbase | 91 | Medium | Free | Company profile with funding, team, description |
+| SaaSHub | 50 | Medium | Free | Growing directory, easy backlink |
+| SourceForge | 92 | Medium | Free | Still drives traffic in B2B software |
+| Slant | 56 | Low | Free | Comparison site — add to relevant "best payroll" lists |
+| TrustRadius | 72 | Low | Free | Another review site, similar to G2 |
+
+### General Business Directories (Week 2)
+
+| Directory | DA | Notes |
+|-----------|-----|-------|
+| BBB (Better Business Bureau) | 95 | Paid membership but very high trust signal |
+| Yelp | 94 | Free business listing |
+| Apple Maps | 95 | Via Apple Business Connect |
+| Bing Places | 92 | Syncs with Bing Webmaster Tools |
+| LinkedIn Company Page | 99 | Already exists — ensure NAP matches |
+| Facebook Business Page | 96 | Already exists — ensure NAP matches |
+| Yellow Pages (YP.com) | 91 | Free listing |
+| Manta | 71 | Free small business listing |
+| Thumbtack | 78 | Relevant for contractor audience |
+
+### Industry-Specific Directories (Weeks 2-3)
+
+| Directory | Audience | Notes |
+|-----------|----------|-------|
+| ConstructionConnect | Construction contractors | Software tools section |
+| Buildertrend Marketplace | Construction firms | If they allow complementary tools |
+| NRCA member resources | Roofing contractors | If sponsorship/listing available |
+| Auto repair shop directories | Flat rate mechanics | Shop management tool listings |
+| ARCSI vendor directory | Cleaning companies | Cleaning industry association |
+
+### Review Generation Strategy
+
+Reviews on G2, Capterra, and Google Business Profile are critical ranking signals:
+
+- [ ] Email existing users asking for honest reviews (offer nothing in exchange — Google penalizes incentivized reviews)
+- [ ] Add "Review us on G2" link in post-signup email sequence
+- [ ] Add "Review us on Capterra" link in the app dashboard
+- [ ] Respond to every review (positive and negative) within 48 hours
+- [ ] Goal: 10+ reviews on G2 and Capterra within 60 days
+
+---
+
+## 21. Journalist & PR Outreach
+
+### HARO / Connectively / Qwoted (Ongoing — Starting Week 1)
+
+These services connect journalists with expert sources. Responding gets you quoted in articles with backlinks from high-DA publications.
+
+- [ ] Sign up for Connectively (formerly HARO) — free tier
+- [ ] Sign up for Qwoted — free tier
+- [ ] Sign up for Help a B2B Writer — free
+- [ ] Set up alerts for keywords: "payroll," "contractor," "construction," "piece rate," "small business software," "gig economy," "labor," "workforce"
+- [ ] Respond to 3-5 relevant queries per week
+- [ ] Tyson responds as founder/expert — real credibility, not a PR person
+- [ ] Typical result: 1-2 published quotes per month with backlinks from DA 60-90 sites
+
+### Pitch Topics for Trade Publications
+
+Tyson has a compelling founder story (roofer who built software). Pitch these angles:
+
+1. **"I Was a Roofer Who Couldn't Find Payroll Software — So I Built It"** — Founder story for SaaS/startup publications
+2. **"The Hidden Cost of Paying Contractors by the Piece"** — Compliance angle for HR/legal publications
+3. **"Why Flat Rate Pay Is Broken in Auto Repair (And How to Fix It)"** — Auto industry publications
+4. **"Piece Rate Pay Is Making a Comeback — Here's Why"** — General business/workforce trend piece
+5. **"How Free Tools Became Our #1 Growth Channel"** — SaaS marketing case study
+
+---
+
+## 22. Link Building & Off-Site SEO
 
 ### Linkable Assets
 
@@ -1374,9 +1510,44 @@ Tyson should target 1-2 podcast appearances per month starting in Month 2. The f
 - Entrepreneurship podcasts
 - Payroll/HR industry podcasts
 
+### Forum & Community Engagement (Ongoing)
+
+Don't spam links. Be genuinely helpful, and link to articles only when they directly answer someone's question.
+
+- [ ] Create accounts on ContractorTalk, RoofingTalk, r/Construction, r/AutoMechanics, r/smallbusiness
+- [ ] Answer 3-5 questions per week with real expertise
+- [ ] Link to a relevant Piece Work Pro article or tool only when it genuinely helps
+- [ ] Build reputation first (30+ helpful posts before any links)
+- [ ] Monitor for piece rate / payroll questions and respond quickly
+
 ---
 
-## 20. Featured Snippet Optimization
+## 23. FAQ Schema & Rich Results
+
+### Current State
+
+- FAQ schema component exists (`FAQPageJsonLd`) but is only used on a few tool pages
+- Many tool pages and blog posts have FAQ content in the HTML but no schema markup
+
+### Action Items (Week 1-2)
+
+- [ ] Audit every tool page — if it has Q&A content, wrap it in `FAQPageJsonLd`
+- [ ] Add FAQ sections (3-5 questions) to every new blog post during the content blitz
+- [ ] Use `FAQPageJsonLd` schema on every article with a FAQ section
+- [ ] Add FAQ schema to the Pricing page (already has 5 Q&A pairs in the content)
+- [ ] Add FAQ schema to the Features page
+- [ ] Test all FAQ schema with Google's Rich Results Test tool after adding
+
+### FAQ Content Rules
+
+- Each answer should be 40-80 words (Google truncates longer answers in rich results)
+- Include the target keyword naturally in at least 2 of the 5 questions
+- Don't duplicate FAQ questions across pages (Google may ignore duplicates)
+- Questions should match real search queries (check "People Also Ask" in Google)
+
+---
+
+## 24. Featured Snippet Optimization
 
 Many piece rate questions are perfect for featured snippets (Position 0 in Google):
 
@@ -1401,6 +1572,20 @@ Many piece rate questions are perfect for featured snippets (Position 0 in Googl
 - **Calculation questions:** Show the formula, then a worked example
 - **Rate questions:** Use a table with ranges (low/average/high)
 - Always include the target question as an H2 heading
+
+---
+
+## 25. Off-Page SEO Timeline
+
+| Week | Actions |
+|------|---------|
+| **Week 0 (Now)** | Google Search Console, Bing Webmaster Tools, submit sitemap, Core Web Vitals audit |
+| **Week 1** | Google Business Profile, Connectively/Qwoted/HARO signups, G2 + Capterra listings, FAQ schema audit |
+| **Week 2** | Software Advice, GetApp, Product Hunt prep, general business directories (BBB, Yelp, etc.) |
+| **Week 3** | Industry-specific directories, LinkedIn/Facebook NAP check, begin forum engagement |
+| **Week 4+** | Respond to 3-5 journalist queries/week, answer 3-5 forum questions/week, solicit reviews |
+| **Month 2** | First podcast appearances, pitch founder story to 5 publications |
+| **Month 3** | Launch "State of Piece Rate Pay" report, outreach to trade publications for backlinks |
 
 ---
 
