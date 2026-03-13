@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Link from "next/link";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { Button } from "@/components/ui/Button";
 import { CTASection } from "@/components/sections/CTASection";
@@ -74,8 +75,12 @@ export default function ConstructionPage() {
                 </p>
                 <p>
                   The challenge is tracking it. When you have multiple trades on the same job site, each with different
-                  piece rates, payroll gets complicated fast. That's where Piece Work Pro comes in. Your crew logs their
-                  own production. You review and approve. Payroll runs itself.
+                  piece rates,{" "}
+                  <Link href="/features/payroll" className="font-medium text-brand-blue hover:underline">payroll</Link>{" "}
+                  gets complicated fast. That&apos;s where Piece Work Pro comes in. Your crew logs their
+                  own production with our{" "}
+                  <Link href="/features/time-tracking" className="font-medium text-brand-blue hover:underline">time tracking tools</Link>.
+                  You review and approve. Payroll runs itself.
                 </p>
               </div>
             </AnimateIn>
@@ -235,6 +240,52 @@ export default function ConstructionPage() {
               ))}
             </div>
           </div>
+        </div>
+      </section>
+
+      {/* Related Tools */}
+      <section className="bg-bg-default">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+          <AnimateIn className="text-center">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+              Free Construction Calculators
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-text-muted">
+              Run the numbers on your next project with these free tools.
+            </p>
+          </AnimateIn>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              { title: "Bid Calculator", desc: "Build accurate bids with real cost data.", href: "/tools/bid-calculator" },
+              { title: "Labor Burden Calculator", desc: "See what your workers really cost.", href: "/tools/labor-burden-calculator" },
+              { title: "Piece Rate Guide", desc: "Typical rates by trade — roofing to concrete.", href: "/tools/piece-rate-guide" },
+              { title: "Workers' Comp Estimator", desc: "Estimate premiums by trade class.", href: "/tools/workers-comp-estimator" },
+            ].map((tool) => (
+              <AnimateIn key={tool.title}>
+                <Link
+                  href={tool.href}
+                  className="group block rounded-2xl border border-border-default bg-white p-6 transition-all hover:-translate-y-1 hover:shadow-lg"
+                >
+                  <h3 className="font-heading text-lg text-text-primary group-hover:text-brand-blue">
+                    {tool.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-text-muted">{tool.desc}</p>
+                  <span className="mt-3 inline-flex items-center gap-1 text-sm font-bold text-brand-blue">
+                    Try it free <ArrowRight className="h-3 w-3" aria-hidden="true" />
+                  </span>
+                </Link>
+              </AnimateIn>
+            ))}
+          </div>
+          <AnimateIn className="mt-10 text-center">
+            <p className="text-sm text-text-muted">
+              Also see Piece Work Pro for{" "}
+              <Link href="/industries/roofing" className="font-medium text-brand-blue hover:underline">roofing</Link> and{" "}
+              <Link href="/industries/manufacturing" className="font-medium text-brand-blue hover:underline">manufacturing</Link>.
+              Track every dollar with{" "}
+              <Link href="/features/job-costing" className="font-medium text-brand-blue hover:underline">job costing</Link>.
+            </p>
+          </AnimateIn>
         </div>
       </section>
 

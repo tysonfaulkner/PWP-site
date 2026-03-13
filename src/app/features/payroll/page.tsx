@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { Button } from "@/components/ui/Button";
 import { CTASection } from "@/components/sections/CTASection";
@@ -206,7 +207,7 @@ export default function PayrollPage() {
                     {
                       num: "1",
                       title: "Your crew logs time and piece work",
-                      desc: "They clock in, do the work, clock out, and enter their pieces. It happens automatically throughout the week.",
+                      desc: "They clock in, do the work, clock out, and enter their pieces using our time tracking tools. It happens automatically throughout the week.",
                     },
                     {
                       num: "2",
@@ -237,6 +238,54 @@ export default function PayrollPage() {
               </div>
             </AnimateIn>
           </div>
+        </div>
+      </section>
+
+      {/* Related Tools */}
+      <section className="bg-bg-subtle">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+          <AnimateIn className="text-center">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+              Free Payroll Tools
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-text-muted">
+              Run the numbers before payday with these free calculators.
+            </p>
+          </AnimateIn>
+          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              { title: "Payroll Cost Calculator", desc: "See the true cost of your crew including labor burden.", href: "/tools/payroll-calculator" },
+              { title: "Overtime Calculator", desc: "Calculate FLSA-compliant overtime for piece rate workers.", href: "/tools/overtime-calculator" },
+              { title: "1099 vs. W-2 Calculator", desc: "Compare the cost of employees vs. contractors.", href: "/tools/1099-vs-w2-calculator" },
+              { title: "Labor Burden Calculator", desc: "See the full cost beyond base wages.", href: "/tools/labor-burden-calculator" },
+            ].map((tool) => (
+              <AnimateIn key={tool.title}>
+                <Link
+                  href={tool.href}
+                  className="group block rounded-2xl border border-border-default bg-white p-6 transition-all hover:-translate-y-1 hover:shadow-lg"
+                >
+                  <h3 className="font-heading text-lg text-text-primary group-hover:text-brand-blue">
+                    {tool.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-text-muted">{tool.desc}</p>
+                  <span className="mt-3 inline-flex items-center gap-1 text-sm font-bold text-brand-blue">
+                    Try it free <ArrowRight className="h-3 w-3" aria-hidden="true" />
+                  </span>
+                </Link>
+              </AnimateIn>
+            ))}
+          </div>
+          <AnimateIn className="mt-10 text-center">
+            <p className="text-sm text-text-muted">
+              Payroll works hand-in-hand with{" "}
+              <Link href="/features/time-tracking" className="font-medium text-brand-blue hover:underline">time tracking</Link> and{" "}
+              <Link href="/features/job-costing" className="font-medium text-brand-blue hover:underline">job costing</Link>.
+              See how it works for{" "}
+              <Link href="/industries/roofing" className="font-medium text-brand-blue hover:underline">roofing</Link>,{" "}
+              <Link href="/industries/construction" className="font-medium text-brand-blue hover:underline">construction</Link>, and{" "}
+              <Link href="/industries/manufacturing" className="font-medium text-brand-blue hover:underline">manufacturing</Link>.
+            </p>
+          </AnimateIn>
         </div>
       </section>
 

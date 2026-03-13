@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { Button } from "@/components/ui/Button";
 import { CTASection } from "@/components/sections/CTASection";
@@ -206,8 +207,11 @@ export default function TimeTrackingPage() {
                 <p className="text-lg leading-relaxed text-text-body">
                   Paper time cards get lost. Spreadsheets have errors. Your crew
                   forgets to write things down. Every mistake costs you money —
-                  either you overpay, or you underbid the next job because your
-                  numbers are wrong.
+                  either you overpay on{" "}
+                  <Link href="/features/payroll" className="font-medium text-brand-blue hover:underline">payroll</Link>,
+                  or you underbid the next job because your{" "}
+                  <Link href="/features/job-costing" className="font-medium text-brand-blue hover:underline">job cost numbers</Link>{" "}
+                  are wrong.
                 </p>
                 <ul className="space-y-3">
                   {[
@@ -255,6 +259,50 @@ export default function TimeTrackingPage() {
               </div>
             </AnimateIn>
           </div>
+        </div>
+      </section>
+
+      {/* Related Tools */}
+      <section className="bg-bg-subtle">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+          <AnimateIn className="text-center">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+              Free Tools for Piece Work Tracking
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-text-muted">
+              Run the numbers on your crew&apos;s performance and earnings.
+            </p>
+          </AnimateIn>
+          <div className="mt-10 grid gap-6 sm:grid-cols-3">
+            {[
+              { title: "Piece Rate Calculator", desc: "Calculate daily, weekly, and yearly piece rate earnings.", href: "/tools/piece-rate-calculator" },
+              { title: "Crew Productivity Calculator", desc: "Measure output per man-hour and cost per unit.", href: "/tools/crew-productivity-calculator" },
+              { title: "Piece Rate vs. Hourly", desc: "Compare piece rate pay against hourly side by side.", href: "/tools/piece-rate-vs-hourly" },
+            ].map((tool) => (
+              <AnimateIn key={tool.title}>
+                <Link
+                  href={tool.href}
+                  className="group block rounded-2xl border border-border-default bg-white p-6 transition-all hover:-translate-y-1 hover:shadow-lg"
+                >
+                  <h3 className="font-heading text-lg text-text-primary group-hover:text-brand-blue">
+                    {tool.title}
+                  </h3>
+                  <p className="mt-2 text-sm text-text-muted">{tool.desc}</p>
+                  <span className="mt-3 inline-flex items-center gap-1 text-sm font-bold text-brand-blue">
+                    Try it free <ArrowRight className="h-3 w-3" aria-hidden="true" />
+                  </span>
+                </Link>
+              </AnimateIn>
+            ))}
+          </div>
+          <AnimateIn className="mt-10 text-center">
+            <p className="text-sm text-text-muted">
+              See how time tracking works for{" "}
+              <Link href="/industries/roofing" className="font-medium text-brand-blue hover:underline">roofing crews</Link>,{" "}
+              <Link href="/industries/construction" className="font-medium text-brand-blue hover:underline">construction trades</Link>, and{" "}
+              <Link href="/industries/manufacturing" className="font-medium text-brand-blue hover:underline">manufacturing teams</Link>.
+            </p>
+          </AnimateIn>
         </div>
       </section>
 
