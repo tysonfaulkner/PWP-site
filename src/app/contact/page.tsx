@@ -1,5 +1,6 @@
 import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
+import { ContactForm } from "@/components/sections/ContactForm";
 import { Mail, Phone, MapPin, HelpCircle, CreditCard, Bug, Lightbulb } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -72,54 +73,7 @@ export default function ContactPage() {
 
             {/* Form */}
             <AnimateIn direction="left" delay={0.15} className="lg:col-span-3">
-              <form action="https://formspree.io/f/xpznqwwl" method="POST" className="rounded-2xl border border-border-default bg-white p-8 shadow-sm lg:p-10">
-                <div className="grid gap-6 sm:grid-cols-2">
-                  <div>
-                    <label htmlFor="name" className="block text-sm font-medium text-text-primary">
-                      Name
-                    </label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      className="mt-2 block w-full rounded-lg border border-border-default bg-bg-default px-4 py-3 text-sm text-text-body placeholder:text-text-muted focus:border-brand-blue focus:outline-none focus:ring-2 focus:ring-brand-blue/20"
-                      placeholder="Your name"
-                    />
-                  </div>
-                  <div>
-                    <label htmlFor="email" className="block text-sm font-medium text-text-primary">
-                      Email <span className="text-brand-orange">*</span>
-                    </label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      required
-                      className="mt-2 block w-full rounded-lg border border-border-default bg-bg-default px-4 py-3 text-sm text-text-body placeholder:text-text-muted focus:border-brand-blue focus:outline-none focus:ring-2 focus:ring-brand-blue/20"
-                      placeholder="you@company.com"
-                    />
-                  </div>
-                </div>
-                <div className="mt-6">
-                  <label htmlFor="message" className="block text-sm font-medium text-text-primary">
-                    How can we help? <span className="text-brand-orange">*</span>
-                  </label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    required
-                    rows={5}
-                    className="mt-2 block w-full rounded-lg border border-border-default bg-bg-default px-4 py-3 text-sm text-text-body placeholder:text-text-muted focus:border-brand-blue focus:outline-none focus:ring-2 focus:ring-brand-blue/20"
-                    placeholder="Tell us what you need..."
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-lg bg-brand-blue px-6 py-3 text-sm font-bold text-white shadow-sm transition-all hover:bg-brand-blue-dark hover:shadow-md sm:w-auto"
-                >
-                  Send Message
-                </button>
-              </form>
+              <ContactForm />
             </AnimateIn>
           </div>
         </div>
