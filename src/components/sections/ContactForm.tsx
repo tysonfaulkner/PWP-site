@@ -13,10 +13,14 @@ export function ContactForm() {
     const data = new FormData(form);
 
     try {
-      const res = await fetch("https://formspree.io/f/xpznqwwl", {
+      const res = await fetch("/api/contact", {
         method: "POST",
-        body: data,
-        headers: { Accept: "application/json" },
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: data.get("name") || "",
+          email: data.get("email"),
+          message: data.get("message"),
+        }),
       });
 
       if (res.ok) {
