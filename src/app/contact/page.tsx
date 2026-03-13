@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
-import { Mail, Phone, MapPin } from "lucide-react";
+import { Mail, Phone, MapPin, HelpCircle, CreditCard, Bug, Lightbulb } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Contact Us",
@@ -121,6 +121,54 @@ export default function ContactPage() {
                 </button>
               </form>
             </AnimateIn>
+          </div>
+        </div>
+      </section>
+
+      {/* How We Can Help */}
+      <section className="bg-bg-default">
+        <div className="mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
+          <AnimateIn className="text-center">
+            <h2 className="font-heading text-3xl text-text-primary sm:text-4xl">
+              What Can We Help With?
+            </h2>
+            <p className="mx-auto mt-4 max-w-2xl text-text-muted">
+              Whether you are exploring Piece Work Pro for the first time or need help with your existing account, our team is here for you.
+            </p>
+          </AnimateIn>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {[
+              {
+                icon: HelpCircle,
+                title: "Getting Started",
+                desc: "Need help setting up your account, adding crew members, or configuring piece rates? We will walk you through every step.",
+              },
+              {
+                icon: CreditCard,
+                title: "Account & Billing",
+                desc: "Questions about your plan, billing, or upgrading from Solo to Team? We can sort it out quickly.",
+              },
+              {
+                icon: Bug,
+                title: "Technical Support",
+                desc: "Something not working right? Report a bug or get help with a feature. We typically resolve issues within 24 hours.",
+              },
+              {
+                icon: Lightbulb,
+                title: "Feature Requests",
+                desc: "Have an idea that would make Piece Work Pro better for your crew? We read every suggestion and build based on real feedback.",
+              },
+            ].map((item) => (
+              <AnimateIn key={item.title}>
+                <div className="rounded-2xl border border-border-default bg-white p-6">
+                  <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-brand-blue/10">
+                    <item.icon className="h-5 w-5 text-brand-blue" aria-hidden="true" />
+                  </div>
+                  <h3 className="mt-4 font-heading text-lg text-text-primary">{item.title}</h3>
+                  <p className="mt-2 text-sm leading-relaxed text-text-muted">{item.desc}</p>
+                </div>
+              </AnimateIn>
+            ))}
           </div>
         </div>
       </section>
