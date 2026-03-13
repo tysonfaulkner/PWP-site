@@ -8,7 +8,7 @@ import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 export const metadata: Metadata = {
   title: "Average Job Size Calculator for Contractors — Free Tool",
   description:
-    "Enter your recent job prices to see your average job size, median, min, max, and total revenue. Know your numbers to price smarter.",
+    "Calculate your average revenue and gross profit per job. Enter your job count, total revenue, and gross profit to see the numbers that drive your business.",
 };
 
 const benefits = [
@@ -19,8 +19,8 @@ const benefits = [
   },
   {
     icon: Target,
-    title: "Find Your Sweet Spot",
-    desc: "The median tells you what a typical job looks like — without outliers skewing the number. Use it to identify whether your pricing is where you want it to be.",
+    title: "Track Your Margins",
+    desc: "Knowing your gross profit per job tells you which jobs are worth chasing and which ones eat your margins. Use it to focus on the work that actually makes you money.",
   },
   {
     icon: TrendingUp,
@@ -35,11 +35,11 @@ export default function AverageJobCalculatorPage() {
       <BreadcrumbJsonLd items={[{ name: "Tools", href: "/tools" }, { name: "Average Job Size Calculator", href: "/tools/average-job-calculator" }]} />
       <HowToJsonLd
         name="How to Calculate Your Average Job Size"
-        description="Enter your recent job prices to instantly see your average job size, median, min, max, total revenue, and job count."
+        description="Enter your job count, total revenue, and gross profit to instantly see your average revenue per job, gross profit per job, and gross margin."
         steps={[
-          { name: "Enter your job prices", text: "Type or paste your recent job prices separated by commas or one per line. Include as many as you want — last month, last quarter, or a full year." },
-          { name: "Review your results", text: "The calculator instantly displays your average job size, median job size, smallest and largest jobs, total number of jobs, and total revenue." },
-          { name: "Use the insights to price smarter", text: "Compare your average and median to identify outliers, set pricing goals, and forecast how many jobs you need per month to hit your revenue targets." },
+          { name: "Enter your job numbers", text: "Select a time period and enter the number of jobs completed, total revenue earned, and total gross profit (optional)." },
+          { name: "Review your results", text: "The calculator instantly displays your average revenue per job, gross profit per job, total gross profit, and gross margin percentage." },
+          { name: "Use the insights to price smarter", text: "Use your average job size and margin to set pricing goals, forecast revenue, and decide which jobs are worth pursuing." },
         ]}
       />
       {/* Hero */}
@@ -53,8 +53,8 @@ export default function AverageJobCalculatorPage() {
           </AnimateIn>
           <AnimateIn delay={0.1}>
             <p className="mt-6 text-lg text-text-on-dark-muted">
-              Enter your recent job prices to instantly see your average job size, median, min, max, total revenue, and
-              job count &mdash; the numbers that drive your business.
+              Enter your job count, total revenue, and gross profit to instantly see your average revenue per job, profit
+              per job, and gross margin &mdash; the numbers that drive your business.
             </p>
           </AnimateIn>
         </div>
@@ -69,12 +69,12 @@ export default function AverageJobCalculatorPage() {
             </h2>
             <div className="mt-6 space-y-4 text-base leading-relaxed text-text-muted md:text-lg">
               <p>
-                Enter your job prices separated by commas or one per line. You can paste as many as you want &mdash;
-                last month&apos;s jobs, last quarter&apos;s, or an entire year&apos;s worth.
+                Select a time period, enter how many jobs you completed, and plug in your total revenue and gross profit.
+                The calculator does the rest.
               </p>
               <p>
-                You&apos;ll instantly see your average job size, median job size, smallest and largest jobs, total
-                number of jobs, and total revenue &mdash; all calculated automatically.
+                You&apos;ll instantly see your average revenue per job, gross profit per job, and overall gross margin
+                &mdash; all calculated automatically.
               </p>
               <p>
                 Knowing your average job size is critical for forecasting revenue, setting your break-even point, and
