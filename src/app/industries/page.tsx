@@ -5,7 +5,7 @@ import { CTASection } from "@/components/sections/CTASection";
 import { HardHat, Home, Factory, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Industries — Roofing, Construction & Manufacturing",
+  title: "Industries — Roofing, Construction & More",
   description:
     "Piece Work Pro helps roofing, construction, and manufacturing companies track piece work, run payroll, and control job costs. See how it works for your trade.",
 };

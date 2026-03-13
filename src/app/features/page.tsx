@@ -14,7 +14,7 @@ import {
 } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Features — Piece Work Tracking, Payroll & Job Costing",
+  title: "Features — Tracking, Payroll & Job Costing",
   description:
     "Track piece work, log hours, run payroll in minutes, and know what every job costs. Piece Work Pro gives contractors the tools they actually need — nothing more.",
 };
