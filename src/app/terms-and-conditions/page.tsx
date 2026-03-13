@@ -238,9 +238,12 @@ export default function TermsPage() {
               store, cache, publicly perform, publicly display, reformat,
               translate, transmit, excerpt (in whole or in part), and distribute
               such Contributions for any purpose, commercial, advertising, or
-              otherwise, and to prepare derivative works of, or incorporate into
-              other works, such Contributions, and to grant and authorize
-              sublicenses of the foregoing.
+              otherwise.
+            </p>
+            <p>
+              This license also includes the right to prepare derivative works
+              of, or incorporate into other works, such Contributions, and to
+              grant and authorize sublicenses of the foregoing.
             </p>
 
             <h2>10. Mobile Application License</h2>
@@ -281,21 +284,14 @@ export default function TermsPage() {
             </p>
 
             <h2>11. Services Management</h2>
-            <p>
-              We reserve the right, but not the obligation, to: (1) monitor the
-              Services for violations of these Legal Terms; (2) take appropriate
-              legal action against anyone who, in our sole discretion, violates
-              the law or these Legal Terms; (3) in our sole discretion and
-              without limitation, refuse, restrict access to, limit the
-              availability of, or disable (to the extent technologically
-              feasible) any of your Contributions or any portion thereof; (4)
-              in our sole discretion and without limitation, notice, or
-              liability, to remove from the Services or otherwise disable all
-              files and content that are excessive in size or are in any way
-              burdensome to our systems; and (5) otherwise manage the Services
-              in a manner designed to protect our rights and property and to
-              facilitate the proper functioning of the Services.
-            </p>
+            <p>We reserve the right, but not the obligation, to:</p>
+            <ul>
+              <li>Monitor the Services for violations of these Legal Terms</li>
+              <li>Take appropriate legal action against anyone who, in our sole discretion, violates the law or these Legal Terms</li>
+              <li>Refuse, restrict access to, limit the availability of, or disable (to the extent technologically feasible) any of your Contributions or any portion thereof, in our sole discretion and without limitation</li>
+              <li>Remove from the Services or otherwise disable all files and content that are excessive in size or are in any way burdensome to our systems, without limitation, notice, or liability</li>
+              <li>Otherwise manage the Services in a manner designed to protect our rights and property and to facilitate the proper functioning of the Services</li>
+            </ul>
 
             <h2>12. Privacy Policy</h2>
             <p>
@@ -508,19 +504,26 @@ export default function TermsPage() {
               on the Services or in respect to the Services constitute the
               entire agreement and understanding between you and us. Our failure
               to exercise or enforce any right or provision of these Legal Terms
-              shall not operate as a waiver of such right or provision. These
-              Legal Terms operate to the fullest extent permissible by law. We
-              may assign any or all of our rights and obligations to others at
-              any time. We shall not be responsible or liable for any loss,
-              damage, delay, or failure to act caused by any cause beyond our
-              reasonable control. If any provision or part of a provision of
-              these Legal Terms is determined to be unlawful, void, or
-              unenforceable, that provision or part of the provision is deemed
-              severable from these Legal Terms and does not affect the validity
-              and enforceability of any remaining provisions. There is no joint
-              venture, partnership, employment, or agency relationship created
-              between you and us as a result of these Legal Terms or use of the
-              Services.
+              shall not operate as a waiver of such right or provision.
+            </p>
+            <p>
+              These Legal Terms operate to the fullest extent permissible by
+              law. We may assign any or all of our rights and obligations to
+              others at any time. We shall not be responsible or liable for any
+              loss, damage, delay, or failure to act caused by any cause beyond
+              our reasonable control.
+            </p>
+            <p>
+              If any provision or part of a provision of these Legal Terms is
+              determined to be unlawful, void, or unenforceable, that provision
+              or part of the provision is deemed severable from these Legal
+              Terms and does not affect the validity and enforceability of any
+              remaining provisions.
+            </p>
+            <p>
+              There is no joint venture, partnership, employment, or agency
+              relationship created between you and us as a result of these
+              Legal Terms or use of the Services.
             </p>
 
             <h2>26. Contact Us</h2>
