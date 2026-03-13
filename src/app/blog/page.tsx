@@ -6,7 +6,7 @@ import { Clock } from "lucide-react";
 import { CTASection } from "@/components/sections/CTASection";
 
 export const metadata: Metadata = {
-  title: "Blog",
+  title: "Blog — Piece Work & Payroll Guides for Contractors",
   description:
     "Tips, guides, and insights on piece work pay, construction payroll, job costing, and crew management from the team at Piece Work Pro.",
 };
