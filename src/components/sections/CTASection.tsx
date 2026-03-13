@@ -27,7 +27,7 @@ export function CTASection() {
         </AnimateIn>
         <AnimateIn delay={0.1}>
           <p className="mx-auto mt-4 max-w-xl text-lg text-white/80">
-            Join over 500 contractors who track piece work, run payroll, and control job costs with Piece Work Pro. Free
+            Track piece work, run payroll in minutes, and know exactly what every job costs. Free
             to start &mdash; no credit card required.
           </p>
         </AnimateIn>
