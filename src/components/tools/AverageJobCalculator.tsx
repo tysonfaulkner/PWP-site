@@ -6,44 +6,45 @@ import { AnimateIn } from "@/components/ui/AnimateIn";
 import { Button } from "@/components/ui/Button";
 
 interface Results {
-  average: number;
-  median: number;
-  min: number;
-  max: number;
-  count: number;
+  numberOfJobs: number;
   totalRevenue: number;
+  totalGrossProfit: number;
+  revenuePerJob: number;
+  grossProfitPerJob: number;
+  grossMargin: number;
 }
 
+const inputClass =
+  "w-full rounded-lg border border-border-default px-4 py-3 text-sm text-text-primary placeholder:text-text-muted/50 focus:border-brand-blue focus:outline-none focus:ring-2 focus:ring-brand-blue/20";
+
 export function AverageJobCalculator() {
-  const [jobPrices, setJobPrices] = useState("");
+  const [numberOfJobs, setNumberOfJobs] = useState("");
+  const [totalRevenue, setTotalRevenue] = useState("");
+  const [totalGrossProfit, setTotalGrossProfit] = useState("");
+  const [timePeriod, setTimePeriod] = useState("month");
   const [results, setResults] = useState<Results | null>(null);
 
   const calculate = useCallback(() => {
-    const prices = jobPrices
-      .split(/[,\n]+/)
-      .map((s) => s.trim())
-      .filter((s) => s !== "")
-      .map((s) => parseFloat(s))
-      .filter((n) => !isNaN(n) && n > 0);
+    const jobs = parseFloat(numberOfJobs);
+    const revenue = parseFloat(totalRevenue);
+    const grossProfit = parseFloat(totalGrossProfit);
 
-    if (prices.length === 0) return;
+    if (!jobs || jobs <= 0 || !revenue || revenue < 0) return;
 
-    const sorted = [...prices].sort((a, b) => a - b);
-    const count = sorted.length;
-    const totalRevenue = sorted.reduce((sum, p) => sum + p, 0);
-    const average = totalRevenue / count;
-    const min = sorted[0];
-    const max = sorted[count - 1];
+    const revenuePerJob = revenue / jobs;
+    const profit = !isNaN(grossProfit) && grossProfit >= 0 ? grossProfit : 0;
+    const grossProfitPerJob = jobs > 0 ? profit / jobs : 0;
+    const grossMargin = revenue > 0 ? (profit / revenue) * 100 : 0;
 
-    let median: number;
-    if (count % 2 === 0) {
-      median = (sorted[count / 2 - 1] + sorted[count / 2]) / 2;
-    } else {
-      median = sorted[Math.floor(count / 2)];
-    }
-
-    setResults({ average, median, min, max, count, totalRevenue });
-  }, [jobPrices]);
+    setResults({
+      numberOfJobs: jobs,
+      totalRevenue: revenue,
+      totalGrossProfit: profit,
+      revenuePerJob,
+      grossProfitPerJob,
+      grossMargin,
+    });
+  }, [numberOfJobs, totalRevenue, totalGrossProfit]);
 
   const formatCurrency = (value: number) =>
     new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" }).format(value);
@@ -59,24 +60,76 @@ export function AverageJobCalculator() {
                 <div className="rounded-xl bg-brand-blue/10 p-3">
                   <Calculator className="h-6 w-6 text-brand-blue" aria-hidden="true" />
                 </div>
-                <h2 className="font-heading text-2xl text-text-primary">Enter Your Job Prices</h2>
+                <h2 className="font-heading text-2xl text-text-primary">Enter Your Job Numbers</h2>
               </div>
 
               <div className="space-y-5">
                 <div>
-                  <label htmlFor="ajs-prices" className="mb-1.5 block text-sm font-medium text-text-primary">
-                    Job Prices ($)
+                  <label htmlFor="ajs-period" className="mb-1.5 block text-sm font-medium text-text-primary">
+                    Time Period
+                  </label>
+                  <select
+                    id="ajs-period"
+                    value={timePeriod}
+                    onChange={(e) => setTimePeriod(e.target.value)}
+                    className={inputClass}
+                  >
+                    <option value="week">Last Week</option>
+                    <option value="month">Last Month</option>
+                    <option value="quarter">Last Quarter</option>
+                    <option value="year">Last Year</option>
+                    <option value="custom">Custom Period</option>
+                  </select>
+                </div>
+
+                <div>
+                  <label htmlFor="ajs-jobs" className="mb-1.5 block text-sm font-medium text-text-primary">
+                    Number of Jobs Completed
+                  </label>
+                  <input
+                    id="ajs-jobs"
+                    type="number"
+                    min="1"
+                    step="1"
+                    placeholder="e.g., 12"
+                    value={numberOfJobs}
+                    onChange={(e) => setNumberOfJobs(e.target.value)}
+                    className={inputClass}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="ajs-revenue" className="mb-1.5 block text-sm font-medium text-text-primary">
+                    Total Revenue from Those Jobs ($)
+                  </label>
+                  <input
+                    id="ajs-revenue"
+                    type="number"
+                    min="0"
+                    step="100"
+                    placeholder="e.g., 85000"
+                    value={totalRevenue}
+                    onChange={(e) => setTotalRevenue(e.target.value)}
+                    className={inputClass}
+                  />
+                </div>
+
+                <div>
+                  <label htmlFor="ajs-profit" className="mb-1.5 block text-sm font-medium text-text-primary">
+                    Total Gross Profit from Those Jobs ($)
                   </label>
                   <p className="mb-2 text-xs text-text-muted">
-                    Enter job prices separated by commas or one per line
+                    Revenue minus materials, labor, and direct job costs. Leave blank if unsure.
                   </p>
-                  <textarea
-                    id="ajs-prices"
-                    rows={6}
-                    placeholder={"e.g.,\n8000, 12000, 6500, 15000, 9200\n\nor one per line:\n8000\n12000\n6500"}
-                    value={jobPrices}
-                    onChange={(e) => setJobPrices(e.target.value)}
-                    className="w-full rounded-lg border border-border-default px-4 py-3 text-sm text-text-primary placeholder:text-text-muted/50 focus:border-brand-blue focus:outline-none focus:ring-2 focus:ring-brand-blue/20"
+                  <input
+                    id="ajs-profit"
+                    type="number"
+                    min="0"
+                    step="100"
+                    placeholder="e.g., 34000"
+                    value={totalGrossProfit}
+                    onChange={(e) => setTotalGrossProfit(e.target.value)}
+                    className={inputClass}
                   />
                 </div>
 
@@ -97,13 +150,13 @@ export function AverageJobCalculator() {
               <div className="space-y-6">
                 {/* Primary result */}
                 <div className="rounded-2xl border-2 border-brand-blue bg-white p-8 shadow-lg">
-                  <p className="text-sm font-bold uppercase tracking-wider text-brand-blue">Average Job Size</p>
+                  <p className="text-sm font-bold uppercase tracking-wider text-brand-blue">Average Revenue per Job</p>
                   <p className="mt-2 font-mono text-3xl font-bold text-text-primary sm:text-4xl lg:text-5xl">
-                    {formatCurrency(results.average)}
+                    {formatCurrency(results.revenuePerJob)}
                   </p>
                   <p className="mt-2 text-sm text-text-muted">
-                    Based on {results.count} job{results.count !== 1 ? "s" : ""} totaling{" "}
-                    {formatCurrency(results.totalRevenue)}
+                    Based on {results.numberOfJobs} job{results.numberOfJobs !== 1 ? "s" : ""} over the{" "}
+                    {timePeriod === "custom" ? "selected period" : `last ${timePeriod}`}
                   </p>
                 </div>
 
@@ -111,43 +164,49 @@ export function AverageJobCalculator() {
                 <div className="grid grid-cols-2 gap-4">
                   <div className="rounded-xl border border-border-default bg-white p-5">
                     <div className="flex items-center gap-2">
-                      <BarChart3 className="h-4 w-4 text-brand-blue" aria-hidden="true" />
-                      <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Median</p>
-                    </div>
-                    <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
-                      {formatCurrency(results.median)}
-                    </p>
-                    <p className="mt-1 text-xs text-text-muted">Middle value</p>
-                  </div>
-                  <div className="rounded-xl border border-border-default bg-white p-5">
-                    <div className="flex items-center gap-2">
-                      <DollarSign className="h-4 w-4 text-brand-orange" aria-hidden="true" />
+                      <DollarSign className="h-4 w-4 text-brand-blue" aria-hidden="true" />
                       <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Total Revenue</p>
                     </div>
                     <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
                       {formatCurrency(results.totalRevenue)}
                     </p>
-                    <p className="mt-1 text-xs text-text-muted">{results.count} jobs</p>
-                  </div>
-                  <div className="rounded-xl border border-border-default bg-white p-5">
-                    <div className="flex items-center gap-2">
-                      <TrendingUp className="h-4 w-4 text-brand-blue" aria-hidden="true" />
-                      <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Highest</p>
-                    </div>
-                    <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
-                      {formatCurrency(results.max)}
-                    </p>
-                    <p className="mt-1 text-xs text-text-muted">Largest job</p>
+                    <p className="mt-1 text-xs text-text-muted">{results.numberOfJobs} jobs</p>
                   </div>
                   <div className="rounded-xl border border-border-default bg-white p-5">
                     <div className="flex items-center gap-2">
                       <TrendingUp className="h-4 w-4 text-brand-orange" aria-hidden="true" />
-                      <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Lowest</p>
+                      <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Gross Profit / Job</p>
                     </div>
                     <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
-                      {formatCurrency(results.min)}
+                      {formatCurrency(results.grossProfitPerJob)}
                     </p>
-                    <p className="mt-1 text-xs text-text-muted">Smallest job</p>
+                    <p className="mt-1 text-xs text-text-muted">
+                      {results.grossMargin > 0 ? `${results.grossMargin.toFixed(1)}% margin` : "No profit entered"}
+                    </p>
+                  </div>
+                  <div className="rounded-xl border border-border-default bg-white p-5">
+                    <div className="flex items-center gap-2">
+                      <BarChart3 className="h-4 w-4 text-brand-blue" aria-hidden="true" />
+                      <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Total Gross Profit</p>
+                    </div>
+                    <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
+                      {formatCurrency(results.totalGrossProfit)}
+                    </p>
+                    <p className="mt-1 text-xs text-text-muted">
+                      {results.grossMargin > 0 ? `${results.grossMargin.toFixed(1)}% of revenue` : "Not provided"}
+                    </p>
+                  </div>
+                  <div className="rounded-xl border border-border-default bg-white p-5">
+                    <div className="flex items-center gap-2">
+                      <TrendingUp className="h-4 w-4 text-brand-blue" aria-hidden="true" />
+                      <p className="text-xs font-bold uppercase tracking-wider text-text-muted">Gross Margin</p>
+                    </div>
+                    <p className="mt-2 font-mono text-2xl font-bold text-text-primary">
+                      {results.grossMargin > 0 ? `${results.grossMargin.toFixed(1)}%` : "—"}
+                    </p>
+                    <p className="mt-1 text-xs text-text-muted">
+                      {results.grossMargin > 0 ? "Profit ÷ revenue" : "Enter gross profit"}
+                    </p>
                   </div>
                 </div>
 
@@ -169,7 +228,7 @@ export function AverageJobCalculator() {
                   <BarChart3 className="mx-auto h-12 w-12 text-text-muted/30" aria-hidden="true" />
                   <p className="mt-4 font-heading text-xl text-text-muted">Your results will appear here</p>
                   <p className="mt-2 text-sm text-text-muted/70">
-                    Enter your job prices to see your average, median, and range.
+                    Enter your job count and revenue to see your average revenue and profit per job.
                   </p>
                 </div>
               </div>
