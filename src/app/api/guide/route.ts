@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 
 const MAILERLITE_API_KEY = process.env.MAILERLITE_API_KEY!;
-const MAILERLITE_GUIDE_GROUP_ID = "181854020549216069"; // TODO: create a "Lead Magnet" group in Mailerlite and update this ID
+const MAILERLITE_GUIDE_GROUP_ID = "181854035145393323";
 
 export async function POST(request: Request) {
   try {
