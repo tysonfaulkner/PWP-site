@@ -65,10 +65,6 @@ export default function GuidePage() {
               ))}
             </ul>
 
-            <p className="mt-8 text-sm text-text-on-dark-muted/70">
-              Written by Tyson Faulkner, owner of New Heights Roofing and
-              founder of Piece Work Pro.
-            </p>
           </div>
 
           {/* Right: Form */}
