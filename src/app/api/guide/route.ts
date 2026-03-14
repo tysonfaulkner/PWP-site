@@ -43,10 +43,7 @@ export async function POST(request: Request) {
       );
     }
 
-    return NextResponse.json({
-      success: true,
-      downloadUrl: "/how-to-pay-your-crew-20-percent-more.pdf",
-    });
+    return NextResponse.json({ success: true });
   } catch (error) {
     console.error("Guide form error:", error);
     return NextResponse.json(
