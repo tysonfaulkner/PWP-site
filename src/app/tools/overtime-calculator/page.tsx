@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { OvertimeCalculator } from "@/components/tools/OvertimeCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { RelatedReading } from "@/components/sections/RelatedReading";
 import { ShieldCheck, DollarSign, AlertTriangle } from "lucide-react";
 import { FAQPageJsonLd, BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
@@ -291,6 +292,7 @@ export default function OvertimeCalculatorPage() {
         { title: "5 Construction Payroll Mistakes to Avoid", href: "/blog/construction-payroll-tips", description: "Overtime miscalculations are one of the most common payroll mistakes in construction." },
       ]} />
 
+      <GuideCTA />
       <CTASection />
     </>
   );

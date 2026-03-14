@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { ArrowRight } from "lucide-react";
 import { BreadcrumbJsonLd } from "@/components/seo/JsonLd";
 import { Button } from "@/components/ui/Button";
@@ -158,6 +159,7 @@ export default function PieceRateGuidePage() {
         </div>
       </section>
 
+      <GuideCTA />
       <CTASection />
     </>
   );

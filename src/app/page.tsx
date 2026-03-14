@@ -5,6 +5,7 @@ import { HowItWorks } from "@/components/sections/HowItWorks";
 import { FounderStory } from "@/components/sections/FounderStory";
 import { VideoSection } from "@/components/sections/VideoSection";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 
 export const metadata: Metadata = {
   title: {
@@ -22,6 +23,7 @@ export default function HomePage() {
       <VideoSection />
       <HowItWorks />
       <FounderStory />
+      <GuideCTA />
       <CTASection />
     </>
   );

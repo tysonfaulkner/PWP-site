@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { JobProfitCalculator } from "@/components/tools/JobProfitCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { RelatedReading } from "@/components/sections/RelatedReading";
 import { Target, BarChart3, AlertTriangle } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
@@ -244,6 +245,7 @@ export default function JobProfitCalculatorPage() {
         { title: "Roofing Piece Rate Guide: Setting Rates That Work", href: "/blog/roofing-piece-rate-guide", description: "Setting the right piece rates directly impacts your job profit margins." },
       ]} />
 
+      <GuideCTA />
       <CTASection />
     </>
   );
