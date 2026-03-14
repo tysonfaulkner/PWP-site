@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { CrewProductivityCalculator } from "@/components/tools/CrewProductivityCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { RelatedReading } from "@/components/sections/RelatedReading";
 import { Users, TrendingUp, DollarSign } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
@@ -126,6 +127,7 @@ export default function CrewProductivityCalculatorPage() {
         { title: "How to Track Piece Work: From Paper to Digital", href: "/blog/how-to-track-piece-work", description: "Accurate tracking is the foundation of measuring crew productivity." },
       ]} />
 
+      <GuideCTA />
       <CTASection />
     </>
   );

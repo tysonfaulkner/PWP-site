@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { PayrollCalculator } from "@/components/tools/PayrollCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { RelatedReading } from "@/components/sections/RelatedReading";
 import { Users, Shield, DollarSign } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
@@ -208,6 +209,7 @@ export default function PayrollCalculatorPage() {
         { title: "Job Costing for Contractors: Get It Right", href: "/blog/job-costing-for-contractors", description: "Payroll is your biggest job cost. Learn how to track it accurately so you know what every job really costs." },
       ]} />
 
+      <GuideCTA />
       <CTASection />
     </>
   );

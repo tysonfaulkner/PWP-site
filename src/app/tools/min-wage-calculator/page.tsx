@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { MinWageComplianceChecker } from "@/components/tools/MinWageComplianceChecker";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { Shield, AlertTriangle, Scale } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -206,6 +207,7 @@ export default function MinWageCalculatorPage() {
         </div>
       </section>
 
+      <GuideCTA />
       <CTASection />
     </>
   );

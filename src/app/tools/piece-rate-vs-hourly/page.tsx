@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { PieceRateVsHourlyCalculator } from "@/components/tools/PieceRateVsHourlyCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { RelatedReading } from "@/components/sections/RelatedReading";
 import { TrendingUp, Users, DollarSign } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
@@ -204,6 +205,7 @@ export default function PieceRateVsHourlyPage() {
         { title: "Roofing Piece Rate Guide: Setting Rates That Work", href: "/blog/roofing-piece-rate-guide", description: "Real-world piece rate structures and tips for setting rates that keep your crew motivated." },
       ]} />
 
+      <GuideCTA />
       <CTASection />
     </>
   );

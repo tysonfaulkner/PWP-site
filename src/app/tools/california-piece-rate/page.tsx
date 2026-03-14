@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { CaliforniaComplianceCalculator } from "@/components/tools/CaliforniaComplianceCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { Shield, AlertTriangle, Scale } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -185,6 +186,7 @@ export default function CaliforniaPieceRatePage() {
         </div>
       </section>
 
+      <GuideCTA />
       <CTASection />
     </>
   );

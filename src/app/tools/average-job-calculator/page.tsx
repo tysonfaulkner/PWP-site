@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { AverageJobCalculator } from "@/components/tools/AverageJobCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { BarChart3, Target, TrendingUp } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -117,6 +118,7 @@ export default function AverageJobCalculatorPage() {
         </div>
       </section>
 
+      <GuideCTA />
       <CTASection />
     </>
   );

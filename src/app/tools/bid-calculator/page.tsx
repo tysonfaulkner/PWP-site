@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { BidCalculator } from "@/components/tools/BidCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { RelatedReading } from "@/components/sections/RelatedReading";
 import { Target, DollarSign, TrendingUp } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
@@ -127,6 +128,7 @@ export default function BidCalculatorPage() {
         { title: "Roofing Piece Rate Guide: Setting Rates That Work", href: "/blog/roofing-piece-rate-guide", description: "Your labor rates drive your bid price. Make sure your piece rates are dialed in." },
       ]} />
 
+      <GuideCTA />
       <CTASection />
     </>
   );

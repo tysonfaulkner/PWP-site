@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { LaborBurdenCalculator } from "@/components/tools/LaborBurdenCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { DollarSign, Shield, TrendingUp } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -139,6 +140,7 @@ export default function LaborBurdenCalculatorPage() {
         </div>
       </section>
 
+      <GuideCTA />
       <CTASection />
     </>
   );

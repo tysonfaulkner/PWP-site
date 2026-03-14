@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { RoofingLaborCalculator } from "@/components/tools/RoofingLaborCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { RelatedReading } from "@/components/sections/RelatedReading";
 import { DollarSign, Target, TrendingUp } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
@@ -175,6 +176,7 @@ export default function RoofingLaborCalculatorPage() {
         { title: "Managing a Construction Crew: 15 Years of Lessons", href: "/blog/crew-management-tips", description: "Practical crew management advice from a roofing contractor with over 15 years of experience." },
       ]} />
 
+      <GuideCTA />
       <CTASection />
     </>
   );

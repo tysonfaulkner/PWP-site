@@ -6,6 +6,7 @@ import { AnimateIn } from "@/components/ui/AnimateIn";
 import { Clock, ArrowLeft, User, Calendar } from "lucide-react";
 import { MDXContent } from "@/components/blog/MDXContent";
 import { BlogPostJsonLd } from "@/components/seo/JsonLd";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 
 interface BlogPostPageProps {
   params: Promise<{ slug: string }>;
@@ -112,6 +113,9 @@ export default async function BlogPostPage({ params }: BlogPostPageProps) {
           </div>
         </div>
       </article>
+
+      {/* Guide CTA */}
+      <GuideCTA />
 
       {/* Related Posts */}
       {relatedPosts.length > 0 && (

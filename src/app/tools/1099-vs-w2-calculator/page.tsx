@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { W2Vs1099Calculator } from "@/components/tools/W2Vs1099Calculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { DollarSign, Shield, AlertTriangle } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -219,6 +220,7 @@ export default function W2Vs1099CalculatorPage() {
         </div>
       </section>
 
+      <GuideCTA />
       <CTASection />
     </>
   );

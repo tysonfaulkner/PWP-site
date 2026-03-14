@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { PieceRateCalculator } from "@/components/tools/PieceRateCalculator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { RelatedReading } from "@/components/sections/RelatedReading";
 import { DollarSign, Clock, TrendingUp } from "lucide-react";
 import { FAQPageJsonLd, BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
@@ -205,6 +206,7 @@ export default function PieceRateCalculatorPage() {
         { title: "How to Track Piece Work: From Paper to Digital", href: "/blog/how-to-track-piece-work", description: "The biggest challenge with piece rate pay is tracking it accurately. Here are the most common methods." },
       ]} />
 
+      <GuideCTA />
       <CTASection />
     </>
   );

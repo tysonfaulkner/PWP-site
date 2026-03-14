@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import { AnimateIn } from "@/components/ui/AnimateIn";
 import { JobSiteCostEstimator } from "@/components/tools/JobSiteCostEstimator";
 import { CTASection } from "@/components/sections/CTASection";
+import { GuideCTA } from "@/components/sections/GuideCTA";
 import { Landmark, Shield, DollarSign } from "lucide-react";
 import { BreadcrumbJsonLd, HowToJsonLd } from "@/components/seo/JsonLd";
 
@@ -119,6 +120,7 @@ export default function JobSiteCostEstimatorPage() {
         </div>
       </section>
 
+      <GuideCTA />
       <CTASection />
     </>
   );
