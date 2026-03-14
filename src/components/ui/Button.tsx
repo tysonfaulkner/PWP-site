@@ -3,7 +3,7 @@ import { ReactNode } from "react";
 
 interface ButtonProps {
   href?: string;
-  variant?: "primary" | "secondary" | "orange" | "ghost";
+  variant?: "primary" | "secondary" | "orange" | "green" | "ghost";
   size?: "sm" | "md" | "lg";
   children: ReactNode;
   className?: string;
@@ -19,6 +19,8 @@ const variants = {
     "border-2 border-brand-blue text-brand-blue hover:bg-brand-blue hover:text-white",
   orange:
     "bg-brand-orange text-white shadow-sm hover:bg-brand-orange-dark hover:shadow-md active:shadow-sm",
+  green:
+    "bg-emerald-600 text-white shadow-sm hover:bg-emerald-700 hover:shadow-md active:shadow-sm",
   ghost:
     "text-text-body hover:bg-bg-muted hover:text-text-primary",
 };

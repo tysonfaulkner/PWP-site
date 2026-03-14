@@ -134,7 +134,7 @@ export function PricingContent() {
               }`}
             >
               Yearly{" "}
-              <span className="ml-1 rounded-full bg-brand-orange/10 px-2 py-0.5 text-xs font-bold text-brand-orange">
+              <span className="ml-1 rounded-full bg-amber-400 px-2 py-0.5 text-xs font-bold text-gray-900">
                 Save 20%
               </span>
             </button>
