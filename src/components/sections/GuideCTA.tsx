@@ -35,9 +35,10 @@ export function GuideCTA() {
           </AnimateIn>
           <AnimateIn delay={0.15}>
             <p className="mx-auto mt-4 max-w-xl text-text-on-dark-muted">
-              The burdened rate formula, the markup vs. margin trap, and the
-              compliance mistakes that turn a $2,000 error into a $200,000
-              lawsuit. Free PDF — no fluff.
+              The math most contractors never run — and the mistakes that cost
+              them $93K+ a year. This free PDF breaks down the math in ten
+              minutes. Plus, you&apos;ll understand the payroll traps that can
+              wipe you out.
             </p>
           </AnimateIn>
           <AnimateIn delay={0.2}>
