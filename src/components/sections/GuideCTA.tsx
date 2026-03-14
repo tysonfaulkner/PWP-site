@@ -22,7 +22,7 @@ export function GuideCTA() {
       <div className="relative mx-auto max-w-7xl px-6 py-16 lg:px-8 lg:py-20">
         <div className="mx-auto max-w-3xl text-center">
           <AnimateIn>
-            <span className="inline-flex items-center gap-2 rounded-full border border-brand-orange/30 bg-brand-orange/10 px-4 py-1.5 text-sm font-medium text-brand-orange">
+            <span className="inline-flex items-center gap-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-4 py-1.5 text-sm font-medium text-emerald-400">
               <FileText className="h-4 w-4" />
               Free Guide
             </span>
@@ -43,7 +43,7 @@ export function GuideCTA() {
           </AnimateIn>
           <AnimateIn delay={0.2}>
             <div className="mt-8">
-              <Button href="/guide" variant="orange" size="lg">
+              <Button href="/guide" variant="green" size="lg">
                 Get the Free Guide <ArrowRight className="h-5 w-5" />
               </Button>
             </div>
