@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, FormEvent } from "react";
-import { CheckCircle2, Download, ArrowRight } from "lucide-react";
+import { CheckCircle2, Mail, ArrowRight } from "lucide-react";
 
 export function GuideForm() {
   const [status, setStatus] = useState<
@@ -26,15 +26,8 @@ export function GuideForm() {
 
       const json = await res.json();
 
-      if (res.ok && json.downloadUrl) {
+      if (res.ok) {
         setStatus("success");
-        // Trigger the PDF download
-        const link = document.createElement("a");
-        link.href = json.downloadUrl;
-        link.download = "how-to-pay-your-crew-20-percent-more.pdf";
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
       } else {
         setStatus("error");
       }
@@ -50,19 +43,16 @@ export function GuideForm() {
           <CheckCircle2 className="h-8 w-8 text-green-600" />
         </div>
         <h3 className="mt-4 font-heading text-2xl text-text-primary">
-          Your guide is downloading!
+          Success!
         </h3>
         <p className="mt-2 text-text-muted">
-          Check your downloads folder. We also sent you a copy by email.
+          Your free guide is on its way. Check your inbox — it should arrive
+          in the next few minutes.
         </p>
-        <a
-          href="/how-to-pay-your-crew-20-percent-more.pdf"
-          download
-          className="mt-6 inline-flex items-center gap-2 rounded-lg bg-brand-blue px-6 py-3 font-bold text-white transition-colors hover:bg-brand-blue-dark"
-        >
-          <Download className="h-5 w-5" />
-          Download Again
-        </a>
+        <div className="mt-4 flex items-center gap-2 text-sm text-text-muted/70">
+          <Mail className="h-4 w-4" />
+          <span>Don&apos;t see it? Check your spam folder.</span>
+        </div>
       </div>
     );
   }
